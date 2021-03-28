@@ -5,16 +5,13 @@
     text-decoration:none;
 }
 
-.text{
-margin-top:15%;
-margin-left:35%;
-font-size:20px;
-}
 
 iframe{
-    margin-left:60%;
-    width:600px;
-    height:350px;
+    margin-top:5%;
+    margin-left:25%;
+    display: block;
+    width:1000px;
+    height:500px;
 }
 
 .symbols{
@@ -23,4 +20,8 @@ iframe{
     color:black;
     margin:30px;
     display: inline-block;
+  }
+
+  h1{
+      text-align:center;
   }

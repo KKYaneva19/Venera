@@ -113,5 +113,8 @@ margin-top: 17%;
         cursor:pointer;
       }
   
-
-      
+      .symbols{
+        font-size: 60px;  
+        font-weight: bold;
+      }
+    
