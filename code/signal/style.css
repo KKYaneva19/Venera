@@ -28,16 +28,23 @@ a{
 .form{
     display:inline-block;
     margin-top:5%;
-    padding:20px;
+    padding:10%;
     border:1px solid black;
     column-count:2;
 
 }
 
-#all{
+.section1{
+display:inline-block;
+margin-left:20%;
+font-size:20px;
+}
+
+.section2{
+    display:inline-block;
+    margin-left:20%;
     font-size:20px;
-    margin-left:35%;
-    column-count:3;
+
 }
 
 .email{
