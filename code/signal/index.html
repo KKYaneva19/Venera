@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+<title>Подай Сигнал</title>
+<link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <h3><a class="contactus" href="../contactus/index.html">Свържете се с нас</a></h3>
+ 
+        <!-- menu button -->
+        <div>
+          <a class="menu" href="../menu.html"><span class="symbols">&equiv;</span></a>
+       </div>
+
+        <!--title-->
+        <h1>Подай Сигнал</h1>
+
+        <div id="all">
+         <!--Email for contact-->
+         <h4>Имейл за връзка:<h4>
+         <ul>
+       <li> <a href="mailto:PIPetkova@codingburgas.bg"><img class="email" src="../pictures/email.png"></a></li>
+        </ul>   
+
+        <h4>Свържете се на телефони:</h4>
+        <p>
+            <ul>
+                <li>Директор /секретарка/ (+359) 2 960 10 204<br><br></li>
+                <li>Деловодство: (+359) 2 960 10 282<br><br></li>
+                <li> Човешки ресурси (+359) 2 960 10 327<br><br></p></li>
+                </ul>
+        </p>   
+
+
+        <!-- first form -->
+
+    <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
+
+      <div class="form">
+        <label for="appt">Час на произшествието:</label><br><br>
+        <input type="time" id="time" name="time" required><br><br><br>
+
+        <label for="week">Ден на произшествието:</label><br><br>
+        <input type="week" id="week" name="week" required><br><br><br>
+
+        <label for="textbox">Адрес:</label><br><br>
+        <textarea rows="7" cols="30" name="comment" required></textarea><br><br><br>
+
+        <label for="cars">Вид на инцидента:</label><br><br>
+
+        <select name="accident" id="accident" >
+            <option value="Fire">Пожар</option>
+            <option value="An animal in danger">Животно в опасност</option>
+            <option value="Catastrophe">Пътно произшествие</option>
+            <option value="Earthquake">Земетрсение</option>
+            <option value="Flood">Наводнение</option>
+        </select><br><br><br>
+
+    <!-- Location --> 
+    <input type="checkbox" onclick="getLocation()">Местоположение</button>
+     <p id="location"></p>
+    <script src="coordinates.js"></script>
+    <textarea rows="7" cols="30" name="comment" placeholder="Копирайте и поставете местоположението си" required>
+    </textarea><br><br><br><br><br><br>
+
+       
+    <button type="submit" onclick="submit()" value="Submit">Submit</button>
+
+    </form>
+  </div>
+
+
+</div>
+
+    </body>
+</html>
