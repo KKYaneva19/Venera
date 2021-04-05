@@ -1,5 +1,5 @@
    // Load google charts
-   google.charts.load('current', {'packages':['corechart']});
+   google.charts.load("current", {packages:["corechart"]});
    google.charts.setOnLoadCallback(drawFirstChart);
    google.charts.setOnLoadCallback(drawSecondChart);
    google.charts.setOnLoadCallback(drawThirdChart);
@@ -14,13 +14,21 @@
      ['Есен', 30],
    ]);
    
-     // Add title and set the width and height of the chart
-     var options = {'title':'Сезони', 'width':550, 'height':400};
+     // Add properties
+     var options = {
+       'title':'Сезони',
+        'width':600,
+         'height':400 ,
+         colors: ['#26CAFF', '#88FE44', '#FE4444','#F5FF26'],
+          is3D: true
+        };
    
      // Display the chart in the html
      var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
      chart.draw(data, options);
    }
+ 
+   
 
    //SECOND CHART
    function drawSecondChart() {
@@ -29,9 +37,17 @@
     ['Бургас,Силистра,Русе,Ямбол', 50],
     ['Благоевград,Кюстендил,Перник,София', 10],
     ['Видин,Монтана,Враца,Кърджали', 40],
+    
   ]);
   
-    var options = {'title':'Пожароопосност в България', 'width':550, 'height':400};
+    var options = {
+    'title':'Пожароопосност в България', 
+    'width':600, 
+    'height':400,
+     is3D: true,
+     colors: ['#FE4444', '#26CAFF', '#F5FF26'],
+
+  };
   
     var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
     chart.draw(data, options);
@@ -53,7 +69,13 @@
 
   ]);
   
-    var options = {'title':'Пожароопосност в Бургаски регион', 'width':550, 'height':400};
+    var options = {
+      'title':'Пожароопосност в Бургаски регион',
+      'width':600,
+      'height':400,
+      is3D: true,
+      colors: ['#88FE44', '#88FE44', '#26CAFF','#26CAFF','#88FE44','#F5FF26','#FE4444','#FE4444'],
+      };
   
     var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
     chart.draw(data, options);

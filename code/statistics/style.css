@@ -1,32 +1,64 @@
 .piecharts{
-    column-count:3;
+  display: flex;
+  flex: 33.33%;
 }
+
 
 h1{
     text-align:center;
 }
 
  /*for the contact us form and page */
- .contactus{
+.contactus{
     margin-top:30px;
     margin-right:30px;
     float:right;
     text-decoration:none;
-  }
+}
   
   
-  /*the menu button */
-  .menu{
+/*the menu button */
+.menu{
     color:black;
     margin:30px;
     display: inline-block;
-  }
+}
   
-  .symbols{
+.symbols{
     font-size: 60px;  
     font-weight: bold;
-  }
+}
   
-  a{
+a{
     text-decoration:none;
-  }
+}
+
+/*table style*/
+table, td, th {
+    border: 1px solid black;
+    padding:2%;
+    margin-left:25%;
+    font-size:15px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+/*rows in table style*/
+#firstRow{
+  background-color: #26CAFF;
+}
+
+#SecondRow{
+  background-color: #88FE44;
+}
+
+#ThirdRow{
+  background-color: #F5FF26;
+}
+
+#FourthRow{
+  background-color: #FE4444;
+}
