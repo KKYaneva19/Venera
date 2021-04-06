@@ -1,29 +1,70 @@
-h1{
-    text-align:center;
-}
-  
+h1{ 
 
-  /*for the contact us form and page */
-.contactus{
-  margin-top:30px;
-  margin-right:30px;
-  float:right;
-  text-decoration:none;
-}
+  text-align:center; 
+
+} 
+
+ 
 
 
-/*the menu button */
-.menu{
-  color:black;
-  margin:30px;
-  display: inline-block;
-}
 
-.symbols{
-  font-size: 60px;  
-  font-weight: bold;
-}
 
-a{
-  text-decoration:none;
-}
+/*for the contact us form and page */ 
+
+.contactus{ 
+
+margin-top:30px; 
+
+margin-right:30px; 
+
+float:right; 
+
+text-decoration:none; 
+
+} 
+
+
+
+
+
+/*the menu button */ 
+
+.menu{ 
+
+color:black; 
+
+margin:30px; 
+
+display: inline-block; 
+
+} 
+
+
+
+
+.symbols{ 
+
+font-size: 60px;   
+
+font-weight: bold; 
+
+} 
+
+
+
+
+a{ 
+
+text-decoration:none; 
+
+} 
+
+img { 
+
+border-radius: 50%; 
+
+} 
+
+
+
+
