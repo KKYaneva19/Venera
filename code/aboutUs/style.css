@@ -1,0 +1,51 @@
+h1{
+    text-align:center;
+}
+
+#firstText{
+text-align:center;
+font-size:20px;
+}
+
+#petya{
+float:left;
+margin-left:10%;
+padding:5%;
+}
+
+#poli{
+    float:right;
+    margin-right:10%;
+    padding:5%;
+
+}
+
+#vesi{
+    float:left;
+    margin-left:10%;
+    padding:5%;
+
+}
+    
+#kami{
+    float:right;
+    margin-right:10%;
+    padding:5%;
+
+}
+
+/*the menu button */
+.menu{
+    color:black;
+    margin:30px;
+    display: inline-block;
+  }
+
+.symbols{
+    font-size: 60px;  
+    font-weight: bold;
+}  
+
+a{
+    text-decoration:none;
+}
