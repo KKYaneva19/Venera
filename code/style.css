@@ -41,7 +41,6 @@ a{
 
 /* button for the first form */
 #buttonForm1{
-  margin-left:80%;
   margin-top: 17%;
 }
 
@@ -116,4 +115,22 @@ a{
 .symbols{
   font-size: 60px;  
   font-weight: bold;
+}
+
+/* The logo link */
+
+#forms{
+  float:right;
+  margin-top:14%;
+  margin-right:2%;
+}
+
+#logo{
+  float:left;
+  margin-top:13%;
+  margin-left:2%;
+}
+
+#logo img{
+  width:10%;
 }
