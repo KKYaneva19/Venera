@@ -3,41 +3,45 @@ h1{
 }
 
 #firstText{
-text-align:center;
-font-size:20px;
+    text-align:center;
+    font-size:20px;
 }
 
 #petya{
-float:left;
-margin-left:10%;
-padding:5%;
+    float:left;
+    margin-left:18%;
+    padding:2%;
 }
 
 #poli{
     float:right;
-    margin-right:10%;
-    padding:5%;
-
+    margin-right:2%;
+    padding:2%;
 }
 
 #vesi{
     float:left;
-    margin-left:10%;
+    margin-left:15%;
     padding:5%;
-
 }
     
 #kami{
     float:right;
-    margin-right:14%;
-    padding:5%;
+    margin-right:5%;
+    padding:2%;
+}
 
+img{
+    width:30%;
 }
 
 /*the menu button */
 #menu{
     margin:30px;
     display: inline-block;
-  }
+}
 
+a{
+    text-decoration:none;
+}
 
