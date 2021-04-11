@@ -8,6 +8,7 @@ h1{
     text-align:center;
 }
 
+
  /*for the contact us form and page */
 .contactus{
     margin-top:30px;
@@ -16,22 +17,6 @@ h1{
     text-decoration:none;
 }
   
-  
-/*the menu button */
-.menu{
-    color:black;
-    margin:30px;
-    display: inline-block;
-}
-  
-.symbols{
-    font-size: 60px;  
-    font-weight: bold;
-}
-  
-a{
-    text-decoration:none;
-}
 
 /*table style*/
 table, td, th {
@@ -41,24 +26,54 @@ table, td, th {
     font-size:15px;
 }
 
+
 table {
     width: 50%;
     border-collapse: collapse;
 }
+
 
 /*rows in table style*/
 #firstRow{
   background-color: #26CAFF;
 }
 
+
 #SecondRow{
   background-color: #88FE44;
 }
+
 
 #ThirdRow{
   background-color: #F5FF26;
 }
 
+
 #FourthRow{
   background-color: #FE4444;
+}
+
+a{
+  text-decoration:none;
+}
+
+  
+.symbols{
+  font-size: 60px;  
+  font-weight: bold;
+}
+
+
+.menu {
+  margin-left:30px;
+  width:100px; 
+  height:100px ;
+  margin-top:20px;
+  display:inline-block;
+}
+
+#logo{
+  width:7%;
+  display:inline-block;
+  margin-top:15px;
 }

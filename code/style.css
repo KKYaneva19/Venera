@@ -12,22 +12,6 @@
   display: inline-block;
 }
 
-
-.menuItems
-{
-  margin-top:10%;
-  margin-left:10%;
-  column-count:4;
-}
-
-.backButton {
-  margin:30px;
-  width:100px; 
-  height:100px ;
-  margin-top:20px;
-  display:inline-block;
-}
-
 a{
   text-decoration:none;
 }
@@ -133,5 +117,5 @@ a{
 }
 
 #logo img{
-  width:10%;
+  width:30%;
 }

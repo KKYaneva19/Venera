@@ -2,12 +2,6 @@ h1{
     text-align:center;
 }
 
-/*the menu button */
-.menu{
-    color:black;
-    margin:30px;
-    display: inline-block;
-  }
 
   /*for the contact us form and page */
 .contactus{
@@ -16,15 +10,7 @@ h1{
     float:right;
 }
 
-a{
-    text-decoration:none;
-}
-
-.symbols{
-    font-size: 60px;  
-    font-weight: bold;
-}
-      
+    
 .form{
     display:inline-block;
     margin-top:5%;
@@ -35,9 +21,9 @@ a{
 }
 
 .section1{
-display:inline-block;
-margin-left:20%;
-font-size:20px;
+    display:inline-block;
+    margin-left:20%;
+    font-size:20px;
 }
 
 .section2{
@@ -55,3 +41,28 @@ font-size:20px;
     text-align:center;
     color:red;
 }
+
+a{
+    text-decoration:none;
+}
+
+    
+.symbols{
+    font-size: 60px;  
+    font-weight: bold;
+}
+
+  
+.menu {
+    margin-left:30px;
+    width:100px; 
+    height:100px ;
+    margin-top:20px;
+    display:inline-block;
+  }
+  
+  #logo{
+    width:7%;
+    display:inline-block;
+    margin-top:15px;
+  }

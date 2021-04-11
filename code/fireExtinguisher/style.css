@@ -6,38 +6,11 @@ h1{
 
 
 /*for the contact us form and page */ 
-
 .contactus{ 
 
   margin-top:30px; 
   margin-right:30px; 
   float:right; 
-  text-decoration:none; 
-
-} 
-
-
-/*the menu button */ 
-
-.menu{ 
-
-  color:black; 
-  margin:30px; 
-  display: inline-block; 
-
-} 
-
-
-.symbols{ 
-
-  font-size: 60px;   
-  font-weight: bold; 
-
-} 
-
-
-a{ 
-
   text-decoration:none; 
 
 } 
@@ -49,6 +22,27 @@ img {
 
 } 
 
+a{
+  text-decoration:none;
+}
+
+  
+.symbols{
+  font-size: 60px;  
+  font-weight: bold;
+}
 
 
+.menu {
+  margin-left:30px;
+  width:100px; 
+  height:100px ;
+  margin-top:20px;
+  display:inline-block;
+}
 
+#logo{
+  width:7%;
+  display:inline-block;
+  margin-top:15px;
+}
