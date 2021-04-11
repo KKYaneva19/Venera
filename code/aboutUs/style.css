@@ -35,17 +35,9 @@ padding:5%;
 }
 
 /*the menu button */
-.menu{
-    color:black;
+#menu{
     margin:30px;
     display: inline-block;
   }
 
-.symbols{
-    font-size: 60px;  
-    font-weight: bold;
-}  
 
-a{
-    text-decoration:none;
-}

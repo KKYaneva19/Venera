@@ -50,3 +50,8 @@ font-size:20px;
 .email{
     width:70px;
 }
+
+#notice{
+    text-align:center;
+    color:red;
+}
