@@ -84,7 +84,7 @@ a{
 
 /* button for the second form */
 #buttonForm2{
-  margin-top: 8%;
+  margin-top: 12%;
   text-align:center;
   color:white;
   display:inline-block;
@@ -144,13 +144,13 @@ a{
 
 #forms{
   float:right;
-  margin-top:9%;
+  margin-top:12%;
   margin-right:2%;
 }
 
 #logo{
   float:left;
-  margin-top:6%;
+  margin-top:10%;
   margin-left:2%;
 }
 
