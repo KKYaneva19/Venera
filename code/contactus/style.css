@@ -3,12 +3,14 @@
     margin-right:30px;
     float:right;
     text-decoration:none;
+    font-family: 'Lato', sans-serif;
 }
 
 .text{
     margin-top:5%;
     margin-left:35%;
     font-size:20px;
+    font-family: 'Lato', sans-serif;
 }
 
 iframe{
@@ -41,3 +43,11 @@ a{
     display:inline-block;
     margin-top:15px;
   }
+
+  h2{ 
+
+     
+    font-size: 30px; 
+    font-family: 'Karantina', cursive;
+  
+  } 

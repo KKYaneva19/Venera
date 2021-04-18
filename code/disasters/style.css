@@ -1,15 +1,18 @@
 h1{  
 
-    text-align:center;  
+    text-align:center; 
+    font-size: 50px;  
     font-weight: bold;  
-
+    font-family: 'Karantina', cursive;
   }  
 
 
   h2{  
 
     text-align:center;  
+    font-size: 50px; 
     font-weight: bold;  
+    font-family: 'Karantina', cursive;
 
   }  
 
@@ -17,15 +20,19 @@ h1{
   h3{  
 
     text-align:center;  
+    font-size: 50px; 
     font-weight: bold;  
-
+    font-family: 'Karantina', cursive;
   }  
 
 
   h4{  
 
-    text-align:center;  
+    text-align:center; 
+    font-size: 50px;  
     font-weight: bold;  
+    font-family: 'Karantina', cursive;
+
   }  
 
   
@@ -50,6 +57,9 @@ a{
   margin-top:30px;
   margin-right:30px;
   float:right;
+  font-size: 20px; 
+  font-family: 'Lato', sans-serif;
+
 }
 
 .text{

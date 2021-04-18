@@ -1,11 +1,14 @@
 .piecharts{
   display: flex;
   flex: 33.33%;
+  
 }
 
 
 h1{
     text-align:center;
+    font-size: 50px;  
+    font-family: 'Karantina', cursive;
 }
 
 
@@ -15,6 +18,7 @@ h1{
     margin-right:30px;
     float:right;
     text-decoration:none;
+    font-family: 'Lato', sans-serif;
 }
   
 
@@ -24,6 +28,7 @@ table, td, th {
     padding:2%;
     margin-left:25%;
     font-size:15px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -61,6 +66,7 @@ a{
 .symbols{
   font-size: 60px;  
   font-weight: bold;
+  
 }
 
 
