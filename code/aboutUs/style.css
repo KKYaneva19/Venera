@@ -45,6 +45,23 @@ img{
 #menu{
     margin:30px;
     display: inline-block;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    border-radius:1.92px;
+    font-weight:30px;
+    margin:0px 4.8px 4.8px 0px;
+    padding:5.6px 19.2px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.2s;
+}
+
+#menu:hover{
+    color:black;
+background-color:white;
 }
 
 a{
