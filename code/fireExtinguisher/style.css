@@ -5,7 +5,12 @@ h1{
     font-family: 'Karantina', cursive;
 
 } 
-
+ 
+.all{
+  column-count:2;
+  margin:5%;
+  margin-left:15%;
+}
 
 /*for the contact us form and page */ 
 .contactus{ 
@@ -21,9 +26,12 @@ h1{
 
 img { 
 
-  border-radius: 50%; 
+width:50%;
 
 } 
+#pic2{
+  margin-bottom:15%;
+}
 
 a{
   text-decoration:none;
