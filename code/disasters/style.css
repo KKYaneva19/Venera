@@ -62,8 +62,13 @@ a{
 
 }
 
-.text{
-  margin-left:20px;
+#textFloods{
+  margin-left:10%;
+ 
+}
+
+#textFloods li{
+  font-size:17px;
 }
 
 ol.roman {
@@ -73,11 +78,13 @@ ol.roman {
 /* pictures for floods page */
 #floodsPic1{
 float:left;
+width:20%;
 margin-left:20%;
 }
 
 #floodsPic2{
   float:right;
+  width:20%;
   margin-right:20%;
 }
 
@@ -136,3 +143,8 @@ margin-left:20%;
   display:inline-block;
   margin-top:15px;
 }
+
+.uppercase{
+  text-transform: uppercase;
+}
+
