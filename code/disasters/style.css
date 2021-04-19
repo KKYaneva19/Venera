@@ -1,39 +1,33 @@
 h1{  
-
     text-align:center; 
     font-size: 50px;  
     font-weight: bold;  
     font-family: 'Karantina', cursive;
-  }  
+}  
 
 
-  h2{  
-
+h2{  
     text-align:center;  
     font-size: 50px; 
     font-weight: bold;  
     font-family: 'Karantina', cursive;
+}  
 
-  }  
 
-
-  h3{  
-
+h3{  
     text-align:center;  
     font-size: 50px; 
     font-weight: bold;  
     font-family: 'Karantina', cursive;
-  }  
+}  
 
 
-  h4{  
-
-    text-align:center; 
-    font-size: 50px;  
-    font-weight: bold;  
-    font-family: 'Karantina', cursive;
-
-  }  
+h4{  
+  text-align:center; 
+  font-size: 50px;  
+  font-weight: bold;  
+  font-family: 'Karantina', cursive;
+}  
 
   
 .symbols{
@@ -88,17 +82,6 @@ margin-left:20%;
   margin-right:20%;
 }
 
-/* pictures for fires page */
-#firesPic1{
-  float:left;
-  margin-left:20%;
-  }
-  
-  #firesPic2{
-    float:right;
-    margin-right:20%;
-  
-}
 
 /* pictures for crashes page */
 #crashesPic1{
@@ -111,24 +94,10 @@ margin-left:20%;
     margin-right:20%;
 }
 
-
-/* pictures for earthquakes page */
-#earthquakesPic1{
-  float:left;
-  margin-left:20%;
-  }
-  
-  #earthquakesPic2{
-    float:right;
-    margin-right:20%;
-}
-
-
 .symbols{
   font-size: 60px;  
   font-weight: bold;
 }
-
 
 .menu {
   margin-left:30px;
@@ -148,6 +117,8 @@ margin-left:20%;
   text-transform: uppercase;
 }
 
+/* text for Eartquakes page */
+
 #textEartquakes{
   margin-left:10%;
 }
@@ -159,6 +130,46 @@ margin-left:20%;
 #textEartquakes p{
   font-size:20px;
 }
+
 #textEartquakes b{
   font-size:20px;
+}
+
+
+/* text for fires page */
+
+#textFires{
+  margin-left:10%;
+}
+
+#textFires li{
+  font-size:20px;
+}
+
+#textFires p{
+  font-size:20px;
+}
+
+/* pictures for earthquakes page */
+#earthquakesPic1{
+  float:left;
+  margin-left:20%;
+}
+  
+#earthquakesPic2{
+  float:right;
+  margin-right:20%;
+}
+
+/* pictures for fires page */
+#firesPic1{
+  float:left;
+  width:20%;
+  margin-left:20%;
+}
+  
+#firesPic2{
+  float:right;
+  width:20%;
+  margin-right:20%;
 }
