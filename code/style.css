@@ -16,7 +16,7 @@
 }
  
 a{
-  text-decoration:none;
+  text-decoration:none; 
 }
 
 /*for the contact us form and page */
@@ -144,13 +144,13 @@ a{
 
 #forms{
   float:right;
-  margin-top:12%;
+  margin-top:13%;
   margin-right:2%;
 }
 
 #logo{
   float:left;
-  margin-top:10%;
+  margin-top:11%;
   margin-left:2%;
 }
 

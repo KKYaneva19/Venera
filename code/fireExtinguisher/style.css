@@ -9,8 +9,12 @@ h1{
 .all{
   column-count:2;
   margin:5%;
-  margin-left:15%;
-}
+  margin-left:20%;
+} 
+
+.all figcaption{
+ font-size:20px;
+} 
 
 /*for the contact us form and page */ 
 .contactus{ 
@@ -24,14 +28,9 @@ h1{
 } 
 
 
-img { 
-
+.pics { 
 width:50%;
-
 } 
-#pic2{
-  margin-bottom:15%;
-}
 
 a{
   text-decoration:none;

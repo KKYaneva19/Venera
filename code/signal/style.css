@@ -12,7 +12,7 @@ h1{
     float:right;
     font-family: 'Lato', sans-serif;
 }
-
+ 
     
 .form{
     display:inline-block;
@@ -26,14 +26,16 @@ h1{
 
 .section1{
     display:inline-block;
-    margin-left:20%;
+    margin-left:15%;
     font-size:20px;
+    margin-bottom:5%;
 }
 
 .section2{
     display:inline-block;
     margin-left:20%;
     font-size:20px;
+    margin-bottom:5%;
 
 }
 
@@ -63,10 +65,10 @@ a{
     height:100px ;
     margin-top:20px;
     display:inline-block;
-  }
+}
   
   #logo{
     width:7%;
     display:inline-block;
     margin-top:15px;
-  }
+}
