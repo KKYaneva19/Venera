@@ -48,7 +48,7 @@ padding:10px;
 #buttonForm1{
   margin-top: 8%;
   text-align:center;
-  color:white;
+  color:black;
   display:inline-block;
   border-radius:1.92px;
   font-weight:30px;
@@ -59,10 +59,11 @@ padding:10px;
   text-decoration:none;
   font-family: 'Lato', sans-serif;
   transition: all 0.2s;
+  font-size: 20px;
 }
 
 #buttonForm1:hover{
-  color:black;
+  color:darkgray;
   background-color:white;
 }
 
@@ -101,9 +102,9 @@ padding:10px;
 
 /* button for the second form */
 #buttonForm2{
-  margin-top: 12%;
+  margin-top: 8%;
   text-align:center;
-  color:white;
+  color:black;
   display:inline-block;
   border-radius:1.92px;
   font-weight:30px;
@@ -114,10 +115,11 @@ padding:10px;
   text-decoration:none;
   font-family: 'Lato', sans-serif;
   transition: all 0.2s;
+  font-size: 20px;
 }
 
 #buttonForm2:hover{
-  color:black;
+  color:darkgray;
   background-color:white;
 }
     
@@ -167,7 +169,7 @@ padding:10px;
 
 #logo{
   float:left;
-  margin-top:11%;
+  margin-top:9%;
   margin-left:2%;
 }
 
