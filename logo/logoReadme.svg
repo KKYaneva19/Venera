@@ -6,7 +6,7 @@
 	.st0{fill:url(#SVGID_1_);stroke:url(#SVGID_2_);stroke-miterlimit:10;}
 	.st1{fill:url(#SVGID_3_);}
 	.st2{fill:url(#SVGID_4_);}
-	.st3{fill:none;stroke:url(#V_1_);stroke-width:16;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:url(#V_1_);stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
 	.st4{fill:#99404D;}
 	.st5{font-family:'CambriaMath';}
 	.st6{font-size:83.326px;}
@@ -65,7 +65,7 @@
 			c0.4,0.4,0.8,0.8,1.1,1.2c0.1,0.1,0.2,0.2,0.3,0.3C324.5,293.9,325.4,295,326.2,296.1z"/>
 	</g>
 	
-		<linearGradient id="V_1_" gradientUnits="userSpaceOnUse" x1="553.8411" y1="180.4061" x2="324.3235" y2="577.9421" gradientTransform="matrix(1 0 0 -1 0 595.2756)">
+		<linearGradient id="V_1_" gradientUnits="userSpaceOnUse" x1="555.1696" y1="178.105" x2="323.3235" y2="579.6742" gradientTransform="matrix(1 0 0 -1 0 595.2756)">
 		<stop  offset="8.477105e-07" style="stop-color:#C31432"/>
 		<stop  offset="0.134" style="stop-color:#B51332"/>
 		<stop  offset="0.3857" style="stop-color:#911133"/>
