@@ -126,6 +126,7 @@ a{
 .symbols{
   font-size: 60px;  
   font-weight: bold;
+  color:black;
 }
 
 
@@ -151,10 +152,10 @@ summary{
 }
 
 details > summary {   
-  background-color: #c8947f;
+  background-color:antiquewhite;
   width: 150px; 
   padding: 5px;
-  box-shadow: 2px 2px 4px #bbbbbb;
+  box-shadow: 2px 2px 4px lightgray;
   cursor: pointer;
 }
 
