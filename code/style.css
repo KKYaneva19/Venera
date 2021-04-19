@@ -1,3 +1,7 @@
+body{
+  background-image: url("pictures/background.jpg");
+}
+
 /*style for the title Министертво на вътрешните работи. Главна дирекция "Пожарна безопастност и защита на населението" */
 .title{
   display: block;

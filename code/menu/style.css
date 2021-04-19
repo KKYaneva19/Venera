@@ -1,3 +1,7 @@
+body{
+  background-image: url("../pictures/background.jpg");
+}
+
 .menuItems
 {
   margin-top:10%;

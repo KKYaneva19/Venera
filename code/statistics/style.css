@@ -1,3 +1,7 @@
+body{
+  background-image: url("../pictures/background.jpg");
+}
+
 .piecharts{
   display: flex;
   flex: 33.33%;
