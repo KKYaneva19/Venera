@@ -11,9 +11,25 @@ body{
 }
 
 a{
-    text-decoration:none;
+  text-decoration:none;
 }
 
+.links a{
+    
+    color: black;
+}
+
+.links a:visited{
+  color:lightseagreen;
+}
+
+.links a:hover{
+  color: whitesmoke;
+  background-color:lightblue;
+  border: 1px solid lightblue;
+  border-radius: 5%;
+  padding: 2px;
+}
     
 .symbols{
     font-size: 60px;  

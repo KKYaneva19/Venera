@@ -1,3 +1,4 @@
+
 body{
   background-image: url("../pictures/background.jpg");
 }
@@ -5,8 +6,10 @@ body{
 .piecharts{
   display: flex;
   flex: 33.33%;
-  
+  margin-left: 5%;
 }
+
+ 
 
 
 h1{
@@ -14,6 +17,8 @@ h1{
     font-size: 50px;  
     font-family: 'Karantina', cursive;
 }
+
+ 
 
 
  /*for the contact us form and page */
@@ -25,7 +30,19 @@ h1{
     font-family: 'Lato', sans-serif;
 }
   
-
+.linkContactUs a{
+  color:black;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+ }
+ 
+ .linkContactUs a:hover{
+  color:white;
+  background-color:darkgray;
+ padding:10px;
+ }
+ 
 /*table style*/
 table, td, th {
     border: 1px solid black;
@@ -33,13 +50,20 @@ table, td, th {
     margin-left:25%;
     font-size:15px;
     font-family: 'Lato', sans-serif;
+
 }
+
+ 
 
 
 table {
     width: 50%;
     border-collapse: collapse;
+    margin-top: 5%;
+    margin-left: 25%;
 }
+
+ 
 
 
 /*rows in table style*/
@@ -47,24 +71,34 @@ table {
   background-color: #26CAFF;
 }
 
+ 
+
 
 #SecondRow{
   background-color: #88FE44;
 }
+
+ 
 
 
 #ThirdRow{
   background-color: #F5FF26;
 }
 
+ 
+
 
 #FourthRow{
   background-color: #FE4444;
 }
 
+ 
+
 a{
   text-decoration:none;
 }
+
+ 
 
   
 .symbols{
@@ -72,6 +106,8 @@ a{
   font-weight: bold;
   
 }
+
+ 
 
 
 .menu {
@@ -81,6 +117,8 @@ a{
   margin-top:20px;
   display:inline-block;
 }
+
+ 
 
 #logo{
   width:7%;

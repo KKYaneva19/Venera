@@ -10,6 +10,19 @@ h1{
 
 } 
  
+.linkContactUs a{
+  color:black;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+ }
+ 
+ .linkContactUs a:hover{
+  color:white;
+  background-color:darkgray;
+ padding:10px;
+ }
+
 .all{
   column-count:2;
   margin:5%;

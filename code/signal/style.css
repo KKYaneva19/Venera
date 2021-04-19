@@ -4,10 +4,21 @@ body{
 
 h1{
     text-align:center;
-    font-size: 50px; 
     font-family: 'Karantina', cursive;
 }
 
+.linkContactUs a{
+    color:black;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+   }
+   
+   .linkContactUs a:hover{
+    color:white;
+    background-color:darkgray;
+   padding:10px;
+   }
 
   /*for the contact us form and page */
 .contactus{
@@ -21,7 +32,7 @@ h1{
 .form{
     display:inline-block;
     margin-top:5%;
-    padding:10%;
+    padding:5%;
     border:1px solid black;
     column-count:2;
     font-family: 'Lato', sans-serif;
@@ -37,7 +48,7 @@ h1{
 
 .section2{
     display:inline-block;
-    margin-left:20%;
+    margin-left:15%;
     font-size:20px;
     margin-bottom:5%;
 
@@ -49,7 +60,7 @@ h1{
 
 #notice{
     text-align:center;
-    color:red;
+    color:rgb(119, 17, 17);
 }
 
 a{
