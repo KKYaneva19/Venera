@@ -1,57 +1,43 @@
 h1 {  
-
     text-align: center;
     font-size: 50px;
     font-family: 'Karantina', cursive; 
-
 } 
-
  
 h2{ 
-
   margin-top:10%; 
   font-size: 40px;
   text-align: center; 
   font-family: 'Lato', sans-serif;
-
 } 
 
-
-
 table { 
-
   font-family: arial, sans-serif; 
   border-collapse: collapse; 
   width: 40%; 
-
 } 
-
- 
 
 td, th { 
-
   border: 4px solid rgba(0, 0, 0, 0.733);
   text-align: left; 
-  padding: 3px; 
-
+  font-size: 15px;
 } 
-
- 
 
 tr:nth-child(even) { 
-
   background-color: #dddddd; 
-
 } 
-
 
 .firstTeam{
   column-count:4;
   margin-left:15%;
 }
 
+.firstTeam p{
+  font-size:18px;
+}
+
 .firstTable{
-  margin-left:40%;
+  margin-left:15%;
 }
 
 .secondTeam{
@@ -60,8 +46,12 @@ tr:nth-child(even) {
   margin-left:15%;
 }
 
+.secondTeam p{
+  font-size:18px;
+}
+
 .secondTable{
-  margin-left:40%;
+  margin-left:15%;
 }
 
 .thirdTeam{
@@ -70,8 +60,12 @@ tr:nth-child(even) {
   margin-left:15%;
 }
 
+.thirdTeam p{
+  font-size:18px;
+}
+
 .thirdTable{
-  margin-left:40%;
+  margin-left:15%;
 }
 
 .fourthTeam{
@@ -80,8 +74,11 @@ tr:nth-child(even) {
   margin-left:15%;
 }
 
+.fourthTeam p{
+  font-size:18px;
+}
 .fourthTable{
-  margin-left:40%;
+  margin-left:15%;
 }
 
 .fifthTable{
@@ -130,6 +127,25 @@ a{
   margin-top:15px;
 }
 
+summary{
+  margin-left:15%;
+  margin-right:15%;
+  font-size:20px;
+  text-align:center;
+}
 
+details > summary {   
+  background-color: #c8947f;
+  width: 150px; 
+  padding: 5px;
+  box-shadow: 2px 2px 4px #bbbbbb;
+  cursor: pointer;
+}
 
+img{
+  width:40%;
+}
 
+.tablesAndPics{
+  column-count:2;
+}

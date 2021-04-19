@@ -7,7 +7,7 @@
 
 
 iframe{
-    margin-top:5%;
+    margin-bottom:5%;
     margin-left:25%;
     display: block;
     width:1000px;
@@ -16,7 +16,12 @@ iframe{
 
 h1{
       text-align:center;
- }
+}
+
+p{
+    text-align:center;
+    font-size:20px;
+}
 
 a{
     text-decoration:none;
