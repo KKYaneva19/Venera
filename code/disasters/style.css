@@ -148,3 +148,17 @@ margin-left:20%;
   text-transform: uppercase;
 }
 
+#textEartquakes{
+  margin-left:10%;
+}
+
+#textEartquakes li{
+  font-size:20px;
+}
+
+#textEartquakes p{
+  font-size:20px;
+}
+#textEartquakes b{
+  font-size:20px;
+}
