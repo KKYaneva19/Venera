@@ -72,13 +72,13 @@ ol.roman {
 /* pictures for floods page */
 #floodsPic1{
 float:left;
-width:20%;
+width:25%;
 margin-left:20%;
 }
 
 #floodsPic2{
   float:right;
-  width:20%;
+  width:25%;
   margin-right:20%;
 }
 
@@ -142,11 +142,15 @@ margin-left:20%;
 #earthquakesPic1{
   float:left;
   margin-left:20%;
+  width:30%;
+  margin-bottom:5%;
 }
   
 #earthquakesPic2{
   float:right;
-  margin-right:20%;
+  margin-right:15%;
+  width:30%;
+  margin-bottom:5%;
 }
 
 /* pictures for fires page */
@@ -176,10 +180,42 @@ margin-left:20%;
   float:left;
   margin-left:20%;
   width:20%;
+  margin-bottom:2%;
 }
   
 #crashesPic2{
   float:right;
   width:20%;
   margin-right:20%;
+  margin-bottom:2%;
 }
+
+/* pictures for Eartquakes page */
+#credit1{
+  margin-top:22%;
+  margin-left:10%;
+  font-size:17px;
+}
+
+/* pictures for Crashes page */
+#credit2{
+  margin-top:18%;
+  margin-left:10%;
+  font-size:17px;
+}
+
+
+/* pictures for Fires page */
+#credit3{
+  margin-top:20%;
+  margin-left:10%;
+  font-size:17px;
+}
+
+/* pictures for Floods page */
+#credit4{
+  margin-top:20%;
+  margin-left:10%;
+  font-size:17px;
+}
+

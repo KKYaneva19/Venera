@@ -21,7 +21,7 @@ td, th {
   border: 4px solid rgba(0, 0, 0, 0.733);
   text-align: left; 
   font-size: 15px;
-} 
+}  
 
 tr:nth-child(even) { 
   background-color: #dddddd; 
@@ -142,10 +142,17 @@ details > summary {
   cursor: pointer;
 }
 
-img{
-  width:40%;
+.tablesAndPics{
+  column-count:2; 
+
 }
 
-.tablesAndPics{
-  column-count:2;
+.tablesAndPics img{
+ width:40%;
+}
+
+#logo{
+  width:7%;
+  display:inline-block;
+  margin-top:15px;
 }
