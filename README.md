@@ -28,7 +28,7 @@ You can see our presentation here:
 
 <img src = "https://download.logo.wine/logo/Microsoft_Word/Microsoft_Word-Logo.wine.png" width= "30">Word <br>
 <img src = "https://heliocentrix.co.uk/wp-content/uploads/2020/04/microsoft-teams-logo-png_480-480.png" width = "20">Teams <br>
-<img src = "https://lh3.googleusercontent.com/proxy/Lu-_pqgYKw1kva57QMfICe7iaDG_cZnJyWX3P_Jtimgn4esZTvag_km_S-bH-ndNGkBKYoy_AJklCSdJdRJC3deJYtcXL3aMBx9j-rp55xlarMN2_q5bhe9DFSjiSXGCL_7gsr6wMKe06Bjc3aT08X23aa66" width = "20"> Instagram <br>
+<img src = "http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" width = "20"> Instagram <br>
 <img src = "https://brandslogos.com/wp-content/uploads/thumbs/microsoft-powerpoint-2013-logo-vector.svg" width ="20">PowerPoint <br> 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" width = "20"> Visual Studio Code <br>
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1051px-Adobe_Illustrator_CC_icon.svg.png" width = "20"> Adobe Illustrator <br>
