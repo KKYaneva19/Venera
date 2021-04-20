@@ -1,5 +1,5 @@
 body{
-  background-image: url("../pictures/background.jpg");
+  background: linear-gradient(120deg, rgba(215,221,224,1) 19%, rgba(214,164,164,1) 100%);
 }
 
 h1{  
