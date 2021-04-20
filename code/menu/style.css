@@ -11,6 +11,7 @@ body{
 
 a{
   text-decoration:none;
+  font-family: 'Lato', sans-serif;
 }
 
 .links a{
@@ -51,6 +52,6 @@ a{
     display:inline-block;
     margin-top:15px;
   }
-  li{
-    font-family: 'Lato', sans-serif;
+  h1{
+    font-family: 'Lato', sans-serif;    
   }
