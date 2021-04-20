@@ -7,6 +7,7 @@ body{
     margin-right:30px;
     float:right;
     text-decoration:none;
+    font-family: 'Lato', sans-serif;
 }
 
 .linkContactUs a{
@@ -32,11 +33,13 @@ iframe{
 
 h1{
       text-align:center;
+      font-family: 'Karantina', cursive;
 }
 
 p{
     text-align:center;
     font-size:20px;
+    font-family: 'Lato', sans-serif;
 }
 
 a{

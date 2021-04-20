@@ -25,6 +25,7 @@ iframe{
 
 a{
     text-decoration:none;
+    font-family: 'Lato', sans-serif;
 }
 
     
@@ -56,3 +57,6 @@ a{
     font-family: 'Karantina', cursive;
   
   } 
+  li{
+    font-family: 'Lato', sans-serif;
+  }

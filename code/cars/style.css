@@ -82,13 +82,14 @@ h3{
 
   font-size: 20px; 
   font-family: 'Lato', sans-serif;
+}
 
-} 
 
 #all{
   column-count:2;
   margin:5%;
   margin-left:15%;
+  font-family: 'Lato', sans-serif;
 }
 
 .carPics{

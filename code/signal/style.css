@@ -44,6 +44,7 @@ h1{
     margin-left:15%;
     font-size:20px;
     margin-bottom:5%;
+    font-family: 'Lato', sans-serif;
 }
 
 .section2{
@@ -51,6 +52,7 @@ h1{
     margin-left:15%;
     font-size:20px;
     margin-bottom:5%;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -61,6 +63,7 @@ h1{
 #notice{
     text-align:center;
     color:rgb(119, 17, 17);
+    font-family: 'Lato', sans-serif;
 }
 
 a{
@@ -87,4 +90,8 @@ a{
     width:7%;
     display:inline-block;
     margin-top:15px;
+}
+h4{
+    font-family: 'Lato', sans-serif;
+
 }

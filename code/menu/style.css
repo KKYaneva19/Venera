@@ -7,7 +7,6 @@ body{
   margin-top:10%;
   margin-left:10%;
   column-count:4;
-  font-family: 'Karantina', cursive;
 }
 
 a{
@@ -51,4 +50,7 @@ a{
     width:7%;
     display:inline-block;
     margin-top:15px;
+  }
+  li{
+    font-family: 'Lato', sans-serif;
   }
