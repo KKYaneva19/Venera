@@ -12,14 +12,13 @@ h1{
 
 .linkContactUs a{
   color:black;
-  border: 2px solid white;
   padding: 10px;
-  border-radius: 25px;
+  font-size:20px;
  }
  
  .linkContactUs a:hover{
   color:white;
-  background-color:darkgray;
+  background-color:rgba(169, 169, 169, 0.486);
  padding:10px;
  }  
 
