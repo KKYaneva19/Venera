@@ -1,6 +1,8 @@
 body {
   background: linear-gradient(120deg, rgba(243, 214, 214, 1) 0%, rgba(236, 72, 72, 1) 100%);
   overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
 }
 
 .all figcaption {
-  font-size: 20px;
+  font-size: 17px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;

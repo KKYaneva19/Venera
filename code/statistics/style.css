@@ -1,6 +1,8 @@
 body {
   background-color: #d4d3dd; 
   overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .piecharts {

@@ -1,5 +1,7 @@
 body {
   background: linear-gradient(120deg, rgba(221, 214, 243, 1) 25%, rgba(250, 172, 168, 1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
 
 /*style for the title Министертво на вътрешните работи. Главна дирекция "Пожарна безопастност и защита на населението" */
