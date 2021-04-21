@@ -47,6 +47,7 @@ a {
 
 .linkContactUs a:hover {
   color: white;
+  transition: all 0.4s;
   background-color: rgba(231, 214, 214, 0.486);
   padding: 10px;
 }
