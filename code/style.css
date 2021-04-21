@@ -7,8 +7,8 @@ body {
 .title {
   display: block;
   text-align: center;
-  margin-top: 18%;
-  font-size: 40px;
+  margin-top: 17%;
+  font-size: 37px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
@@ -66,14 +66,14 @@ a {
   box-sizing: border-box;
   text-decoration: none;
   transition: all 0.2s;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
 }
 
 #buttonForm1:hover {
-  color: darkgray;
+  color: rgb(129, 127, 127);
   background-color: white;
 }
 
@@ -125,21 +125,21 @@ a {
   display: inline-block;
   border-radius: 1.92px;
   font-weight: 30px;
-  margin: 0px 4.8px 4.8px 0px;
+  margin: 5px 4.8px 4.8px 0px;
   padding: 5.6px 19.2px;
   border: 1px solid white;
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   transition: all 0.2s;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
 }
 
 #buttonForm2:hover {
-  color: darkgray;
+  color: rgb(129, 127, 127);
   background-color: white;
 }
 

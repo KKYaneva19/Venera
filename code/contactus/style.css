@@ -38,7 +38,7 @@ body {
   }
   
   iframe {
-    margin-left: 60%;
+    margin-left: 50%;
     width: 600px;
     height: 350px;
   }
@@ -72,10 +72,10 @@ body {
   }
   
   footer{
-    background-color:Cornsilk;  
+    background: linear-gradient(4deg, rgba(117,127,144,1) 0%, rgba(165,173,183,1) 35%, rgba(208,214,218,1) 89%);
     position:absolute;
     width:90%; 
-    column-count:6;
+    column-count: 5;
     padding: 5%;
     margin-top:5%;
     text-align:center;
@@ -85,8 +85,9 @@ body {
   }
   
   footer img{
-    margin-left:60%;
+    margin-left:50%;
     width:70%;
+  
   }
   
   h2 {
