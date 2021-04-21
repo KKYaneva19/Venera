@@ -1,5 +1,6 @@
 body {
-  background-color: #d4d3dd;
+  background-color: #d4d3dd; 
+  overflow-x: hidden;
 }
 
 /*for the contact us form and page */
@@ -67,21 +68,22 @@ h1 {
   display: inline-block;
 }
 
-footer {
-  background-color: Cornsilk;
-  display: inline-block;
-  column-count: 6;
+footer{
+  background-color:Cornsilk;  
+  position:absolute;
+  width:90%; 
+  column-count:6;
   padding: 5%;
-  margin-top: 5%;
-  text-align: center;
+  margin-top:5%;
+  text-align:center;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
 }
 
-footer img {
-  margin-left: 60%;
-  width: 70%;
+footer img{
+  margin-left:60%;
+  width:70%;
 }
 
 h2 {

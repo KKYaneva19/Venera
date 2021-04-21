@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%);
+  overflow-x: hidden;
 }
 
 h1 {
@@ -89,19 +90,21 @@ figcaption {
   font-family: 'PT Serif', serif;
 }
 
-footer {
-  background-color: Cornsilk;
-  display: inline-block;
-  column-count: 6;
+footer{
+  background-color:Cornsilk;  
+  position:absolute;
+  width:90%; 
+  column-count:6;
   padding: 5%;
-  margin-top: 5%;
-  text-align: center;
+  margin-top:5%;
+  text-align:center;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
 }
 
-footer img {
-  margin-left: 60%;
-  width: 70%;
+footer img{
+  margin-left:60%;
+  width:70%;
+
 }
