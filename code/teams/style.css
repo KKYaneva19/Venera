@@ -2,6 +2,7 @@ body{
   background-color: #d4d3dd;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 h1 {  

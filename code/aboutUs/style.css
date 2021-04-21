@@ -7,24 +7,9 @@ body {
 h1 {
   text-align: center;
   font-size: 50px;
-  font-family: 'Karantina', cursive;
-}
-
-#vesi a {
-  color: midnightblue;
-  font-family: 'Lato', sans-serif;
-}
-
-#vesi a:visited {
-  color: lightseagreen;
-}
-
-#vesi a:hover {
-  color: whitesmoke;
-  background-color: lightblue;
-  border: 1px solid lightblue;
-  border-radius: 5%;
-  padding: 5px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #firstText {
@@ -37,12 +22,13 @@ h1 {
   float: left;
   margin-left: 18%;
   padding: 2%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #petya a {
   color: midnightblue;
-  font-family: 'Lato', sans-serif;
 }
 
 #petya a:visited {
@@ -61,12 +47,13 @@ h1 {
   float: right;
   margin-right: 2%;
   padding: 2%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #poli a {
   color: midnightblue;
-  font-family: 'Lato', sans-serif;
 }
 
 #poli a:visited {
@@ -85,19 +72,39 @@ h1 {
   float: left;
   margin-left: 15%;
   padding: 5%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+#vesi a {
+  color: midnightblue;
+}
+
+#vesi a:visited {
+  color: lightseagreen;
+}
+
+#vesi a:hover {
+  color: whitesmoke;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  border-radius: 5%;
+  padding: 5px;
 }
 
 #kami {
   float: right;
+  margin-top:3%;
   margin-right: 5%;
-  padding: 2%;
-  font-family: 'Lato', sans-serif;
+  padding: 2%; 
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #kami a {
   color: midnightblue;
-  font-family: 'Lato', sans-serif;
 }
 
 #kami a:visited {
@@ -119,14 +126,14 @@ img {
 /*the menu button */
 
 #menu {
-  margin: 30px;
+  margin-left:3%;
+  margin-top:2%;
   display: inline-block;
   text-align: center;
   color: black;
   display: inline-block;
   border-radius: 1.92px;
   font-weight: 30px;
-  margin: 0px 4.8px 4.8px 0px;
   padding: 5.6px 19.2px;
   border: 1px solid white;
   box-sizing: border-box;
@@ -134,6 +141,9 @@ img {
   font-family: 'Lato', sans-serif;
   transition: all 0.2s;
   font-size: 15px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #menu:hover {
