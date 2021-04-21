@@ -17,7 +17,7 @@ body {
 }
 
 /*the menu button */
-
+ 
 .menu {
   color: black;
   margin: 30px;
@@ -54,7 +54,6 @@ a {
 }
 
 /* button for the first form */
-
 #buttonForm1 {
   margin-top: 8%;
   text-align: center;
@@ -80,7 +79,6 @@ a {
 }
 
 .modal1 {
-
   display: none;
   /* makes it hidden by default */
   position: fixed;
@@ -97,28 +95,58 @@ a {
 }
 
 .form1 {
-  text-align: center;
   font-size: 15pt;
-  background: linear-gradient(117deg, rgba(252,252,252,1) 0%, rgba(227,222,222,1) 100%);  border-radius: 2%;
-  margin-top: 5%;
+  background: linear-gradient(to bottom, #ffffff 0%, #ff9999 100%);
+  border-radius: 2%;
+  margin-top: 15%;
   margin-left: auto;
   /* makes it a center */
   margin-right: auto;
   /* makes it a center */
   padding: 5px;
-  width: 20%;
-  height: 400px;
+  width: 23%;
+  height: 450px;
+}
+
+.form1 h4 {
+text-align:center;
+}
+
+.form1 label{
+  margin-left:35%;
+}
+
+.form1 label, textarea,input{
+  margin-left:20%;
+}
+
+#submit{
+  margin-left:35%;
+  font-size: 18px;
+  margin-top:2%;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  color: black;
+  box-sizing: border-box; padding: 5.6px 19.2px;
+  border: 1px solid white;border-radius: 1.92px;
+}
+
+#submit:hover {
+  color: darkgrey;
+  background-color: white;
 }
 
 /* The Close Button */
-
 .close1 {
   font-size: 50px;
   font-weight: bold;
   color:black;
   margin-bottom: 5%;
-  float: right;
   cursor: pointer;
+  float:right;
+  margin-right:3%;
 }
 
 /* button for the second form */
@@ -160,29 +188,59 @@ a {
 }
 
 .form2 {
-  text-align: center;
   font-size: 15pt;
-  background: linear-gradient(117deg, rgba(252,252,252,1) 0%, rgba(227,222,222,1) 100%);  border-radius: 2%;
-  margin-top: 5%;
+  background: linear-gradient(to bottom, #ffffff 0%, #ff9999 100%);
+  border-radius: 2%;
+  margin-top: 15%;
   margin-left: auto;
   /* makes it a center */
   margin-right: auto;
   /* makes it a center */
   padding: 5px;
-  width: 25%;
-  height: 400px;
+  width: 23%;
+  height: 450px;
+}
+
+.form2 h4 {
+text-align:center;
+}
+
+.form2 label{
+  margin-left:35%;
+}
+
+.form2 label, textarea,input{
+  margin-left:20%;
+}
+
+#submit{
+  margin-left:35%;
+  font-size: 18px;
+  margin-top:2%;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  color: black;
+  box-sizing: border-box; padding: 5.6px 19.2px;
+  border: 1px solid white;border-radius: 1.92px;
+}
+
+#submit:hover {
+  color: darkgrey;
+  background-color: white;
 }
 
 /* The Close Button */
-
 .close2 {
   font-size: 50px;
   font-weight: bold;
   color:black;
-  float: right;
+  margin-bottom: 5%;
   cursor: pointer;
+  float:right;
+  margin-right:3%;
 }
-
 .symbols {
   font-size: 60px;
   font-family: 'Bitter', serif;

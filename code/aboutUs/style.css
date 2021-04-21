@@ -124,23 +124,20 @@ img {
 }
 
 /*the menu button */
-
 #menu {
   margin-left:3%;
   margin-top:2%;
   display: inline-block;
   text-align: center;
   color: black;
-  display: inline-block;
   border-radius: 1.92px;
-  font-weight: 30px;
   padding: 5.6px 19.2px;
   border: 1px solid white;
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   transition: all 0.2s;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;

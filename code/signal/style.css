@@ -125,3 +125,21 @@ h4 {
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
 }
+
+#submit{
+    margin-left:35%;
+    font-size: 18px;
+    margin-top:2%;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    color: black;
+    box-sizing: border-box; padding: 5.6px 19.2px;
+    border: 1px solid white;border-radius: 1.92px;
+  }
+  
+  #submit:hover {
+    color: darkgrey;
+    background-color: white;
+  }
