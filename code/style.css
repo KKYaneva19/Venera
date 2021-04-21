@@ -79,6 +79,7 @@ a {
 }
 
 .modal1 {
+
   display: none;
   /* makes it hidden by default */
   position: fixed;
@@ -95,24 +96,26 @@ a {
 }
 
 .form1 {
-  background-color: white;
-  margin-top: 20%;
+  text-align: center;
+  font-size: 15pt;
+  background: linear-gradient(117deg, rgba(252,252,252,1) 0%, rgba(227,222,222,1) 100%);  border-radius: 2%;
+  margin-top: 5%;
   margin-left: auto;
   /* makes it a center */
   margin-right: auto;
   /* makes it a center */
-  padding: 10px;
-  border: 1px solid black;
+  padding: 5px;
   width: 20%;
-  height: 350px;
+  height: 400px;
 }
 
 /* The Close Button */
 
 .close1 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  color: black;
+  color:black;
+  margin-bottom: 5%;
   float: right;
   cursor: pointer;
 }
@@ -156,22 +159,25 @@ a {
 }
 
 .form2 {
-  background-color: white;
-  margin-top: 20%;
+  text-align: center;
+  font-size: 15pt;
+  background: linear-gradient(117deg, rgba(252,252,252,1) 0%, rgba(227,222,222,1) 100%);  border-radius: 2%;
+  margin-top: 5%;
   margin-left: auto;
+  /* makes it a center */
   margin-right: auto;
-  padding: 10px;
-  border: 1px solid black;
-  width: 20%;
-  height: 40%;
+  /* makes it a center */
+  padding: 5px;
+  width: 25%;
+  height: 400px;
 }
 
 /* The Close Button */
 
 .close2 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  color: black;
+  color:black;
   float: right;
   cursor: pointer;
 }
