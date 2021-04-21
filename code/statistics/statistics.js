@@ -20,7 +20,7 @@ function drawFirstChart() {
     'width': 600,
     'height': 400,
     backgroundColor: 'transparent',
-    colors: ['#26CAFF', '#88FE44', '#FE4444', '#F5FF26'],
+    colors: ['#E6D1D9', '#E98195', '#CF0029', '#E4496A'],
     is3D: true
   };
 
@@ -47,7 +47,7 @@ function drawSecondChart() {
     'height': 400,
     backgroundColor: 'transparent',
     is3D: true,
-    colors: ['#FE4444', '#26CAFF', '#F5FF26'],
+    colors: ['#CF0029', '#E6D1D9', '#E4496A'],
 
   };
 
@@ -77,7 +77,7 @@ function drawThirdChart() {
     'height': 400,
     backgroundColor: 'transparent',
     is3D: true,
-    colors: ['#88FE44', '#88FE44', '#26CAFF', '#26CAFF', '#88FE44', '#F5FF26', '#FE4444', '#FE4444'],
+    colors: ['#E98195', '#E98195', '#E6D1D9', '#E6D1D9', '#E98195', '#E4496A', '#CF0029', '#CF0029'],
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
