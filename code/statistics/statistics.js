@@ -19,6 +19,7 @@ function drawFirstChart() {
     'title': 'Сезони',
     'width': 600,
     'height': 400,
+    backgroundColor: 'transparent',
     colors: ['#26CAFF', '#88FE44', '#FE4444', '#F5FF26'],
     is3D: true
   };
@@ -44,6 +45,7 @@ function drawSecondChart() {
     'title': 'Пожароопосност в България',
     'width': 600,
     'height': 400,
+    backgroundColor: 'transparent',
     is3D: true,
     colors: ['#FE4444', '#26CAFF', '#F5FF26'],
 
@@ -73,6 +75,7 @@ function drawThirdChart() {
     'title': 'Пожароопосност в Бургаски регион',
     'width': 600,
     'height': 400,
+    backgroundColor: 'transparent',
     is3D: true,
     colors: ['#88FE44', '#88FE44', '#26CAFF', '#26CAFF', '#88FE44', '#F5FF26', '#FE4444', '#FE4444'],
   };
