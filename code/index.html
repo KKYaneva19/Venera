@@ -1,82 +1,91 @@
 <!DOCTYPE html>
 
 <head>
-<title>Начална Страница</title>
-<link rel="stylesheet" href="style.css">
-<meta charset="UTF-8">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <title>Начална Страница</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet">
 
 </head>
 
-<body> 
-  
+<body>
+
   <div class="linkContactUs">
-  <h3><a class="contactus" href="contactus/index.html">Свържете се с нас</a></h3>
- </div>
+    <h3><a class="contactus" href="contactus/index.html">Свържете се с нас</a></h3>
+  </div>
 
   <!-- menu button -->
+  
   <div>
     <a class="menu" href="menu/index.html"><span class="symbols">&equiv;</span></a>
- </div>
+  </div>
 
-<!-- header -->
-   <h1 class="title">Министертво на вътрешните работи<br>
-   Главна дирекция "Пожарна безопастност и защита на населението"</h1>  
+  <!-- header -->
+  
+  <h1 class="title">Министертво на вътрешните работи<br>
+    Главна дирекция "Пожарна безопастност и защита на населението"</h1>
 
-<!-- first form -->
-<div id="forms">
-  <button  id="buttonForm1">Found a bug?</button>
-  <div id="form1" class="modal1">
+  <!-- first form -->
+  
+  <div id="forms">
+    <button id="buttonForm1">Found a bug?</button>
+    <div id="form1" class="modal1">
 
-    <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
+      <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
 
-      <div class="form1">
-        <span class="close1">&times;</span> <!-- &times changes to x -->
-        <h4>Found a bug?</h4>
+        <div class="form1">
+          <span class="close1">&times;</span> <!-- &times changes to x -->
+          <h4>Found a bug?</h4>
+          <label for="textbox">Your message:</label><br><br>
+          <textarea id="textbox" name="textbox" rows="4" cols="30">
+        </textarea><br><br>
+
+          <label for="email">Enter your email:</label><br><br>
+          <input type="email" id="email" name="email"><br><br>
+          <input type="submit">
+          <script src="script.js"></script>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- second form -->
+  
+  <button id="buttonForm2">Do you know what to improve?</button>
+  <div id="form2" class="modal2">
+
+    <div class="form2">
+      <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
+        <span class="close2">&times;</span> <!-- &times changes to x -->
+        <h4>Do you know what to improve?</h4>
         <label for="textbox">Your message:</label><br><br>
         <textarea id="textbox" name="textbox" rows="4" cols="30">
-        </textarea><br><br>
+      </textarea><br><br>
 
         <label for="email">Enter your email:</label><br><br>
         <input type="email" id="email" name="email"><br><br>
         <input type="submit">
         <script src="script.js"></script>
 
-    </form>
-      </div>
-  </div> 
+      </form>
 
-<!-- second form -->
-<button  id="buttonForm2">Do you know what to improve?</button>
-  <div id="form2" class="modal2">
-
-   <div class="form2">
-      <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
-      <span class="close2">&times;</span> <!-- &times changes to x -->
-      <h4>Do you know what to improve?</h4>
-      <label for="textbox">Your message:</label><br><br>
-      <textarea id="textbox" name="textbox" rows="4" cols="30">
-      </textarea><br><br>
-
-      <label for="email">Enter your email:</label><br><br>
-      <input type="email" id="email" name="email"><br><br>
-      <input type="submit">
-      <script src="script.js"></script>
-
-  </form>
- 
     </div>
   </div>
-</div>
+  </div>
 
   <!-- link to "about us" page -->
+  
   <div id="logo">
-  <p>Site made by:
-  <a href="aboutUs/index.html" target="_blank"><img src="../logo/logo.svg"></a>
-  </p>
-</div>
+    <p>Site made by:
+      <a href="aboutUs/index.html" target="_blank"><img src="../logo/logo.svg"></a>
+    </p>
+  </div>
 
-    </body>
+</body>
+
 </html>

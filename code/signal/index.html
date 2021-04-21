@@ -1,42 +1,51 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="UTF-8">
 
-<title>Подай Сигнал</title>
-<link rel="stylesheet" href="style.css">
+<head>
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
 
-    </head>
+    <title>Подай Сигнал</title>
+    <link rel="stylesheet" href="style.css">
 
-    <body>
-        <div class="linkContactUs">
-            <h3><a class="contactus" href="contactus/index.html">Свържете се с нас</a></h3>
-        </div>
-        
- 
-        <!-- menu button -->
-        <a class="menu" href=../index.html><span class="symbols">&times;</span></a>
- 
-        <!--title-->
-        <h1>Подай Сигнал</h1>
- 
-    <section class="section1">         
-    <!--Email for contact-->
-         <h4>Имейл за връзка:<h4>
-         <ul>
-       <li> <a href="mailto:PIPetkova@codingburgas.bg"><img class="email" src="../pictures/email.png"></a></li>
-        </ul>   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
 
-        <h4>Свържете се на телефони:</h4>
-        <p>
-            <ul>
-                <li>Директор /секретарка/: (+359) 810-266-1670<br><br></li>
-                <li>Деловодство: (+359) 725-999-9116<br><br></li>
-                <li> Човешки ресурси: (+359) 831-975-0933<br><br></p></li>
+</head>
+
+<body>
+    <div class="linkContactUs">
+        <h3><a class="contactus" href="contactus/index.html">Свържете се с нас</a></h3>
+    </div>
+    
+    <!-- menu button -->
+    
+    <a class="menu" href=../index.html><span class="symbols">&times;</span></a>
+
+    <!--title-->
+    
+    <h1>Подай Сигнал</h1>
+
+    <section class="section1">
+    
+        <!--Email for contact-->
+    
+        <h4>Имейл за връзка:<h4>
+                <ul>
+                    <li> <a href="mailto:PIPetkova@codingburgas.bg"><img class="email" src="../pictures/email.png"></a>
+                    </li>
                 </ul>
-        </p>   
+
+                <h4>Свържете се на телефони:</h4>
+                <p>
+                <ul>
+                    <li>Директор /секретарка/: (+359) 810-266-1670<br><br></li>
+                    <li>Деловодство: (+359) 725-999-9116<br><br></li>
+                    <li> Човешки ресурси: (+359) 831-975-0933<br><br></p>
+                    </li>
+                </ul>
+                </p>
     </section>
 
 
@@ -44,58 +53,68 @@
         <p id="notice">Попълнете формата с латински букви!</p>
 
         <!-- first form -->
-    <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
+    
+        <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
 
-      <div class="form">
-        <label for="appt">Час на произшествието:</label><br><br>
-        <input type="time" id="time" name="time" required><br><br><br>
+            <div class="form">
+                <label for="appt">Час на произшествието:</label><br><br>
+                <input type="time" id="time" name="time" required><br><br><br>
 
-        <label for="week">Ден на произшествието:</label><br><br>
-        <input type="week" id="week" name="day" required><br><br><br>
+                <label for="week">Ден на произшествието:</label><br><br>
+                <input type="week" id="week" name="day" required><br><br><br>
 
-        <label for="textbox">Адрес:</label><br><br>
-        <textarea rows="7" cols="30" name="address" required></textarea><br><br><br>
+                <label for="textbox">Адрес:</label><br><br>
+                <textarea rows="7" cols="30" name="address" required></textarea><br><br><br>
 
-        <label for="cars">Вид на инцидента:</label><br><br>
+                <label for="cars">Вид на инцидента:</label><br><br>
 
-        <select name="accident" id="accident" >
-            <option value="blank">Изберете вида на инцидента</option>
-            <option value="Fire">Пожар</option>
-            <option value="An animal in danger">Животно в опасност</option>
-            <option value="Catastrophe">Пътно произшествие</option>
-            <option value="Earthquake">Земетрсение</option>
-            <option value="Flood">Наводнение</option>
-        </select><br><br><br>
-        
-      
-        <!-- Location --> 
-        <input type="checkbox"  onclick="getLocation()">Местоположение</button>
-        <p id="location"></p>
-        <script src="coordinates.js"></script>
-        <textarea rows="7" cols="30" name="gps"   placeholder="Копирайте и поставете местоположението си" required>
+                <select name="accident" id="accident">
+                    <option value="blank">Изберете вида на инцидента</option>
+                    <option value="Fire">Пожар</option>
+                    <option value="An animal in danger">Животно в опасност</option>
+                    <option value="Catastrophe">Пътно произшествие</option>
+                    <option value="Earthquake">Земетрсение</option>
+                    <option value="Flood">Наводнение</option>
+                </select><br><br><br>
+                
+                <!-- Location -->
+    
+                <input type="checkbox" onclick="getLocation()">Местоположение</button>
+                
+                <p id="location"></p>
+                
+                <script src="coordinates.js"></script>
+                <textarea rows="7" cols="30" name="gps" placeholder="Копирайте и поставете местоположението си"
+                    required>
         </textarea><br><br><br><br><br><br><br>
 
-       
-    <button type="submit" onclick="submit()" value="Submit">Submit</button>
-    </form>
-  </div>
 
-</section>
+                <button type="submit" onclick="submit()" value="Submit">Submit</button>
+        </form>
+        </div>
 
-<footer>
-    <!-- link to "about us" page -->
-       <a  href="../aboutUs/index.html" target="_blank"><img src="../../logo/logo.svg"></a>
- 
-    <p>Адрес:</p>
-     <ul>
-       <li> гр. Бургас ул."Александър Велики" 37В  </li> <br>
-     </ul>
-         <p>Телефони:</p>
-         <ul>
-         <li>Директор /секретарка/ (+359) 2 960 10 204</li> 
-         <li>Деловодство: (+359) 2 960 10 282</li> 
-         <li> Човешки ресурси (+359) 2 960 10 327</p></li> 
-         </ul></p>
- </footer>
-    </body>
+    </section>
+
+    <footer>
+        
+        <!-- link to "about us" page -->
+        
+        <a href="../aboutUs/index.html" target="_blank"><img src="../../logo/logo.svg"></a>
+
+        <p>Адрес:</p>
+        <ul>
+            <li> гр. Бургас ул."Александър Велики" 37В </li> <br>
+        </ul>
+        <p>Телефони:</p>
+        <ul>
+            <li>Директор /секретарка/ (+359) 2 960 10 204</li>
+            <li>Деловодство: (+359) 2 960 10 282</li>
+            <li> Човешки ресурси (+359) 2 960 10 327</p>
+            </li>
+        </ul>
+        </p>
+    </footer>
+
+</body>
+
 </html>

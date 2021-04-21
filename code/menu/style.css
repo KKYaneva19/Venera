@@ -1,69 +1,65 @@
-body{
+body {
   background-color: #e6c9db;
 }
 
-.menuItems
-{
-  margin-top:10%;
-  margin-left:10%;
-  column-count:4;
+.menuItems {
+  margin-top: 10%;
+  margin-left: 10%;
+  column-count: 4;
 }
 
-.links a{
+.links a {
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
-  font-size:20px;
+  font-size: 20px;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-.links a{
-
-    color: black;
+.links a {
+  color: black;
 }
 
-.links a:visited{
-  color:lightseagreen;
+.links a:visited {
+  color: lightseagreen;
 }
 
-.links a:hover{
+.links a:hover {
   color: whitesmoke;
-  background-color:lightblue;
+  background-color: lightblue;
   border: 1px solid lightblue;
   border-radius: 5%;
   padding: 2px;
 }
-    
-.symbols{
-    font-size: 60px;  
-    font-family: 'Bitter', serif;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'PT Serif', serif;
-    color:black;
+
+.symbols {
+  font-size: 60px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+  color: black;
 }
 
-  
 .backButton {
-    margin-left:30px;
-    width:100px; 
-    height:100px ;
-    margin-top:20px;
-    display:inline-block;
-}
-  
-  #logo{
-    width:7%;
-    display:inline-block;
-    margin-top:15px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
-h1{
-    font-family: 'Bitter', serif;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'PT Serif', serif;
-    font-size:30px;
+#logo {
+  width: 7%;
+  display: inline-block;
+  margin-top: 15px;
 }
 
+h1 {
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}

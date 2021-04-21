@@ -1,120 +1,116 @@
-body{
+body {
     background-color: #b6b5be;
-  }
+}
 
-h1{
-    text-align:center;
+h1 {
+    text-align: center;
     font-family: 'Bitter', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
 }
 
-.linkContactUs a{
-    color:black;
+.linkContactUs a {
+    color: black;
     padding: 10px;
-   }
-   
-   .linkContactUs a:hover{
-    color:white;
-  background-color:rgba(169, 169, 169, 0.486);
- padding:10px;
-   }
-
-  /*for the contact us form and page */
-.contactus{
-    margin-top:30px;
-    margin-right:30px;
-    float:right;
-    font-family: 'Bitter', serif;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'PT Serif', serif;
-}
-  
-    
-.form{
-    display:inline-block;
-    margin-top:5%;
-    padding:5%;
-    border:1px solid black;
-    column-count:2;
-    font-family: 'Lato', sans-serif;
-
 }
 
-.section1{
-    display:inline-block;
-    margin-left:15%;
-    font-size:20px;
-    margin-bottom:5%;
+.linkContactUs a:hover {
+    color: white;
+    background-color: rgba(169, 169, 169, 0.486);
+    padding: 10px;
+}
+
+/*for the contact us form and page */
+
+.contactus {
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
     font-family: 'Bitter', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
 }
 
-.section2{
-    display:inline-block;
-    margin-left:15%;
-    font-size:20px;
-    margin-bottom:5%;
-    font-family: 'Bitter', serif;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'PT Serif', serif;
-}
-
-.email{
-    width:70px;
-}
-
-#notice{
-    text-align:center;
-    color:rgb(119, 17, 17);
-    font-family: 'Bitter', serif;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'PT Serif', serif;}
-
-a{
-    text-decoration:none;
-    font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-}
-
-    
-.symbols{
-    font-size: 60px;  
-    font-weight: bold;
-    color:black;
-}
-
-  
-.menu {
-    margin-left:30px;
-    width:100px; 
-    height:100px ;
-    margin-top:20px;
-    display:inline-block;
-}
-  
-footer{
-    background-color:Cornsilk;  
-    display:inline-block;
-    column-count:6;
+.form {
+    display: inline-block;
+    margin-top: 5%;
     padding: 5%;
-    margin-top:5%;
-    text-align:center;
+    border: 1px solid black;
+    column-count: 2;
+    font-family: 'Lato', sans-serif;
+}
+
+.section1 {
+    display: inline-block;
+    margin-left: 15%;
+    font-size: 20px;
+    margin-bottom: 5%;
     font-family: 'Bitter', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
-  }
-  
-  footer img{
-    margin-left:60%;
-    width:70%;
-  
-  }
-  
+}
 
-h4{
+.section2 {
+    display: inline-block;
+    margin-left: 15%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.email {
+    width: 70px;
+}
+
+#notice {
+    text-align: center;
+    color: rgb(119, 17, 17);
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.symbols {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    background-color: Cornsilk;
+    display: inline-block;
+    column-count: 6;
+    padding: 5%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+footer img {
+    margin-left: 60%;
+    width: 70%;
+}
+
+h4 {
     font-family: 'Bitter', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
