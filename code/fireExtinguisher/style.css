@@ -6,8 +6,9 @@ h1{
 
     text-align:center; 
     font-size: 50px;  
-    font-family: 'Karantina', cursive;
-
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 } 
  
 .linkContactUs a{
@@ -32,6 +33,9 @@ h1{
 
 .all figcaption{
  font-size:20px;
+ font-family: 'Bitter', serif;
+ font-family: 'Mukta', sans-serif;
+ font-family: 'PT Serif', serif;
 } 
 
 /*for the contact us form and page */ 
@@ -42,9 +46,10 @@ h1{
   float:right; 
   text-decoration:none; 
   font-family: 'Lato', sans-serif;
-
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 } 
-
 
 .pics { 
 width:50%;
@@ -57,8 +62,11 @@ a{
   
 .symbols{
   font-size: 60px;  
-  font-weight: bold;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
   color:black;
+  font-weight:bold;
 }
 
 
@@ -75,12 +83,14 @@ a{
   display:inline-block;
   margin-top:15px;
 }
+
 h2{ 
 
   
   font-size: 25px;  
-  font-family: 'Karantina', cursive;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 
 } 
 

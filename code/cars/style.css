@@ -5,8 +5,9 @@ h1{
 
   text-align:center; 
   font-size: 50px; 
-  font-family: 'Karantina', cursive;
-
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 } 
 
 .linkContactUs a{
@@ -30,21 +31,23 @@ h1{
   margin-right:30px; 
   float:right; 
   text-decoration:none; 
-  font-family: 'Lato', sans-serif;
-
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 } 
 
 
 /*the menu button */ 
 
 .menu{ 
-
-  margin-left:30px;
+    margin-left:30px;
     width:100px; 
     height:100px ;
     margin-top:20px;
     display:inline-block;
-
+    font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 } 
 
 #logo{
@@ -63,24 +66,26 @@ a{
 
   
 .symbols{
-
   font-size: 60px;  
-  font-weight: bold;
   color:black;
+  font-weight:bold;
 }
 
 h2{ 
 
   text-align:center; 
   font-size: 30px; 
-  font-family: 'Karantina', cursive;
-
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 } 
 
 h3{ 
 
   font-size: 20px; 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 
@@ -93,4 +98,10 @@ h3{
 
 .carPics{
   width:60%;
+}
+
+figcaption{
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }

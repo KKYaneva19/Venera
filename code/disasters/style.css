@@ -6,31 +6,36 @@ h1{
     text-align:center; 
     font-size: 50px;  
     font-weight: bold;  
-    font-family: 'Karantina', cursive;
-}  
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;}  
 
 
 h2{  
     text-align:center;  
     font-size: 50px; 
     font-weight: bold;  
-    font-family: 'Karantina', cursive;
-}  
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;}  
 
 
 h3{  
     text-align:center;  
     font-size: 50px; 
     font-weight: bold;  
-    font-family: 'Karantina', cursive;
-}  
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;}  
 
 
 h4{  
   text-align:center; 
   font-size: 50px;  
   font-weight: bold;  
-  font-family: 'Karantina', cursive;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }  
 
   
@@ -38,6 +43,7 @@ h4{
   font-size: 60px;  
   font-weight: bold;
   color:black;
+
 }
 
 /*the menu button */
@@ -49,8 +55,10 @@ h4{
 
 a{
   text-decoration:none;
-  font-family: 'Lato', sans-serif;
-}
+font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+  }
 
 /*for the contact us form and page */
 .contactus{
@@ -58,8 +66,9 @@ a{
   margin-right:30px;
   float:right;
   font-size: 20px; 
-  font-family: 'Lato', sans-serif;
-
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .linkContactUs a{
@@ -76,12 +85,18 @@ a{
  }
 
 #textFloods{
+  font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
   margin-left:10%;
  
 }
 
 #textFloods li{
   font-size:17px;
+  font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 ol.roman {
@@ -122,30 +137,39 @@ margin-left:20%;
 
 .uppercase{
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 /* text for Eartquakes page */
 
 #textEartquakes{
   margin-left:10%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #textEartquakes li{
   font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #textEartquakes p{
   font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #textEartquakes b{
   font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 
@@ -153,17 +177,23 @@ margin-left:20%;
 
 #textFires{
   margin-left:10%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #textFires li{
   font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #textFires p{
   font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 /* pictures for earthquakes page */
@@ -172,7 +202,6 @@ margin-left:20%;
   margin-left:20%;
   width:30%;
   margin-bottom:5%;
-  font-family: 'Lato', sans-serif;
 }
   
 #earthquakesPic2{
@@ -180,7 +209,6 @@ margin-left:20%;
   margin-right:15%;
   width:30%;
   margin-bottom:5%;
-  font-family: 'Lato', sans-serif;
 }
 
 /* pictures for fires page */
@@ -188,25 +216,27 @@ margin-left:20%;
   float:left;
   width:20%;
   margin-left:20%;
-  font-family: 'Lato', sans-serif;
 }
   
 #firesPic2{
   float:right;
   width:20%;
   margin-right:20%;
-  font-family: 'Lato', sans-serif;
 }
 
 /* text for Crashes page */
 #textCrashes{
   margin-left:10%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #textCrashes p{
   font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 /* pictures for crashes page */
@@ -215,7 +245,6 @@ margin-left:20%;
   margin-left:20%;
   width:20%;
   margin-bottom:2%;
-  font-family: 'Lato', sans-serif;
 }
   
 #crashesPic2{
@@ -223,7 +252,6 @@ margin-left:20%;
   width:20%;
   margin-right:20%;
   margin-bottom:2%;
-  font-family: 'Lato', sans-serif;
 }
 
 /* pictures for Eartquakes page */
@@ -231,6 +259,9 @@ margin-left:20%;
   margin-top:22%;
   margin-left:10%;
   font-size:17px;
+  font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 /* pictures for Crashes page */
@@ -238,6 +269,9 @@ margin-left:20%;
   margin-top:18%;
   margin-left:10%;
   font-size:17px;
+  font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 
@@ -246,6 +280,9 @@ margin-left:20%;
   margin-top:20%;
   margin-left:10%;
   font-size:17px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 /* pictures for Floods page */
@@ -253,5 +290,8 @@ margin-left:20%;
   margin-top:20%;
   margin-left:10%;
   font-size:17px;
+  font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 

@@ -1,24 +1,29 @@
 body{
   background-color: #d4d3dd;
 }
+
 .linkContactUs a{
   color:black;
   border: 2px solid white;
   padding: 10px;
   border-radius: 25px;
-  
- }
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
  
  .linkContactUs a:hover{
   color:white;
   background-color:darkgray;
  padding:10px;
- }
+}
  
 h1 {  
     text-align: center;
-    font-size: 50px;
-    font-family: 'Karantina', cursive; 
+    font-size: 30px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 } 
  
 h2{ 
@@ -39,7 +44,9 @@ td, th {
   border: 4px solid rgba(0, 0, 0, 0.733);
   text-align: left; 
   font-size: 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }  
 
 tr:nth-child(even) { 
@@ -53,6 +60,9 @@ tr:nth-child(even) {
 
 .firstTeam p{
   font-size:18px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .firstTable{
@@ -67,6 +77,9 @@ tr:nth-child(even) {
 
 .secondTeam p{
   font-size:18px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .secondTable{
@@ -81,6 +94,9 @@ tr:nth-child(even) {
 
 .thirdTeam p{
   font-size:18px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .thirdTable{
@@ -95,13 +111,16 @@ tr:nth-child(even) {
 
 .fourthTeam p{
   font-size:18px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 .fourthTable{
   margin-left:15%;
 }
 
 .fifthTable{
-  margin-left:40%;
+  margin-left:37%;
   margin-top:5%;
 
 }
@@ -118,8 +137,10 @@ tr:nth-child(even) {
   margin-right:30px; 
   float:right; 
   text-decoration:none; 
-  font-family: 'Lato', sans-serif;
-} 
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
 
 a{
   text-decoration:none;
@@ -128,7 +149,9 @@ a{
   
 .symbols{
   font-size: 60px;  
-  font-weight: bold;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
   color:black;
 }
 
@@ -162,7 +185,10 @@ details > summary {
   padding: 5px;
   box-shadow: 2px 2px 4px lightgray;
   cursor: pointer;
-  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .tablesAndPics{

@@ -1,5 +1,6 @@
 body{
   background: linear-gradient(120deg, rgba(221,214,243,1) 25%, rgba(250,172,168,1) 100%);
+
 }
 
 /*style for the title Министертво на вътрешните работи. Главна дирекция "Пожарна безопастност и защита на населението" */
@@ -8,8 +9,11 @@ body{
   text-align:center;
   margin-top:18%;
   font-size: 40px;  
-  font-family: 'Orelega One', cursive;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
+
 
 /*the menu button */
 .menu{
@@ -28,7 +32,9 @@ a{
   margin-top:30px;
   margin-right:30px;
   float:right;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .linkContactUs a{
@@ -57,9 +63,11 @@ padding:10px;
   border: 1px solid white;
   box-sizing: border-box;
   text-decoration:none;
-  font-family: 'Lato', sans-serif;
   transition: all 0.2s;
   font-size: 20px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #buttonForm1:hover{
@@ -116,6 +124,9 @@ padding:10px;
   font-family: 'Lato', sans-serif;
   transition: all 0.2s;
   font-size: 20px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 #buttonForm2:hover{
@@ -156,8 +167,11 @@ padding:10px;
   
 .symbols{
   font-size: 60px;  
-  font-weight: bold;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
   color:black;
+  font-weight: bold;
 }
 
 /* The logo link */
@@ -180,4 +194,7 @@ padding:10px;
 
 #logo p{
 font-size: 20px;
+font-family: 'Bitter', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'PT Serif', serif;
 }

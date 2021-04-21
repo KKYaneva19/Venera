@@ -9,13 +9,19 @@ body{
   column-count:4;
 }
 
+.links a{
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-size:20px;
+}
+
 a{
   text-decoration:none;
-  font-family: 'Lato', sans-serif;
 }
 
 .links a{
-    
+
     color: black;
 }
 
@@ -33,7 +39,9 @@ a{
     
 .symbols{
     font-size: 60px;  
-    font-weight: bold;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
     color:black;
 }
 
@@ -44,14 +52,18 @@ a{
     height:100px ;
     margin-top:20px;
     display:inline-block;
-    
-  }
+}
   
   #logo{
     width:7%;
     display:inline-block;
     margin-top:15px;
-  }
-  h1{
-    font-family: 'Lato', sans-serif;    
-  }
+}
+
+h1{
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size:30px;
+}
+
