@@ -49,13 +49,6 @@ h1{
   font-family: 'PT Serif', serif;
 } 
 
-#logo{
-
-  width:7%;
-  display:inline-block;
-  margin-top:15px;
-
-}
 
 a{
 
@@ -103,4 +96,22 @@ figcaption{
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
+}
+
+footer{
+  background-color:Cornsilk;  
+  display:inline-block;
+  column-count:6;
+  padding: 5%;
+  margin-top:5%;
+  text-align:center;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+footer img{
+  margin-left:60%;
+  width:70%;
+
 }

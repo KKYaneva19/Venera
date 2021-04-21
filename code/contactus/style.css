@@ -53,7 +53,12 @@ a{
     color:black;
 }
 
-  
+  h1{
+    text-align:center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+  }
 .menu {
     margin-left:30px;
     width:100px; 
@@ -62,12 +67,23 @@ a{
     display:inline-block;
   }
   
-  #logo{
-    width:7%;
+  footer{
+    background-color:Cornsilk;  
     display:inline-block;
-    margin-top:15px;
+    column-count:6;
+    padding: 5%;
+    margin-top:5%;
+    text-align:center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
   }
-
+  
+  footer img{
+    margin-left:60%;
+    width:70%;
+  
+  }
   h2{ 
 
      
