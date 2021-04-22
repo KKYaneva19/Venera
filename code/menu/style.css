@@ -1,5 +1,5 @@
 body {
-  background-color: #e6c9db;
+  background: linear-gradient(90deg, rgba(218,210,153,1) 37%, rgba(176,218,185,1) 93%); 
 }
 
 .menuItems {
@@ -24,13 +24,13 @@ a {
 }
 
 .links a:visited {
-  color: lightseagreen;
+  color: rgb(110, 104, 104);
 }
 
 .links a:hover {
   color: whitesmoke;
-  background-color: lightblue;
-  border: 1px solid lightblue;
+  background-color: rgba(167, 173, 175, 0.685);
+  border: 1px solid  rgba(167, 173, 175, 0.685);
   border-radius: 5%;
   padding: 2px;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: #d4d3dd; 
+  background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%); 
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
