@@ -19,9 +19,8 @@ h1 {
 }
 
 #petya {
-  float: left;
-  margin-left: 18%;
-  padding: 2%;
+  margin-left: 13%;
+  display: inline-block;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
@@ -44,9 +43,7 @@ h1 {
 }
 
 #poli {
-  float: right;
-  margin-right: 2%;
-  padding: 2%;
+  display: inline-block;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
@@ -69,9 +66,9 @@ h1 {
 }
 
 #vesi {
-  float: left;
-  margin-left: 15%;
-  padding: 5%;
+  margin-top: 5%;
+  margin-left: 13%;
+  display: inline-block;  
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
@@ -94,10 +91,8 @@ h1 {
 }
 
 #kami {
-  float: right;
-  margin-top:3%;
-  margin-right: 5%;
-  padding: 2%; 
+  margin-left: 5%;
+  display: inline-block;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
