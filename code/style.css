@@ -96,7 +96,7 @@ a {
 
 .form1 {
   font-size: 15pt;
-  background: linear-gradient(to bottom, #ffffff 0%, #ff9999 100%);
+  background: rgba(75, 72, 72, 0.897);
   border-radius: 2%;
   margin-top: 15%;
   margin-left: auto;
@@ -105,6 +105,7 @@ a {
   /* makes it a center */
   padding: 5px;
   width: 23%;
+  color:white;
   height: 450px;
 }
 
@@ -116,6 +117,13 @@ text-align:center;
   margin-left:35%;
 }
 
+#email{
+  padding:2%;
+}
+
+#star{
+  color:red;
+}
 .form1 label, textarea,input{
   margin-left:20%;
 }
@@ -129,8 +137,10 @@ text-align:center;
   font-family: 'PT Serif', serif;
   text-align: center;
   color: black;
-  box-sizing: border-box; padding: 5.6px 19.2px;
-  border: 1px solid white;border-radius: 1.92px;
+  box-sizing: border-box; 
+  padding: 5.6px 19.2px;
+  border: 1px solid white;
+  border-radius: 1.92px;
 }
 
 #submit:hover {
@@ -189,9 +199,10 @@ text-align:center;
 
 .form2 {
   font-size: 15pt;
-  background: linear-gradient(to bottom, #ffffff 0%, #ff9999 100%);
+  background: rgba(75, 72, 72, 0.897);
   border-radius: 2%;
   margin-top: 15%;
+  color:white;
   margin-left: auto;
   /* makes it a center */
   margin-right: auto;

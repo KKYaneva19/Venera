@@ -41,17 +41,19 @@ h1 {
 .form {
     display: inline-block;
     margin-top: 5%;
-    padding: 5%;
+    padding: 8%;
     border: 1px solid black;
     column-count: 2;
+    background: rgba(165, 160, 160, 0.472);
     font-family: 'Lato', sans-serif;
+    border-radius:5%;
 }
 
 .section1 {
     display: inline-block;
     margin-left: 15%;
     font-size: 20px;
-    margin-bottom: 5%;
+    margin-top: 5%;
     font-family: 'Bitter', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
@@ -85,6 +87,10 @@ a {
     font-family: 'Bitter', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
+}
+
+#star{
+  color:red;
 }
 
 .symbols {

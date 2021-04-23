@@ -59,19 +59,19 @@
         <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
 
             <div class="form">
-                <label for="appt">Час на произшествието:</label><br><br>
+                <label for="appt">Час на произшествието:<span id="star">*</span> </label><br><br>
                 <input type="time" id="time" name="time" required><br><br><br>
 
-                <label for="week">Ден на произшествието:</label><br><br>
+                <label for="week">Ден на произшествието:<span id="star">*</span> </label><br><br>
                 <input type="week" id="week" name="day" required><br><br><br>
 
-                <label for="textbox">Адрес:</label><br><br>
-                <textarea rows="7" cols="30" name="address" required></textarea><br><br><br><br><br>
+                <label for="textbox">Адрес: <span id="star">*</span> </label><br><br>
+                <textarea rows="7" cols="30" name="address" required></textarea><br><br><br>
 
                 <label for="cars">Вид на инцидента:</label><br><br>
 
                 <select name="accident" id="accident">
-                    <option value="blank">Изберете вида на инцидента</option>
+                    <option value="blank">(Посочете вида)</option>
                     <option value="Fire">Пожар</option>
                     <option value="An animal in danger">Животно в опасност</option>
                     <option value="Catastrophe">Пътно произшествие</option>
