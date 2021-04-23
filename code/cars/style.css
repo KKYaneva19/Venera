@@ -106,19 +106,30 @@ figcaption {
 
 footer{
   background: linear-gradient(4deg, rgba(117,127,144,1) 0%, rgba(165,173,183,1) 35%, rgba(208,214,218,1) 89%);
-  position:absolute;
-  width:90%; 
-  column-count: 5;
+  position: absolute;
+  width: 90%; 
   padding: 5%;
-  margin-top:5%;
-  text-align:center;
+  margin-top: 5%;
+  text-align: center;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
 }
 
-footer img{
-  margin-left:50%;
-  width:70%;
+#textFooter{
+  column-count: 3;
+}
 
+footer img{
+  width:10%;
+  float:left;
+}
+
+#creditSymbol{
+text-align:center;
+}
+
+#facebook{
+  width:15%;
+  margin-left: 45%;
 }
