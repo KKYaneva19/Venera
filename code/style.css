@@ -1,7 +1,8 @@
 body {
-  background: linear-gradient(90deg, rgba(218,210,153,1) 37%, rgba(176,218,185,1) 93%); 
+  background-image: url('pictures/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed; 
+  width:100%;
 }
 
 /*style for the title Министертво на вътрешните работи. Главна дирекция "Пожарна безопастност и защита на населението" */
@@ -90,7 +91,7 @@ a {
   height: 100%;
   background-color: rgb(0, 0, 0);
   /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.692);
   /* Black w/ opacity */
 }
 
@@ -194,7 +195,7 @@ text-align:center;
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.692);
 }
 
 .form2 {
