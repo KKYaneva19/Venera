@@ -5,8 +5,34 @@ body{
   overflow-x: hidden; 
 } 
 
- 
- 
+#download{
+    display:inline-block; 
+  font-size:15px;
+   font-family: 'Bitter', serif; 
+   font-family: 'Mukta', sans-serif; 
+   font-family: 'PT Serif', serif; 
+}
+
+ #download button {
+   margin-left:11%;
+  text-align: center;
+  color: black;
+  border-radius: 1.92px;
+  padding: 5px;
+  border: 1px solid white;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-size: 15px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+#download button:hover {
+  color: darkgrey;
+  background-color: white;
+}
+
 
 h1 {   
     text-align: center; 
