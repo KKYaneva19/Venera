@@ -1,0 +1,150 @@
+body {
+    background: linear-gradient(90deg, rgba(184,240,237,1) 8%, rgba(127,173,167,1) 48%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+  }
+  /*for the contact us form and page */
+  
+  .contactus {
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+  }
+  
+  .linkContactUs a {
+    color: rgb(27, 27, 27);
+    padding: 10px;
+  }
+  
+  .linkContactUs a:hover {
+    color: white;
+    transition: all 0.4s;
+    background-color: rgba(231, 214, 214, 0.486);
+    padding: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .symbols {
+    font-size: 60px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .menu {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  footer{
+    background: linear-gradient(4deg, rgba(117,127,144,1) 0%, rgba(165,173,183,1) 35%, rgba(208,214,218,1) 89%);
+    position: absolute;
+    width: 90%; 
+    padding: 5%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+  }
+  
+  #textFooter{
+    column-count: 3;
+  }
+  
+  footer img{
+    width:10%;
+    float:left;
+  }
+  
+  #creditSymbol{
+  text-align:center;
+  }
+  
+  #facebook{
+    width:15%;
+    margin-left: 45%;
+  }
+
+  .picsUsers{
+    width:50%;
+    margin-left:10%;
+  }
+
+
+  /* first person style */
+  #firstPerson{
+    display:inline-block;
+    margin-left:20%;
+}
+
+ /* second person style */
+ #secondPerson{
+    display:inline-block;
+    margin-left:15%;
+    margin-top:5%;
+}
+
+/* third person style */
+  #thirdPerson{
+    display:inline-block;
+    margin-left:20%;
+}
+
+/* fourth person style */
+  #fourthPerson{
+    display:inline-block;   
+    margin-left:15%;
+    margin-top:5%;
+}
+
+table, td, th {  
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  td {
+    padding: 15px;
+  }
+
+  .titles{
+    background: linear-gradient(90deg, rgba(184,240,237,1) 0%, rgba(90,149,142,1) 29%);
+    font-size: 20px;
+  }
+
+
+  .data{
+    background-color:rgba(255, 255, 255, 0.335);
+    font-size: 15px;
+  }
+
