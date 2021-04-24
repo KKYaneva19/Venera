@@ -45,6 +45,37 @@ h1 {
 
 
 /*RESPONSIVE*/
+@media (max-width:2000px){
+  .menuItems {
+    margin-top: 10%;
+    margin-left: 2%;
+    column-count: 3;
+  }
+  
+  .links a {
+    font-size: 20px;
+  }
+  
+  .backButton {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  #logo {
+    width: 7%;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  }
+
+  
 @media (max-width:1625px){
 .menuItems {
   margin-top: 10%;
