@@ -2,17 +2,10 @@ body {
   background: linear-gradient(90deg, rgba(218,210,153,1) 37%, rgba(176,218,185,1) 93%); 
 }
 
-.menuItems {
-  margin-top: 10%;
-  margin-left: 5%;
-  column-count: 3;
-}
-
 .links a {
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
-  font-size: 20px;
 }
 
 a {
@@ -27,6 +20,7 @@ a {
   color: rgb(110, 104, 104);
 }
 
+
 .links a:hover {
   color: whitesmoke;
   background-color: rgba(167, 173, 175, 0.685);
@@ -35,12 +29,31 @@ a {
   padding: 2px;
 }
 
+h1 {
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
 .symbols {
-  font-size: 60px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
   color: black;
+  font-size: 60px;
+}
+
+
+/*RESPONSIVE*/
+@media (max-width:1625px){
+.menuItems {
+  margin-top: 10%;
+  margin-left: 2%;
+  column-count: 3;
+}
+
+.links a {
+  font-size: 20px;
 }
 
 .backButton {
@@ -58,8 +71,293 @@ a {
 }
 
 h1 {
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
   font-size: 30px;
 }
+}
+
+@media (max-width:1100px){
+  .menuItems {
+    margin-top: 10%;
+    margin-left: 5%;
+    column-count: 3;
+  }
+  
+  .links a {
+    font-size: 15px;
+  }
+
+  .backButton {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  #logo {
+    width: 10%;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  }
+
+  @media (max-width:950px){
+    .menuItems {
+      margin-top: 10%;
+      margin-left: 5%;
+      column-count: 3;
+    }
+    
+    .links a {
+      font-size: 15px;
+    }
+    
+    .backButton {
+      margin-left: 30px;
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    
+    #logo {
+      width: 10%;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    
+    h1 {
+      font-size: 22px;
+    }
+    }
+
+    @media (max-width:780px){
+      .menuItems {
+        margin-top: 10%;
+        margin-left: 1%;
+        column-count: 3;
+      }
+      
+      .links a {
+        font-size: 15px;
+      }
+      
+      .backButton {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+      }
+      
+      #logo {
+        width: 15%;
+        display: inline-block;
+        margin-top: 15px;
+      }
+      
+      h1 {
+        font-size: 22px;
+      }
+      }
+
+      
+    @media (max-width:650px){
+      .menuItems {
+        margin-top: 10%;
+        margin-left: 1%;
+        column-count: 3;
+      }
+      
+      .links a {
+        font-size: 13px;
+      }
+      
+      .backButton {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+      }
+      
+      #logo {
+        width: 15%;
+        display: inline-block;
+        margin-top: 15px;
+      }
+      
+      h1 {
+        font-size: 19px;
+      }
+      }
+
+      @media (max-width:560px){
+        .menuItems {
+          margin-top: 10%;
+          margin-left: 2px;
+          column-count: 3;
+        }
+        
+        .links a {
+          font-size: 13px;
+        }
+        
+        .backButton {
+          margin-left: 30px;
+          width: 100px;
+          height: 100px;
+          margin-top: 20px;
+          display: inline-block;
+        }
+        
+        #logo {
+          width: 15%;
+          display: inline-block;
+          margin-top: 15px;
+        }
+        
+        h1 {
+          font-size: 19px;
+        }
+        }
+
+        @media (max-width:520px){
+          .menuItems {
+            margin-top: 10%;
+            margin-left: 2px;
+            column-count: 2;
+          }
+          
+          .links a {
+            font-size: 15px;
+          }
+          
+          .backButton {
+            margin-left: 30px;
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            display: inline-block;
+          }
+          
+          #logo {
+            width: 15%;
+            display: inline-block;
+            margin-top: 15px;
+          }
+
+          #bottomLink{
+            margin-bottom: 20%;
+          }
+
+          h1 {
+            font-size: 19px;
+          }
+          }
+
+          @media (max-width:460px){
+            .menuItems {
+              margin-top: 10%;
+              margin-left: 2px;
+              column-count: 2;
+            }
+            
+            .links a {
+              font-size: 13px;
+            }
+            
+            .backButton {
+              margin-left: 30px;
+              width: 100px;
+              height: 100px;
+              margin-top: 20px;
+              display: inline-block;
+            }
+            
+            #logo {
+              width: 18%;
+              display: inline-block;
+              margin-top: 15px;
+            }
+  
+            #bottomLink{
+              margin-bottom: 20%;
+            }
+  
+            h1 {
+              font-size: 17px;
+            }
+            }
+
+            @media (max-width:370px){
+              .menuItems {
+                margin-top: 10%;
+                margin-left: 2px;
+                column-count: 2;
+              }
+              
+              .links a {
+                font-size: 13px;
+              }
+  
+              .backButton {
+                margin-left: 30px;
+                width: 100px;
+                height: 100px;
+                margin-top: 20px;
+                display: inline-block;
+              }
+              
+              #logo {
+                width: 20%;
+                display: inline-block;
+                margin-top: 15px;
+              }
+    
+              #bottomLink{
+                margin-bottom: 20%;
+              }
+    
+              h1 {
+                font-size: 15px;
+              }
+              }
+
+              @media (max-width:370px){
+                .menuItems {
+                  margin-top: 10%;
+                  margin-left: 5%;
+                  column-count: 1;
+                }
+                
+                .links a {
+                  font-size: 13px;
+                }
+        
+                .backButton {
+                  margin-left: 30px;
+                  width: 100px;
+                  height: 100px;
+                  margin-top: 20px;
+                  display: inline-block;
+                }
+                
+                #logo {
+                  width: 24%;
+                  display: inline-block;
+                  margin-top: 15px;
+                }
+      
+                #bottomLink{
+                  margin-bottom: 20%;
+                }
+      
+                h1 {
+                  font-size: 15px;
+                }
+                }

@@ -2,6 +2,7 @@ body {
   background-image: url('pictures/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed; 
+  overflow-x: hidden;
   width:100%; 
 }
 
@@ -25,7 +26,8 @@ body {
 /*the menu button */
 .menu {
   color: black;
-  margin: 30px;
+  margin-top: 10px;
+  margin-left:2%;
   display: inline-block;
 }
 
