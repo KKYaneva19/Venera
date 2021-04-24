@@ -17,7 +17,7 @@ function drawFirstChart() {
   // Add properties
   var options = {
     'title': 'Сезони',
-    'width': 600,
+    'width': 520,
     'height': 400,
     backgroundColor: 'transparent',
     colors: ['#E6D1D9', '#E98195', '#CF0029', '#E4496A'],
@@ -43,7 +43,7 @@ function drawSecondChart() {
 
   var options = {
     'title': 'Пожароопосност в България',
-    'width': 600,
+    'width': 520,
     'height': 400,
     backgroundColor: 'transparent',
     is3D: true,
@@ -73,7 +73,7 @@ function drawThirdChart() {
 
   var options = {
     'title': 'Пожароопосност в Бургаски регион',
-    'width': 600,
+    'width': 520,
     'height': 400,
     backgroundColor: 'transparent',
     is3D: true,
