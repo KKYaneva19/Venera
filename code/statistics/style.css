@@ -16,7 +16,7 @@ body {
   width: 100px;
   height: 100px;
   margin-top: 20px;
-  display: inline-block;
+  display: inline-block; 
 }
 
 h1 {
@@ -198,7 +198,7 @@ footer img{
 
 @media (max-width:1399px) {
   .linkContactUs a {
-    margin-right:5%;
+    margin-right:15%;
     padding: 10px;
   }
 
