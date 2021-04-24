@@ -2,23 +2,27 @@ body {
   background-image: url('pictures/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  width:100%;
+  width:100%; 
 }
 
-/*style for the title Министертво на вътрешните работи. Главна дирекция "Пожарна безопастност и защита на населението" */
+.symbols {
+  font-size: 60px;
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+  color: black;
+  font-weight: bold;
+}
 
 .title {
   display: block;
   text-align: center;
-  margin-top: 17%;
-  font-size: 37px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
 }
 
 /*the menu button */
- 
 .menu {
   color: black;
   margin: 30px;
@@ -31,11 +35,7 @@ a {
 
 /*for the contact us form and page */
 .contactus {
-  margin-top: 30px;
-  margin-right: 30px;
-  float: right;
   border: 3px solid white;
-  padding: 10px;
   border-radius: 25px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
@@ -56,19 +56,14 @@ a {
 
 /* button for the first form */
 #buttonForm1 {
-  margin-top: 8%;
   text-align: center;
   color: black;
   display: inline-block;
   border-radius: 1.92px;
-  font-weight: 30px;
-  margin: 0px 4.8px 4.8px 0px;
-  padding: 5.6px 19.2px;
   border: 1px solid white;
   box-sizing: border-box;
   text-decoration: none;
   transition: all 0.2s;
-  font-size: 18px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
@@ -95,27 +90,30 @@ a {
   /* Black w/ opacity */
 }
 
+.modal2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
+
 .form1 {
-  font-size: 15pt;
   background: rgba(75, 72, 72, 0.897);
   border-radius: 2%;
-  margin-top: 15%;
   margin-left: auto;
   /* makes it a center */
   margin-right: auto;
   /* makes it a center */
-  padding: 5px;
-  width: 23%;
   color:white;
-  height: 450px;
 }
 
 .form1 h4 {
 text-align:center;
-}
-
-.form1 label{
-  margin-left:35%;
 }
 
 #email{
@@ -125,21 +123,14 @@ text-align:center;
 #star{
   color:red;
 }
-.form1 label, textarea,input{
-  margin-left:20%;
-}
 
 #submit{
-  margin-left:35%;
-  font-size: 18px;
-  margin-top:2%;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
   text-align: center;
   color: black;
   box-sizing: border-box; 
-  padding: 5.6px 19.2px;
   border: 1px solid white;
   border-radius: 1.92px;
 }
@@ -160,23 +151,29 @@ text-align:center;
   margin-right:3%;
 }
 
-/* button for the second form */
 
+/* The Close Button */
+.close2 {
+  font-size: 50px;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 5%;
+  cursor: pointer;
+  float:right;
+  margin-right:3%;
+}
+
+
+/* button for the second form */
 #buttonForm2 {
-  margin-top: 8%;
   text-align: center;
   color: black;
   display: inline-block;
   border-radius: 1.92px;
-  font-weight: 30px;
-  margin: 5px 4.8px 4.8px 0px;
-  padding: 5.6px 19.2px;
   border: 1px solid white;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
   transition: all 0.2s;
-  font-size: 18px;
   font-family: 'Bitter', serif;
   font-family: 'Mukta', sans-serif;
   font-family: 'PT Serif', serif;
@@ -187,34 +184,88 @@ text-align:center;
   background-color: white;
 }
 
-.modal2 {
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.692);
-}
-
 .form2 {
-  font-size: 15pt;
   background: rgba(75, 72, 72, 0.897);
   border-radius: 2%;
-  margin-top: 15%;
   color:white;
   margin-left: auto;
   /* makes it a center */
   margin-right: auto;
   /* makes it a center */
+}
+
+.form2 h4 {
+text-align:center;
+}
+
+#logo p {
+  font-family: 'Bitter', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+
+
+
+/* RESPONSIVE */
+@media (max-width:2000px){
+.title {
+  margin-top: 17%;
+  font-size: 37px;
+}
+
+.contactus {
+  margin-top: 30px;
+  margin-right: 30px;
+  float: right;
+  padding: 10px;
+}
+
+#buttonForm1 {
+  margin-top: 8%;
+  font-weight: 30px;
+  margin: 0px 4.8px 4.8px 0px;
+  padding: 5.6px 19.2px;
+  font-size: 18px;
+}
+
+.form1 {
+  font-size: 15pt;
+  margin-top: 15%;
   padding: 5px;
   width: 23%;
   height: 450px;
 }
 
-.form2 h4 {
-text-align:center;
+.form1 label{
+  margin-left:35%;
+}
+
+.form1 label, textarea,input{
+  margin-left:20%;
+}
+
+#submit{
+  margin-left:35%;
+  font-size: 18px;
+  margin-top:2%;
+  padding: 5.6px 19.2px;
+}
+
+#buttonForm2 {
+  margin-top: 8%;
+  font-weight: 30px;
+  margin: 5px 4.8px 4.8px 0px;
+  padding: 5.6px 19.2px;
+  font-size: 18px;
+}
+
+.form2 {
+  font-size: 15pt;
+  margin-top: 15%;
+  padding: 5px;
+  width: 23%;
+  height: 450px;
 }
 
 .form2 label{
@@ -229,40 +280,8 @@ text-align:center;
   margin-left:35%;
   font-size: 18px;
   margin-top:2%;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-  text-align: center;
-  color: black;
-  box-sizing: border-box; padding: 5.6px 19.2px;
-  border: 1px solid white;border-radius: 1.92px;
+  padding: 5.6px 19.2px;
 }
-
-#submit:hover {
-  color: darkgrey;
-  background-color: white;
-}
-
-/* The Close Button */
-.close2 {
-  font-size: 50px;
-  font-weight: bold;
-  color:black;
-  margin-bottom: 5%;
-  cursor: pointer;
-  float:right;
-  margin-right:3%;
-}
-.symbols {
-  font-size: 60px;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-  color: black;
-  font-weight: bold;
-}
-
-/* The logo link */
 
 #forms {
   float: right;
@@ -282,7 +301,1332 @@ text-align:center;
 
 #logo p {
   font-size: 20px;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
 }
+}
+
+
+@media (max-width:1400px){
+
+  body {
+    background-image: url('pictures/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width:100%; 
+  }
+  
+  .title {
+    margin-top: 17%;
+    font-size: 37px;
+  }
+  
+  .contactus {
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    padding: 10px;
+  }
+  
+  #buttonForm1 {
+    margin-top: 8%;
+    font-weight: 30px;
+    margin: 0px 4.8px 4.8px 0px;
+    padding: 5.6px 19.2px;
+    font-size: 18px;
+  }
+  
+  .form1 {
+    font-size: 15pt;
+    margin-top: 15%;
+    padding: 5px;
+    width: 28%;
+    height: 450px;
+  }
+  
+  .form1 label{
+    margin-left:35%;
+  }
+  
+  .form1 label, textarea,input{
+    margin-left:20%;
+  }
+  
+  #submit{
+    margin-left:35%;
+    font-size: 18px;
+    margin-top:2%;
+    padding: 5.6px 19.2px;
+  }
+    
+  #buttonForm2 {
+    margin-top: 8%;
+    font-weight: 30px;
+    margin: 5px 4.8px 4.8px 0px;
+    padding: 5.6px 19.2px;
+    font-size: 18px;
+  }
+  
+  .form2 {
+    font-size: 15pt;
+    margin-top: 15%;
+    padding: 5px;
+    width: 28%;
+    height: 450px;
+  }
+  
+  .form2 label{
+    margin-left:35%;
+  }
+  
+  .form2 label, textarea,input{
+    margin-left:20%;
+  }
+    
+  #forms {
+    float: right;
+    margin-top: 18%;
+    margin-right: 2%;
+  }
+  
+  #logo {
+    float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+  
+  #logo img {
+    width: 30%;
+  }
+  
+  #logo p {
+    font-size: 20px;
+  }
+}
+
+
+
+@media (max-width:1242px){
+
+  body {
+    background-image: url('pictures/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width:100%; 
+  }
+  
+  .title {
+    margin-top: 17%;
+    font-size: 37px;
+  }
+    
+  .contactus {
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    padding: 10px;
+  }
+  
+  #buttonForm1 {
+    margin-top: 8%;
+    font-weight: 30px;
+    margin: 0px 4.8px 4.8px 0px;
+    padding: 5.6px 19.2px;
+    font-size: 18px;
+  }
+  
+  
+  .form1 {
+    font-size: 15pt;
+    border-radius: 2%;
+    margin-top: 15%;
+    padding: 5px;
+    width: 33%;
+    height: 450px;
+  }
+  
+  .form1 label{
+    margin-left:35%;
+  }
+
+  .form1 label, textarea,input{
+    margin-left:20%;
+  }
+  
+  #submit{
+    margin-left:35%;
+    font-size: 18px;
+    margin-top:2%;
+    padding: 5.6px 19.2px;
+  }
+    
+  #buttonForm2 {
+    margin-top: 8%;
+    font-weight: 30px;
+    margin: 5px 4.8px 4.8px 0px;
+    padding: 5.6px 19.2px;
+    font-size: 18px;
+  }
+  
+  .form2 {
+    font-size: 15pt;
+    margin-top: 15%;
+    padding: 5px;
+    width: 33%;
+    height: 450px;
+  }
+  
+  .form2 label{
+    margin-left:35%;
+  }
+  
+  .form2 label, textarea,input{
+    margin-left:20%;
+  }
+    
+  #forms {
+    float: right;
+    margin-top: 18%;
+    margin-right: 2%;
+  }
+  
+  #logo {
+    float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+  
+  #logo img {
+    width: 30%;
+  }
+  
+  #logo p {
+    font-size: 20px;
+  }
+}
+
+
+  @media (max-width:1170px){
+
+    body {
+      background-image: url('pictures/background.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      width:100%; 
+    }
+    
+    .title {
+      margin-top: 17%;
+      font-size: 37px;
+    }
+        
+    .contactus {
+      margin-top: 30px;
+      margin-right: 30px;
+      float: right;
+      padding: 10px;
+    }
+    
+    #buttonForm1 {
+      margin-top: 8%;
+      font-weight: 30px;
+      margin: 0px 4.8px 4.8px 0px;
+      padding: 5.6px 19.2px;
+      font-size: 18px;
+    }
+    
+    .form1 {
+      font-size: 15pt;
+      margin-top: 15%;
+      padding: 5px;
+      width: 33%;
+      height: 450px;
+    }
+    
+    .form1 label{
+      margin-left:35%;
+    }
+    
+    .form1 label, textarea,input{
+      margin-left:20%;
+    }
+        
+    #buttonForm2 {
+      margin-top: 8%;
+      font-weight: 30px;
+      margin: 5px 4.8px 4.8px 0px;
+      padding: 5.6px 19.2px;
+      font-size: 18px;
+    }
+    
+    .form2 {
+      font-size: 15pt;
+      margin-top: 15%;
+      padding: 5px;
+      width: 33%;
+      height: 450px;
+    }
+    
+    .form2 label{
+      margin-left:35%;
+    }
+    
+    .form2 label, textarea,input{
+      margin-left:20%;
+    }
+    
+    #submit{
+      margin-left:35%;
+      font-size: 18px;
+      margin-top:2%;
+      padding: 5.6px 19.2px;
+    }
+        
+    #forms {
+      float: right;
+      margin-top: 23%;
+      margin-right: 2%;
+    }
+    
+    #logo {
+      float: left;
+      margin-top: 18%;
+      margin-left: 2%;
+    }
+    
+    #logo img {
+      width: 30%;
+    }
+    
+    #logo p {
+      font-size: 20px;
+    }
+  }
+
+
+@media (max-width:1000px){
+
+  body {
+    background-image: url('pictures/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width:100%; 
+  }
+      
+      .title {
+        margin-top: 17%;
+        font-size: 37px;
+      }
+      
+      .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+      }
+      
+      #buttonForm1 {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 0px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+      }
+      
+      .form1 {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 36%;
+        height: 450px;
+      }
+      
+      .form1 h4 {
+      font-size:25px;
+      }
+      
+      .form1 label{
+        font-size:25px;
+        margin-left:10%;
+      }
+      
+      .form1 label, textarea,input{
+        margin-left:20%;
+      }
+      
+      #submit{
+        margin-left:35%;
+        font-size: 18px;
+        margin-top:2%;
+        padding: 5.6px 19.2px;
+      }
+            
+      #buttonForm2 {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 5px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+      }
+      
+      .form2 {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 36%;
+        height: 450px;
+      }
+        
+        .form2 label{
+          font-size:25px;
+          margin-left:10%;
+        }
+      
+      .form2 label, textarea,input{
+        margin-left:20%;
+      }
+            
+      #forms {
+        float: right;
+        margin-top: 30%;
+        margin-right: 2%;
+      }
+      
+      #logo {
+        float: left;
+        margin-top: 25%;
+        margin-left: 2%;
+      }
+      
+      #logo img {
+        width: 30%;
+      }
+      
+      #logo p {
+        font-size: 20px;
+      }
+    }
+
+
+      @media (max-width:888px){
+
+        body {
+          background-image: url('pictures/background.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          width:100%; 
+        }
+        
+        .title {
+          margin-top: 17%;
+          font-size: 37px;
+        }
+        
+        .contactus {
+          margin-top: 30px;
+          margin-right: 30px;
+          float: right;
+          padding: 10px;
+        }
+        
+        #buttonForm1 {
+          margin-top: 8%;
+          font-weight: 25px;
+          margin: 4px 4.8px 4.8px 0px;
+          padding: 5.6px 19.2px;
+          font-size: 15px;
+        }
+        
+        .form1 {
+          font-size: 15pt;
+          border-radius: 2%;
+          margin-top: 15%;
+          padding: 5px;
+          width: 36%;
+          height: 450px;
+        }
+        
+        .form1 h4 {
+        font-size:25px;
+        }
+        
+        .form1 label{
+          font-size:25px;
+          margin-left:10%;
+        }
+       
+        .form1 label, textarea,input{
+          margin-left:20%;
+        }
+        
+        #submit{
+          margin-left:35%;
+          font-size: 18px;
+          margin-top:2%;
+          padding: 5.6px 19.2px;
+        }
+                
+        #buttonForm2 {
+          margin-top: 8%;
+          font-weight: 25px;
+          margin: 4px 4.8px 4.8px 0px;
+          padding: 5.6px 19.2px;
+          font-size: 15px;
+        }
+        
+        .form2 {
+          font-size: 15pt;
+          margin-top: 15%;
+          padding: 5px;
+          width: 36%;
+          height: 450px;
+        }
+          
+          .form2 label{
+            font-size:25px;
+            margin-left:10%;
+          }
+        
+        .form2 label, textarea,input{
+          margin-left:20%;
+        }
+        
+        #forms {
+          float: right;
+          margin-top: 34%;
+          margin-right: 2%;
+        }
+        
+        #logo {
+          float: left;
+          margin-top:32%;
+          margin-left: 2%;
+        }
+        
+        #logo img {
+          width: 20%;
+        }
+        
+        #logo p {
+          font-size: 15px;
+        }
+}
+
+
+
+        @media (max-width:785px){
+
+          body {
+            background-image: url('pictures/background.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            width:100%; 
+          }
+          
+          .title {
+            margin-top: 23%;
+            font-size: 25px;
+          }
+          
+          .contactus {
+            margin-top: 30px;
+            margin-right: 30px;
+            float: right;
+            padding: 10px;
+          }
+          
+          #buttonForm1 {
+            margin-top: 8%;
+            font-weight: 25px;
+            margin: 4px 4.8px 4.8px 0px;
+            padding: 5.6px 19.2px;
+            font-size: 12px;
+          }
+          
+          .form1 {
+            font-size: 15pt;
+            margin-top: 15%;
+            padding: 5px;
+            width: 36%;
+            height: 450px;
+          }
+          
+          .form1 h4 {
+          font-size:20px;
+          }
+          
+          .form1 label{
+            font-size:20px;
+            margin-left:10%;
+          }
+          
+         
+          .form1 label, textarea,input{
+            margin-left:10%;
+          }
+          
+          #submit{
+            margin-left:35%;
+            font-size: 18px;
+            margin-top:2%;
+            padding: 5.6px 19.2px;
+          }
+                    
+          #buttonForm2 {
+            margin-top: 8%;
+            font-weight: 25px;
+            margin: 4px 4.8px 4.8px 0px;
+            padding: 5.6px 19.2px;
+            font-size: 12px;
+          }
+        
+          .form2 {
+            font-size: 15pt;
+            margin-top: 15%;
+            padding: 5px;
+            width: 36%;
+            height: 450px;
+          }
+          
+          .form2 h4 {
+            font-size:20px;
+            }
+            
+            .form2 label{
+              font-size:20px;
+              margin-left:10%;
+            }
+          
+          .form2 label, textarea,input{
+            margin-left:15%;
+          }
+          
+          #forms {
+            float: right;
+            margin-top: 42%;
+            margin-right: 2%;
+          }
+          
+          #logo {
+            float: left;
+            margin-top:40%;
+            margin-left: 2%;
+          }
+          
+          #logo img {
+            width: 25%;
+          }
+          
+          #logo p {
+            font-size: 15px;
+          }
+}
+
+
+
+          @media (max-width:720px){
+
+            body {
+              background-image: url('pictures/background.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed; 
+              width:100%; 
+            }
+            
+            .title {
+              margin-top: 28%;
+              font-size: 25px;
+            }
+
+            
+            .contactus {
+              margin-top: 30px;
+              margin-right: 30px;
+              float: right;
+              padding: 10px;
+            }
+            
+            #buttonForm1 {
+              margin-top: 8%;
+              font-weight: 25px;
+              margin: 2px 4.8px 4.8px 0px;
+              padding: 5px;
+              font-size: 13px;
+            }
+            
+            .form1 {
+              font-size: 15pt;
+              margin-top: 15%;
+              padding: 5px;
+              width: 45%;
+              height: 450px;
+            }
+            
+            .form1 h4 {
+            font-size:18px;
+            }
+            
+            .form1 label{
+              font-size:18px;
+              margin-left:10%;
+            }
+            
+            .form1 label, textarea,input{
+              margin-left:10%;
+            }
+            
+            #submit{
+              margin-left:35%;
+              font-size: 15px;
+              margin-top:2%; 
+              padding: 5.6px 19.2px;
+            }
+            
+            #buttonForm2 {
+              margin-top: 8%;
+              font-weight: 25px;
+              margin: 4px 4.8px 4.8px 0px;
+              padding: 5px;
+              font-size: 13px;
+            }
+                      
+            .form2 {
+              font-size: 15pt;
+              margin-top: 15%;
+              padding: 5px;
+              width: 45%;
+              height: 450px;
+            }
+            
+            .form2 h4 {
+              font-size:18px;
+              }
+              
+              .form2 label{
+                font-size:18px;
+                margin-left:10%;
+              }
+            
+            .form2 label, textarea,input{
+              margin-left:15%;
+            }
+            
+            #forms {
+              float: right;
+              margin-top: 42%;
+              margin-right: 2%;
+            }
+            
+            #logo {
+              float: left;
+              margin-top:40%;
+              margin-left: 2%;
+            }
+            
+            #logo img {
+              width: 20%;
+            }
+            
+            #logo p {
+              font-size: 13px;
+            }
+}
+
+
+            @media (max-width:670px){
+
+              body {
+                background-image: url('pictures/background.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                width:100%; 
+              }
+              
+              .title {
+                margin-top: 35%;
+                font-size: 23px;
+              }
+              
+              .contactus {
+                margin-top: 30px;
+                margin-right: 30px;
+                float: right;
+                padding: 10px;
+              }
+              
+              #buttonForm1 {
+                margin-top: 8%;
+                font-weight: 25px;
+                margin: 2px 4.8px 4.8px 0px;
+                padding: 5px;
+                font-size: 15px;
+              }
+              
+              .form1 {
+                font-size: 15pt;
+                margin-top: 25%;
+                padding: 5px;
+                width: 45%;
+                height: 450px;
+              }
+              
+              .form1 h4 {
+              font-size:18px;
+              }
+              
+              .form1 label{
+                font-size:18px;
+                margin-left:10%;
+              }
+              
+              .form1 label, textarea,input{
+                margin-left:10%;
+              }
+              
+              #submit{
+                margin-left:35%;
+                font-size: 15px;
+                margin-top:2%;
+                padding: 5.6px 19.2px;
+              }
+              
+              #buttonForm2 {
+                margin-top: 8%;
+                font-weight: 25px;
+                margin: 4px 4.8px 4.8px 0px;
+                padding: 5px;
+                font-size: 15px;
+              }
+              
+              .form2 {
+                font-size: 15pt;
+                margin-top: 25%;
+                padding: 5px;
+                width: 45%;
+                height: 450px;
+              }
+              
+              .form2 h4 {
+                font-size:18px;
+                }
+                
+                .form2 label{
+                  font-size:18px;
+                  margin-left:10%;
+                }
+              
+              .form2 label, textarea,input{
+                margin-left:15%;
+              }
+                            
+              #forms {
+                float: left;
+                margin-top: 42%;
+                margin-left: 2%;
+              }
+              
+              #logo {
+                display:none;
+
+              }
+            
+              }
+
+
+
+              @media (max-width:640px){
+
+                body {
+                  background-image: url('pictures/background.png');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed; 
+                  width:100%; 
+                }
+                
+                .title {
+                  margin-top: 35%;
+                  font-size: 20px;
+                }
+                
+                .contactus {
+                  margin-top: 30px;
+                  margin-right: 30px;
+                  float: right;
+                  padding: 10px;
+                }
+                
+                #buttonForm1 {
+                  margin-top: 8%;
+                  font-weight: 25px;
+                  margin: 2px 4.8px 4.8px 0px;
+                  padding: 5px;
+                  font-size: 15px;
+                }
+                
+                .form1 {
+                  font-size: 15pt;
+                  margin-top: 25%;
+                  padding: 5px;
+                  width: 55%;
+                  height: 450px;
+                }
+                
+                .form1 h4 {
+                font-size:18px;
+                }
+                
+                .form1 label{
+                  font-size:18px;
+                  margin-left:10%;
+                }
+              
+                .form1 label, textarea,input{
+                  margin-left:10%;
+                }
+                
+                #buttonForm2 {
+                  margin-top: 8%;
+                  font-weight: 25px;
+                  margin: 4px 4.8px 4.8px 0px;
+                  padding: 5px;
+                  font-size: 15px;
+                }
+                
+                .form2 {
+                  font-size: 15pt;
+                  margin-top: 25%;
+                  padding: 5px;
+                  width: 55%;
+                  height: 450px;
+                }
+                
+                .form2 h4 {
+                  font-size:18px;
+                  }
+                  
+                  .form2 label{
+                    font-size:18px;
+                    margin-left:10%;
+                  }
+                
+                .form2 label, textarea,input{
+                  margin-left:15%;
+                }
+                
+                #submit{
+                  margin-left:35%;
+                  font-size: 18px;
+                  margin-top:2%;
+                   padding: 5.6px 19.2px;
+                }
+                
+                #forms {
+                  float: left;
+                  margin-top: 48%;
+                  margin-left: 2%;
+                }
+                
+                #logo {
+                  display:none;
+  
+                }
+              
+                }
+
+
+                
+              @media (max-width:570px){
+
+                body {
+                  background-image: url('pictures/background.png');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed; 
+                  width:100%; 
+                }
+                
+                .title {
+                  margin-top: 45%;
+                  font-size: 20px;
+                }
+                
+                .contactus {
+                  margin-top: 30px;
+                  margin-right: 30px;
+                  float: right;
+                  padding: 10px;
+                  border-radius: 25px;
+                }
+                
+                #buttonForm1 {
+                  margin-top: 8%;
+                  font-weight: 25px;
+                  margin: 2px 4.8px 4.8px 0px;
+                  padding: 5px;
+                  font-size: 15px;
+                }
+                
+                .form1 {
+                  font-size: 15pt;
+                  margin-top: 35%;
+                  padding: 5px;
+                  width: 55%;
+                  height: 450px;
+                }
+                
+                .form1 h4 {
+                font-size:18px;
+                }
+                
+                .form1 label{
+                  font-size:18px;
+                  margin-left:10%;
+                }
+                
+                .form1 label, textarea,input{
+                  margin-left:10%;
+                }
+                
+                #submit{
+                  margin-left:35%;
+                  font-size: 15px;
+                  margin-top:2%;
+                  padding: 5.6px 19.2px;
+                }
+                
+                #buttonForm2 {
+                  margin-top: 8%;
+                  font-weight: 25px;
+                  margin: 4px 4.8px 4.8px 0px;
+                  padding: 5px;
+                  font-size: 15px;
+                }
+                
+                .form2 {
+                  font-size: 15pt;
+                  margin-top: 35%;
+                  padding: 5px;
+                  width: 55%;
+                  height: 450px;
+                }
+                
+                .form2 h4 {
+                  font-size:18px;
+                  }
+                  
+                  .form2 label{
+                    font-size:18px;
+                    margin-left:10%;
+                  }
+                
+                .form2 label, textarea,input{
+                  margin-left:15%;
+                }
+                                
+                #forms {
+                  float: left;
+                  margin-top: 48%;
+                  margin-left: 2%;
+                }
+                
+                #logo {
+                  display:none;
+  
+                }
+              
+}
+                
+              @media (max-width:490px){
+
+                body {
+                  background-image: url('pictures/background.png');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed; 
+                  width:100%; 
+                }
+                
+                .title {
+                  margin-top: 50%;
+                  font-size: 20px;
+                }
+                
+                .contactus {
+                  margin-top: 30px;
+                  margin-right: 30px;
+                  float: right;
+                  padding: 10px;
+                }
+                
+                #buttonForm1 {
+                  margin-top: 8%;
+                  font-weight: 25px;
+                  margin: 2px 4.8px 4.8px 0px;
+                  padding: 5px;
+                  font-size: 15px;
+                }
+                
+                .form1 {
+                  font-size: 15pt;
+                  margin-top: 35%;
+                  padding: 5px;
+                  width: 65%;
+                  height: 450px;
+                }
+                
+                .form1 h4 {
+                font-size:18px;
+                }
+                
+                .form1 label{
+                  font-size:18px;
+                  margin-left:10%;
+                }
+                
+                .form1 label, textarea,input{
+                  margin-left:10%;
+                }
+                
+                #submit{
+                  margin-left:35%;
+                  font-size: 15px;
+                  margin-top:2%;
+                  padding: 5.6px 19.2px;
+                }
+                
+                #buttonForm2 {
+                  margin-top: 8%;
+                  font-weight: 25px;
+                  margin: 4px 4.8px 4.8px 0px;
+                  padding: 5px;
+                  font-size: 15px;
+                }
+                
+                .form2 {
+                  font-size: 15pt;
+                  margin-top: 35%;
+                  padding: 5px;
+                  width: 65%;
+                  height: 450px;
+                }
+                
+                .form2 h4 {
+                  font-size:18px;
+                  }
+                  
+                  .form2 label{
+                    font-size:18px;
+                    margin-left:10%;
+                  }
+              
+                .form2 label, textarea,input{
+                  margin-left:15%;
+                }
+                
+                #forms {
+                  float: left;
+                  margin-top: 54%;
+                  margin-left: 2%;
+                }
+                
+                #logo {
+                  display:none;
+  
+                }
+              
+                }
+
+                @media (max-width:400px){
+
+                  body {
+                    background-image: url('pictures/background.png');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed; 
+                    width:100%; 
+                  }
+                  
+                  .title {
+                    margin-top: 60%;
+                    font-size: 20px;
+                  }
+                  
+                  .contactus {
+                    margin-top: 30px;
+                    margin-right: 30px;
+                    float: right;
+                    font-size:15px;
+                    padding: 10px;
+                  }
+                  
+                  #buttonForm1 {
+                    margin-top: 8%;
+                    font-weight: 25px;
+                    margin: 2px 4.8px 4.8px 0px;
+                    padding: 5px;
+                    font-size: 15px;
+                  }
+                  
+                  .form1 {
+                    font-size: 15pt;
+                    margin-top: 45%;
+                    padding: 5px;
+                    width: 75%;
+                    height: 450px;
+                  }
+                  
+                  .form1 h4 {
+                  font-size:18px;
+                  }
+                  
+                  .form1 label{
+                    font-size:18px;
+                    margin-left:10%;
+                  }
+                  
+                  .form1 label, textarea,input{
+                    margin-left:10%;
+                  }
+                  
+                  #buttonForm2 {
+                    margin-top: 8%;
+                    font-weight: 25px;
+                    margin: 4px 4.8px 4.8px 0px;
+                    padding: 5px;
+                    font-size: 15px;
+                  }
+                  
+                  .form2 {
+                    font-size: 15pt;
+                    margin-top: 45%;
+                    padding: 5px;
+                    width: 75%;
+                    height: 450px;
+                  }
+                  
+                  .form2 h4 {
+                    font-size:18px;
+                    }
+                    
+                    .form2 label{
+                      font-size:18px;
+                      margin-left:10%;
+                    }
+                  
+                  .form2 label, textarea,input{
+                    margin-left:15%;
+                  }
+                  
+                  #submit{
+                    margin-left:35%;
+                    font-size: 18px;
+                    margin-top:2%; padding: 5.6px 19.2px;
+                  }
+                                    
+                  #forms {
+                    float: left;
+                    margin-top: 65%;
+                    margin-left: 2%;
+                  }
+                  
+                  #logo {
+                    display:none;
+    
+                  }
+                
+                  }
+
+                  @media (max-width:350px){
+
+                    body {
+                      background-image: url('pictures/background.png');
+                      background-repeat: no-repeat;
+                      background-attachment: fixed; 
+                      width:100%; 
+                    }
+                    
+                    .title {
+                      margin-top: 60%;
+                      font-size: 20px;
+                    }
+                    
+                    .contactus {
+                      margin-top: 30px;
+                      margin-right: 30px;
+                      float: right;
+                      font-size:15px;
+                      padding: 10px;
+                    }
+                    
+                    #buttonForm1 {
+                      margin-top: 8%;
+                      font-weight: 25px;
+                      margin: 2px 4.8px 4.8px 0px;
+                      padding: 5px;
+                      font-size: 15px;
+                    }
+                    
+                    .form1 {
+                      font-size: 15pt;
+                      margin-top: 45%;
+                      padding: 5px;
+                      width: 85%;
+                      height: 450px;
+                    }
+                    
+                    .form1 h4 {
+                    font-size:18px;
+                    }
+                    
+                    .form1 label{
+                      font-size:18px;
+                      margin-left:10%;
+                    }
+                    
+                    .form1 label, textarea,input{
+                      margin-left:10%;
+                    }
+                    
+                    #submit{
+                      margin-left:35%;
+                      font-size: 15px;
+                      margin-top:2%;
+                      padding: 5.6px 19.2px;
+                    }
+                                        
+                    #buttonForm2 {
+                      margin-top: 8%;
+                      font-weight: 25px;
+                      margin: 4px 4.8px 4.8px 0px;
+                      padding: 5px;
+                      font-size: 15px;
+                    }
+                    
+                    .form2 {
+                      font-size: 15pt;
+                      margin-top: 45%;
+                      padding: 5px;
+                      width: 85%;
+                      height: 450px;
+                    }
+                    
+                    .form2 h4 {
+                      font-size:18px;
+                      }
+                      
+                      .form2 label{
+                        font-size:18px;
+                        margin-left:10%;
+                      }
+                    
+                    .form2 label, textarea,input{
+                      margin-left:15%;
+                    }
+                                        
+                    #forms {
+                      float: left;
+                      margin-top: 65%;
+                      margin-left: 2%;
+                    }
+                    
+                    #logo {
+                      display:none;
+      
+                    }
+                
+                  }
