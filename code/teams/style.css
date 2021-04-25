@@ -195,6 +195,7 @@ footer img{
     margin-right: 30px;
     float: right;
     padding: 10px;
+    margin-left: 2%;
   }
   
   .linkContactUs a {
@@ -245,12 +246,12 @@ footer img{
   }
 
   #picOne{
-    margin-left: 45%;
+    margin-left: 25%;
     width: 140%;
   }
 
   #picTwo{
-    margin-left: 45%;
+    margin-left: 25%;
     margin-top:3%;
     width: 140%;
   }
@@ -262,7 +263,7 @@ footer img{
   }
   }
 
-  @media (max-width:1252px){
+  @media (max-width:1260px){
 
     #download{
       margin-left:45%;
@@ -284,6 +285,7 @@ footer img{
       margin-right: 30px;
       float: right;
       padding: 10px;
+      margin-left: 5%;
     }
     
     .linkContactUs a {
