@@ -1,366 +1,328 @@
 body {
-  background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%); 
-  overflow-x: hidden;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
+    background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-h1 { 
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-}
 
-.contactus {
-  border: 3px solid white;
-  border-radius: 25px;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+/* Header */
+
+h1 {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .linkContactUs a:hover {
-  color: white;
-  transition: all 0.4s;
-  background-color: rgba(231, 214, 214, 0.486);
-  padding: 10px;
+    color: white;
+    transition: all 0.4s;
+    background-color: rgba(231, 214, 214, 0.486);
+    padding: 10px;
 }
+
 
 /*for the contact us form and page */
+
 .contactus {
-  text-decoration: none;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
+
+.contactus {
+    border: 3px solid white;
+    border-radius: 25px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
 
 /*the menu button */
+
 .menu {
-  display: inline-block;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    display: inline-block;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
+
+
+/* Links */
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
+
+/* Back button to the menu */
+
 .symbols {
-  font-size: 60px;
-  color: black;
-  font-weight: bold;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
 }
 
 h2 {
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 h3 {
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
+
+
+/* Text under pictures */
 
 figcaption {
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
-#creditSymbol{
-text-align:center;
+#creditSymbol {
+    text-align: center;
 }
 
 
 /*RESPONSIVE*/
-@media (max-width:2000px){
-h1 { 
-  font-size: 50px;
-}
 
-.contactus {
-  margin-top: 25px;
-  margin-right: 25px;
-  padding: 10px;
-}
-
-.linkContactUs a {
-  color: rgb(27, 27, 27);
-  padding: 10px;
-}
-
-
-.contactus {
-  margin-top: 30px;
-  margin-right: 30px;
-  float: right;
-}
-
-/*the menu button */
-.menu {
-  margin-left: 30px;
-  width: 100px;
-  height: 100px;
-  margin-top: 20px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-#all {
-  column-count: 2;
-  margin: 5%;
-  margin-left: 15%;
-}
-
-.carPics {
-  width: 60%;
-}
-
-footer{
-  background: linear-gradient(4deg, rgba(117,127,144,1) 0%, rgba(165,173,183,1) 35%, rgba(208,214,218,1) 89%);
-  position: absolute;
-  width: 90%; 
-  padding: 5%;
-  margin-top: 5%;
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-}
-
-#textFooter{
-  column-count: 3;
-}
-
-footer img{
-  width:10%;
-  float:left;
-}
-
-#facebook{
-  width:15%;
-  margin-left: 45%;
-}
-}
-
-
-@media (max-width:1600px){
-  h1 { 
-    font-size: 50px;
-  }
-  
-  .contactus {
-    margin-top: 25px;
-    margin-right: 25px;
-    padding: 10px;
-  }
-  
-  .linkContactUs a {
-    color: rgb(27, 27, 27);
-    padding: 10px;
-  }
-  
-  
-  .contactus {
-    margin-top: 30px;
-    margin-right: 30px;
-    float: right;
-  }
-  
-  /*the menu button */
-  .menu {
-    margin-left: 30px;
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  h3 {
-    font-size: 20px;
-  }
-  
-  #all {
-    column-count: 2;
-    margin: 5%;
-    margin-left: 15%;
-  }
-  
-  .carPics {
-    width: 60%;
-  }
-  
-  
-  footer{
-    position: absolute;
-    width: 90%; 
-    padding: 5%;
-    margin-top: 5%;
-  }
-  
-  #textFooter{
-    column-count: 3;
-  }
-  
-  footer img{
-    width:10%;
-    float:left;
-  }
-  
-  #facebook{
-    width:15%;
-    margin-left: 45%;
-    margin-top:10%;
-  }
-  #bottom2{
-    margin-bottom:5%;
-  }
-  
-  }
-
-  @media (max-width:1200px){
-  
-    #facebook{
-      width:25%;
-      margin-left: 40%;
-      margin-top:10%;
+@media (max-width:2000px) {
+    h1 {
+        font-size: 50px;
     }
-    
-    }
-
-    @media (max-width:860px){
-      h1 { 
-        font-size: 40px;
-      }
-
-      .carPics {
-        width: 90%;
-      }
-
-      .contactus {
+    .contactus {
         margin-top: 25px;
         margin-right: 25px;
         padding: 10px;
-      }
-      
-      .linkContactUs a {
+    }
+    .linkContactUs a {
         color: rgb(27, 27, 27);
         padding: 10px;
-      }
-      
-      
-      .contactus {
+    }
+    .contactus {
         margin-top: 30px;
         margin-right: 30px;
         float: right;
-      }
-      
-      /*the menu button */
-      .menu {
+    }
+    /*the menu button */
+    .menu {
         margin-left: 30px;
         width: 100px;
         height: 100px;
         margin-top: 20px;
-      }
-      
-      h3 {
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
         font-size: 20px;
-      }
-    
-      
-      footer{
+    }
+    #all {
+        column-count: 2;
+        margin: 5%;
+        margin-left: 15%;
+    }
+    .carPics {
+        width: 60%;
+    }
+    footer {
+        background: linear-gradient(4deg, rgba(117, 127, 144, 1) 0%, rgba(165, 173, 183, 1) 35%, rgba(208, 214, 218, 1) 89%);
         position: absolute;
-        width: 90%; 
+        width: 90%;
         padding: 5%;
         margin-top: 5%;
-      }
-      
-      #textFooter{
+        text-align: center;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
+    }
+    #textFooter {
         column-count: 3;
-      }
-      
-     #logo1{
-       display:none;
-      }
-      
-      #bottom3{
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+}
+
+@media (max-width:1600px) {
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 25px;
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+    }
+    /*the menu button */
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    #all {
+        column-count: 2;
+        margin: 5%;
+        margin-left: 15%;
+    }
+    .carPics {
+        width: 60%;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+    #bottom2 {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:1200px) {
+    #facebook {
+        width: 25%;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:860px) {
+    h1 {
+        font-size: 40px;
+    }
+    .carPics {
+        width: 90%;
+    }
+    .contactus {
+        margin-top: 25px;
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+    }
+    /*the menu button */
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    #logo1 {
+        display: none;
+    }
+    #bottom3 {
         margin-top: 55%;
-      }
-
-      #facebook{
-        width:35%;
+    }
+    #facebook {
+        width: 35%;
         margin-left: 32%;
-      }
-      
+    }
+    figcaption {
+        font-size: 15px;
+    }
+}
 
-      figcaption{
-        font-size:15px;
-      }
-      }
-
-      @media (max-width:700px){
-        h1 { 
-          font-size: 40px;
-        }
-  
-        .carPics {
-          width: 90%;
-        }
-  
-       #all{
-        column-count:1;
-       }
-
-       #textFooter{
+@media (max-width:700px) {
+    h1 {
+        font-size: 40px;
+    }
+    .carPics {
+        width: 90%;
+    }
+    #all {
+        column-count: 1;
+    }
+    #textFooter {
         font-size: 15px;
         display: inline-block;
-        column-count:1;
-      }
-
-      #bottom2{
+        column-count: 1;
+    }
+    #bottom2 {
         margin-top: 0%;
-      }
-
-      #facebook{
-        width:15%;
+    }
+    #facebook {
+        width: 15%;
         margin-left: 42%;
         margin-top: 0%;
-      }
-
-      #bottom3{
+    }
+    #bottom3 {
         margin-top: 0%;
-      }
-        figcaption{
-          font-size:15px;
-        }
+    }
+    figcaption {
+        font-size: 15px;
+    }
 }
 
-@media (max-width:380px){
-  .contactus {
-    margin-top: 30px;
-    margin-right: 15px;
-    font-size: 15px;
-    float: right;
-  }
-  
-  .linkContactUs a {
-    color: rgb(27, 27, 27);
-    padding: 5px;
-  }
+@media (max-width:380px) {
+    .contactus {
+        margin-top: 30px;
+        margin-right: 15px;
+        font-size: 15px;
+        float: right;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 5px;
+    }
 }
-
- 

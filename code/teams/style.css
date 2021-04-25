@@ -1,1381 +1,1142 @@
 body {
-  background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%);
-  overflow-x: hidden;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-#download{
-  display:inline-block; 
- font-family: 'Bitter', serif; 
- font-family: 'Mukta', sans-serif; 
- font-family: 'PT Serif', serif; 
+
+/* download buttons style */
+
+#download {
+    display: inline-block;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 #download button {
-text-align: center;
-color: black;
-border-radius: 1.92px;
-border: 1px solid white;
-text-decoration: none;
-transition: all 0.2s;
-font-family: 'Bitter', serif;
-font-family: 'Mukta', sans-serif;
-font-family: 'PT Serif', serif;
+    text-align: center;
+    color: black;
+    border-radius: 1.92px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 #download button:hover {
-color: darkgrey;
-background-color: white;
+    color: darkgrey;
+    background-color: white;
 }
 
+
+/* header */
+
 h1 {
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
+
 
 /*for the contact us form and page */
 
 .contactus {
-  border: 3px solid white;
-  border-radius: 25px;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .linkContactUs a:hover {
-  color: white;
-  transition: all 0.4s;
-  background-color: rgba(231, 214, 214, 0.486);
-  padding: 10px;
+    color: white;
+    transition: all 0.4s;
+    background-color: rgba(231, 214, 214, 0.486);
+    padding: 10px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
+
+/* back button to menu */
 
 .symbols {
-  font-size: 60px;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-  color: black;
-  font-weight: bold;
-}
-
-footer{
-  background: linear-gradient(4deg, rgba(117,127,144,1) 0%, rgba(165,173,183,1) 35%, rgba(208,214,218,1) 89%);
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'PT Serif', serif;
-}
-
-#creditSymbol{
-  text-align:center;
-  }
-
-  #picOne:hover{
-    margin-top:3%;
-    width:90%;
-  }  
-
-  #picTwo:hover{
-    margin-top:3%;
-    width:90%;
-  }
-  
-  #picThree:hover{
-    margin-top:3%;
-    width:90%;
-  }
-
-  #picFour:hover{
-    margin-top:3%;
-    width:90%;
-  }
-
-@media (max-width:2000px){
-
-#download{
-  margin-left:65%;
-  font-size:15px;
-}
-
-#download button {
-margin-left:9%;
-padding: 5px;
-font-size: 15px;
-}
-
-h1 {
-  font-size: 50px; 
-}
-
-.contactus {
-  margin-top: 30px;
-  margin-right: 30px;
-  float: right;
-  padding: 10px;
-}
-
-.linkContactUs a {
-  color: rgb(27, 27, 27);
-  padding: 10px;
-}
-
-.menu {
-  margin-left: 30px;
-  width: 100px;
-  height: 100px;
-  margin-top: 20px;
-  display: inline-block;
-}
-
-footer{
-  position: absolute;
-  width: 90%; 
-  padding: 5%;
-  margin-top: 5%;
-}
-
-#textFooter{
-  column-count: 3;
-}
-
-footer img{
-  width:10%;
-  float:left;
-}
-
-#facebook{
-  width:15%;
-  margin-left: 45%;
+    font-size: 60px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    color: black;
+    font-weight: bold;
 }
 
 
-#teamPics{
-  column-count:2;
-  margin-left:15%;
-  width:70%;
+/* footer style */
 
+footer {
+    background: linear-gradient(4deg, rgba(117, 127, 144, 1) 0%, rgba(165, 173, 183, 1) 35%, rgba(208, 214, 218, 1) 89%);
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
-#picTwo{
-  margin-top:3%;
+#creditSymbol {
+    text-align: center;
 }
 
-#picFour{
-  margin-top:3%;
+
+/* images style */
+
+#picOne:hover {
+    margin-top: 3%;
+    width: 90%;
 }
+
+#picTwo:hover {
+    margin-top: 3%;
+    width: 90%;
 }
 
-@media (max-width:1600px){
+#picThree:hover {
+    margin-top: 3%;
+    width: 90%;
+}
 
-  #download{
-    margin-left:55%;
-    font-size:15px;
-  }
-  
-  #download button {
-  margin-left:7%;
-  padding: 5px;
-  font-size: 15px;
-  }
-  
-  h1 {
-    font-size: 50px; 
-  }
-  
-  .contactus {
-    margin-top: 30px;
-    margin-right: 30px;
-    float: right;
-    padding: 10px;
-    margin-left: 2%;
-  }
-  
-  .linkContactUs a {
-    color: rgb(27, 27, 27);
-    padding: 10px;
-  }
-  
-  .menu {
-    margin-left: 30px;
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-    display: inline-block;
-  }
-  
-  footer{
-    position: absolute;
-    width: 90%; 
-    padding: 5%;
-    margin-top: 5%;
-  }
-  
-  #textFooter{
-    column-count: 3;
-  }
-  
-  footer img{
-    width:10%;
-    float:left;
-  }
-  
-  #facebook{
-    width:15%;
-    margin-left: 45%;
-  }
-  
-  
-  #teamPics{
-    column-count:2;
-    margin-left:15%;
-    width:40%;
-  
-  }
+#picFour:hover {
+    margin-top: 3%;
+    width: 90%;
+}
 
-  #picThree{
-    margin-left: 85%;
-    width: 140%;
-  }
-
-  #picOne{
-    margin-left: 25%;
-    width: 140%;
-  }
-
-  #picTwo{
-    margin-left: 25%;
-    margin-top:3%;
-    width: 140%;
-  }
-  
-  #picFour{
-    margin-left: 85%;
-    margin-top:3%;
-    width: 140%;
-  }
-  }
-
-  @media (max-width:1260px){
-
-    #download{
-      margin-left:45%;
-      font-size:15px;
+@media (max-width:2000px) {
+    #download {
+        margin-left: 65%;
+        font-size: 15px;
     }
-    
     #download button {
-    margin-left:7%;
-    padding: 5px;
-    font-size: 15px;
+        margin-left: 9%;
+        padding: 5px;
+        font-size: 15px;
     }
-    
     h1 {
-      font-size: 50px; 
+        font-size: 50px;
     }
-    
     .contactus {
-      margin-top: 30px;
-      margin-right: 30px;
-      float: right;
-      padding: 10px;
-      margin-left: 5%;
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
     }
-    
     .linkContactUs a {
-      color: rgb(27, 27, 27);
-      padding: 10px;
+        color: rgb(27, 27, 27);
+        padding: 10px;
     }
-    
     .menu {
-      margin-left: 30px;
-      width: 100px;
-      height: 100px;
-      margin-top: 20px;
-      display: inline-block;
-    }
-    
-    footer{
-      position: absolute;
-      width: 90%; 
-      padding: 5%;
-      margin-top: 5%;
-    }
-
-    #bottom1{
-      padding: 6%;
-    }
-
-    #bottom2{
-      padding: 6%;
-    }
-
-    #textFooter{
-      column-count: 3;
-    }
-    
-    footer img{
-      width:10%;
-      float:left;
-    }
-    
-    #facebook{
-      width:15%;
-      margin-left: 45%;
-      
-    }
-    
-    
-    #teamPics{
-      column-count:2;
-      margin-left:15%;
-      width:40%;
-    
-    }
-  
-    #picThree{
-      margin-left: 85%;
-      width: 140%;
-    }
-  
-    #picOne{
-      margin-left: 45%;
-      width: 140%;
-    }
-  
-    #picTwo{
-      margin-left: 45%;
-      margin-top:3%;
-      width: 140%;
-    }
-    
-    #picFour{
-      margin-left: 85%;
-      margin-top:3%;
-      width: 140%;
-    }
-    }
-
-
-    @media (max-width:1050px){
-
-      #download{
-        margin-left:45%;
-        font-size:15px;
-      }
-      
-      #download button {
-      margin-left:7%;
-      padding: 5px;
-      font-size: 15px;
-      }
-      
-      h1 {
-        font-size: 50px; 
-      }
-      
-      .contactus {
-        margin-top: 30px;
-        margin-right: 30px;
-        float: right;
-        padding: 10px;
-      }
-      
-      .linkContactUs a {
-        color: rgb(27, 27, 27);
-        padding: 10px;
-      }
-      
-      .menu {
         margin-left: 30px;
         width: 100px;
         height: 100px;
         margin-top: 20px;
         display: inline-block;
-      }
-      
-      footer{
+    }
+    footer {
         position: absolute;
-        width: 90%; 
+        width: 90%;
         padding: 5%;
         margin-top: 5%;
-      }
-
-      #textFooter{
-        column-count:3;
-        font-size:14px;
-      }
-      
-      footer img{
-        width:35%;
-        float:left;
-      }
-      
-      #facebook{
-        width:35%;
-        margin-left: 45%;
-        
-      }
-      
-      
-      #teamPics{
-        column-count:2;
-        margin-left:15%;
-        width:40%;
-      
-      }
-    
-      #picThree{
-        margin-left: 85%;
-        width: 140%;
-      }
-    
-      #picOne{
-        margin-left: 45%;
-        width: 140%;
-      }
-    
-      #picTwo{
-        margin-left: 45%;
-        margin-top:3%;
-        width: 140%;
-      }
-      
-      #picFour{
-        margin-left: 85%;
-        margin-top:3%;
-        width: 140%;
-      }
-      }
-
-    @media (max-width:1110px){
-
-      #download{
-        margin-left:35%;
-        font-size:15px;
-      }
-      
-      #download button {
-      margin-left:7%;
-      padding: 5px;
-      font-size: 15px;
-      }
-      
-      h1 {
-        font-size: 50px; 
-      }
-      
-      .contactus {
-        margin-top: 30px;
-        margin-right: 30px;
-        float: right;
-        padding: 10px;
-      }
-      
-      .linkContactUs a {
-        color: rgb(27, 27, 27);
-        padding: 10px;
-      }
-      
-      .menu {
-        margin-left: 30px;
-        width: 100px;
-        height: 100px;
-        margin-top: 20px;
-        display: inline-block;
-      }
-      
-      footer{
-        position: absolute;
-        width: 90%; 
-        padding: 5%;
-        margin-top: 5%;
-      }
-      
-      #textFooter{
+    }
+    #textFooter {
         column-count: 3;
-      }
-      
-      footer img{
-        width:10%;
-        float:left;
-      }
-      
-      #facebook{
-        width:15%;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
         margin-left: 45%;
-      }
-      
-      
-      #teamPics{
-        column-count:2;
-        margin-left:15%;
-        width:40%;
-      
-      }
-    
-      #picThree{
-        margin-left: 85%;
-        width: 140%;
-      }
-    
-      #picOne{
-        margin-left: 45%;
-        width: 140%;
-      }
-    
-      #picTwo{
-        margin-left: 45%;
-        margin-top:3%;
-        width: 140%;
-      }
-      
-      #picFour{
-        margin-left: 85%;
-        margin-top:3%;
-        width: 140%;
-      }
-      }
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 70%;
+    }
+    #picTwo {
+        margin-top: 3%;
+    }
+    #picFour {
+        margin-top: 3%;
+    }
+}
 
-
-      @media (max-width:1110px){
-
-        #download{
-          margin-left:35%;
-          font-size:15px;
-        }
-        
-        #download button {
-        margin-left:7%;
+@media (max-width:1600px) {
+    #download {
+        margin-left: 55%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 7%;
         padding: 5px;
         font-size: 15px;
-        }
-        
-        h1 {
-          font-size: 50px; 
-        }
-        
-        .contactus {
-          margin-top: 30px;
-          margin-right: 30px;
-          float: right;
-          padding: 10px;
-        }
-        
-        .linkContactUs a {
-          color: rgb(27, 27, 27);
-          padding: 10px;
-        }
-        
-        .menu {
-          margin-left: 30px;
-          width: 100px;
-          height: 100px;
-          margin-top: 20px;
-          display: inline-block;
-        }
-        
-        footer{
-          position: absolute;
-          width: 90%; 
-          padding: 5%;
-          margin-top: 5%;
-        }
-        
-        #textFooter{
-          column-count: 3;
-          font-size: 12px;
-        }
-        
-        footer img{
-          width:10%;
-          float:left;
-        }
-        
-        #facebook{
-          width:15%;
-          margin-left: 45%;
-        }
-        
-        
-        #teamPics{
-          column-count:2;
-          margin-left:15%;
-          width:40%;
-        
-        }
-      
-        #picThree{
-          margin-left: 85%;
-          width: 140%;
-        }
-      
-        #picOne{
-          margin-left: 45%;
-          width: 140%;
-        }
-      
-        #picTwo{
-          margin-left: 45%;
-          margin-top:3%;
-          width: 140%;
-        }
-        
-        #picFour{
-          margin-left: 85%;
-          margin-top:3%;
-          width: 140%;
-        }
-        }
-  
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+        margin-left: 2%;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 25%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 25%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-      @media (max-width:810px){
-
-        #download{
-          margin-left:25%;
-          font-size:15px;
-        }
-        
-        #download button {
-        margin-left:8%;
+@media (max-width:1260px) {
+    #download {
+        margin-left: 45%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 7%;
         padding: 5px;
         font-size: 15px;
-        }
-        
-        h1 {
-          font-size: 50px; 
-        }
-        
-        .contactus {
-          margin-top: 30px;
-          margin-right: 30px;
-          float: right;
-          padding: 6px;
-        }
-        
-        .linkContactUs a {
-          color: rgb(27, 27, 27);
-          padding: 10px;
-        }
-        
-        .menu {
-          margin-left: 30px;
-          width: 100px;
-          height: 100px;
-          margin-top: 25px;
-          display: inline-block;
-        }
-        
-        footer{
-          position: absolute;
-          width: 90%; 
-          padding: 5%;
-          margin-top: 5%;
-        }
-        
-        #textFooter{
-          column-count: 3;
-        }
-        
-        footer img{
-          width:10%;
-          float:left;
-        }
-        
-        #facebook{
-          width:15%;
-          margin-left: 45%;
-        }
-        
-        
-        #teamPics{
-          column-count:2;
-          margin-left:15%;
-          width:40%;
-        
-        }
-      
-        #picThree{
-          margin-left: 85%;
-          width: 140%;
-        }
-      
-        #picOne{
-          margin-left: 45%;
-          width: 140%;
-        }
-      
-        #picTwo{
-          margin-left: 45%;
-          margin-top:3%;
-          width: 140%;
-        }
-        
-        #picFour{
-          margin-left: 85%;
-          margin-top:3%;
-          width: 140%;
-        }
-        }
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+        margin-left: 5%;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #bottom1 {
+        padding: 6%;
+    }
+    #bottom2 {
+        padding: 6%;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 45%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 45%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-        @media (max-width:940px){
+@media (max-width:1050px) {
+    #download {
+        margin-left: 45%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 7%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+        font-size: 14px;
+    }
+    footer img {
+        width: 35%;
+        float: left;
+    }
+    #facebook {
+        width: 35%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 45%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 45%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-          #download{
-            margin-left:25%;
-            font-size:15px;
-          }
-          
-          #download button {
-          margin-left:8%;
-          padding: 5px;
-          font-size: 15px;
-          }
-          
-          h1 {
-            font-size: 50px; 
-          }
-          
-          .contactus {
-            margin-top: 30px;
-            margin-right: 30px;
-            float: right;
-            padding: 15px;
-            font-size: 15px;
-          }
-          
-          .linkContactUs a {
-            color: rgb(27, 27, 27);
-            padding: 10px;
-          }
-          
-          .menu {
-            margin-left: 30px;
-            width: 100px;
-            height: 100px;
-            margin-top: 20px;
-            display: inline-block;
-          }
-          
-          footer{
-            position: absolute;
-            width: 90%; 
-            padding: 5%;
-            margin-top: 5%;
-          }
-          
-          #textFooter{
-            column-count: 2;
+@media (max-width:1110px) {
+    #download {
+        margin-left: 35%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 7%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 45%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 45%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-          }
-          
-          footer img{
-            width:10%;
-            float:left;
-          }
-          
-          #bottom1{
-            margin-bottom: 10%;
-          }
+@media (max-width:1110px) {
+    #download {
+        margin-left: 35%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 7%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+        font-size: 12px;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 45%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 45%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-          #facebook{
-            width:15%;
-            margin-left: 45%;
-          }
-          
-          
-          #teamPics{
-            column-count:2;
-            margin-left:15%;
-            width:40%;
-          
-          }
-        
-          #picThree{
-            margin-left: 85%;
-            width: 140%;
-          }
-        
-          #picOne{
-            margin-left: 45%;
-            width: 140%;
-          }
-        
-          #picTwo{
-            margin-left: 45%;
-            margin-top:3%;
-            width: 140%;
-          }
-          
-          #picFour{
-            margin-left: 85%;
-            margin-top:3%;
-            width: 140%;
-          }
-          }
+@media (max-width:810px) {
+    #download {
+        margin-left: 25%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 6px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 45%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 45%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-          @media (max-width:750px){
+@media (max-width:940px) {
+    #download {
+        margin-left: 25%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 2;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #bottom1 {
+        margin-bottom: 10%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 85%;
+        width: 140%;
+    }
+    #picOne {
+        margin-left: 45%;
+        width: 140%;
+    }
+    #picTwo {
+        margin-left: 45%;
+        margin-top: 3%;
+        width: 140%;
+    }
+    #picFour {
+        margin-left: 85%;
+        margin-top: 3%;
+        width: 140%;
+    }
+}
 
-            #download{
-              margin-left:15%;
-              font-size:15px;
-            }
-            
-            #download button {
-            margin-left:8%;
-            padding: 5px;
-            font-size: 15px;
-            }
-            
-            h1 {
-              font-size: 50px; 
-            }
-            
-            .contactus {
-              margin-top: 30px;
-              margin-right: 30px;
-              float: right;
-              padding: 15px;
-              font-size: 15px;
-            }
-            
-            .linkContactUs a {
-              color: rgb(27, 27, 27);
-              padding: 10px;
-            }
-            
-            .menu {
-              margin-left: 30px;
-              width: 100px;
-              height: 100px;
-              margin-top: 20px;
-              display: inline-block;
-            }
-            
-            footer{
-              position: absolute;
-              width: 90%; 
-              padding: 5%;
-              margin-top: 5%;
-            }
-            
-            #textFooter{
-              column-count: 2;
-  
-            }
-            
-            footer img{
-              width:10%;
-              float:left;
-            }
-            
-            #bottom1{
-              margin-bottom: 10%;
-            }
-  
-            #facebook{
-              width:15%;
-              margin-left: 45%;
-            }
-            
-            
-            #teamPics{
-              column-count:2;
-              margin-left:15%;
-              width:40%;
-            
-            }
-          
-            #picThree{
-              margin-left: 90%;
-              width: 180%;
-            }
-          
-            #picOne{
-              margin-left: 10%;
-              width: 180%;
-            }
-          
-            #picTwo{
-              margin-left: 10%;
-              margin-top:3%;
-              width: 180%;
-            }
-            
-            #picFour{
-              margin-left: 90%;
-              margin-top:3%;
-              width: 180%;
-            }
-            }
+@media (max-width:750px) {
+    #download {
+        margin-left: 15%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 2;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #bottom1 {
+        margin-bottom: 10%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 90%;
+        width: 180%;
+    }
+    #picOne {
+        margin-left: 10%;
+        width: 180%;
+    }
+    #picTwo {
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 180%;
+    }
+    #picFour {
+        margin-left: 90%;
+        margin-top: 3%;
+        width: 180%;
+    }
+}
 
-            @media (max-width:670px){
+@media (max-width:670px) {
+    #download {
+        margin-left: 10%;
+        font-size: 15px;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        display: inline-block;
+        font-size: 15px;
+    }
+    footer img {
+        width: 20%;
+        display: inline-block;
+    }
+    #bottom1 {
+        margin-bottom: 10%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 90%;
+        width: 180%;
+    }
+    #picOne {
+        margin-left: 10%;
+        width: 180%;
+    }
+    #picTwo {
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 180%;
+    }
+    #picFour {
+        margin-left: 90%;
+        margin-top: 3%;
+        width: 180%;
+    }
+}
 
-              #download{
-                margin-left:10%;
-                font-size:15px;
-              }
-              
-              #download button {
-              margin-left:8%;
-              padding: 5px;
-              font-size: 15px;
-              }
-              
-              h1 {
-                font-size: 50px; 
-              }
-              
-              .contactus {
-                margin-top: 30px;
-                margin-right: 30px;
-                float: right;
-                padding: 15px;
-                font-size: 15px;
-              }
-              
-              .linkContactUs a {
-                color: rgb(27, 27, 27);
-                padding: 10px;
-              }
-              
-              .menu {
-                margin-left: 30px;
-                width: 100px;
-                height: 100px;
-                margin-top: 20px;
-                display: inline-block;
-              }
-              
-              footer{
-                position: absolute;
-                width: 90%; 
-                padding: 5%;
-                margin-top: 5%;
-              }
-              
-              #textFooter{
-                display: inline-block;
-                font-size: 15px;
-    
-              }
-              
-              footer img{
-                width:20%;
-                display: inline-block;
-              }
-              
-              #bottom1{
-                margin-bottom: 10%;
-              }
-    
-              #facebook{
-                width:15%;
-                margin-left: 45%;
-              }
-              
-              
-              #teamPics{
-                column-count:2;
-                margin-left:15%;
-                width:40%;
-              
-              }
-            
-              #picThree{
-                margin-left: 90%;
-                width: 180%;
-              }
-            
-              #picOne{
-                margin-left: 10%;
-                width: 180%;
-              }
-            
-              #picTwo{
-                margin-left: 10%;
-                margin-top:3%;
-                width: 180%;
-              }
-              
-              #picFour{
-                margin-left: 90%;
-                margin-top:3%;
-                width: 180%;
-              }
-              }
+@media (max-width:670px) {
+    #download {
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        display: inline-block;
+        font-size: 15px;
+    }
+    footer img {
+        width: 20%;
+        display: inline-block;
+    }
+    #bottom1 {
+        margin-bottom: 10%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 90%;
+        width: 180%;
+    }
+    #picOne {
+        margin-left: 10%;
+        width: 180%;
+    }
+    #picTwo {
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 180%;
+    }
+    #picFour {
+        margin-left: 90%;
+        margin-top: 3%;
+        width: 180%;
+    }
+}
 
-              @media (max-width:670px){
+@media (max-width:590px) {
+    #download {
+        margin-right: 10%;
+        font-size: 12px;
+        float: right;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-left: 18.7%;
+        margin-top: 10%;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+        font-size: 15px;
+        float: right;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        font-size: 15px;
+        display: inline-block;
+    }
+    #logo1 {
+        display: none;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 2;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 90%;
+        width: 180%;
+    }
+    #picOne {
+        margin-left: 10%;
+        width: 180%;
+    }
+    #picTwo {
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 180%;
+    }
+    #picFour {
+        margin-left: 90%;
+        margin-top: 3%;
+        width: 180%;
+    }
+}
 
-                #download{
-                  margin-left:10%;
-                  font-size:12px;
-                }
-                
-                #download button {
-                margin-left:8%;
-                padding: 5px;
-                font-size: 12px;
-                }
-                
-                h1 {
-                  font-size: 50px; 
-                }
-                
-                .contactus {
-                  margin-top: 30px;
-                  margin-right: 30px;
-                  float: right;
-                  padding: 10px;
-                  font-size: 15px;
-                }
-                
-                .linkContactUs a {
-                  color: rgb(27, 27, 27);
-                  padding: 10px;
-                }
-                
-                .menu {
-                  margin-left: 30px;
-                  width: 100px;
-                  height: 100px;
-                  margin-top: 20px;
-                  display: inline-block;
-                }
-                
-                footer{
-                  position: absolute;
-                  width: 90%; 
-                  padding: 5%;
-                  margin-top: 5%;
-                }
-                
-                #textFooter{
-                  display: inline-block;
-                  font-size: 15px;
-      
-                }
-                
-                footer img{
-                  width:20%;
-                  display: inline-block;
-                }
-                
-                #bottom1{
-                  margin-bottom: 10%;
-                }
-      
-                #facebook{
-                  width:15%;
-                  margin-left: 45%;
-                }
-                
-                
-                #teamPics{
-                  column-count:2;
-                  margin-left:15%;
-                  width:40%;
-                
-                }
-              
-                #picThree{
-                  margin-left: 90%;
-                  width: 180%;
-                }
-              
-                #picOne{
-                  margin-left: 10%;
-                  width: 180%;
-                }
-              
-                #picTwo{
-                  margin-left: 10%;
-                  margin-top:3%;
-                  width: 180%;
-                }
-                
-                #picFour{
-                  margin-left: 90%;
-                  margin-top:3%;
-                  width: 180%;
-                }
-                }
+@media (max-width:450px) {
+    #download {
+        margin-right: 5%;
+        font-size: 12px;
+        float: right;
+    }
+    #download button {
+        margin-left: 8%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-right: 18%;
+        margin-top: 10%;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        font-size: 15px;
+        float: right;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 10px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        font-size: 15px;
+        display: inline-block;
+        column-count: 1;
+    }
+    #logo1 {
+        display: none;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 1;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #picOne {
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #picTwo {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 180%;
+    }
+    #picFour {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 180%;
+    }
+}
 
-                @media (max-width:590px){
-
-                  #download{
-                    margin-right:10%;
-                    font-size:12px;
-                    float: right;
-                   
-                  }
-                  
-                  #download button {
-                  margin-left:8%;
-                  padding: 5px;
-                  font-size: 12px;
-                  }
-                  
-                  h1 {
-                    font-size: 30px; 
-                   margin-left: 18.7%;
-                    margin-top: 10%;
-                  }
-                  
-                  .contactus {
-                    margin-top: 30px;
-                    margin-right: 30px;
-                    padding: 10px;
-                    font-size: 15px;
-                    float: right;
-                  }
-                  
-                  .linkContactUs a {
-                    color: rgb(27, 27, 27);
-                    padding: 10px;
-                  }
-                  
-                  .menu {
-                    margin-left: 30px;
-                    width: 100px;
-                    height: 100px;
-                    margin-top: 20px;
-                    display: inline-block;
-                  }
-                  
-                  footer{
-                    position: absolute;
-                    width: 90%; 
-                    padding: 5%;
-                    margin-top: 5%;
-                  }
-                  
-                  #textFooter{
-                    font-size: 15px;
-                    display: inline-block;
-                  }
-
-                  #logo1{
-                    display: none;
-                  }
-              
-                  #facebook{
-                    width:15%;
-                    margin-left: 45%;
-                  }
-                  
-                  
-                  #teamPics{
-                    column-count:2;
-                    margin-left:15%;
-                    width:40%;
-                  
-                  }
-                
-                  #picThree{
-                    margin-left: 90%;
-                    width: 180%;
-                  }
-                
-                  #picOne{
-                    margin-left: 10%;
-                    width: 180%;
-                  }
-                
-                  #picTwo{
-                    margin-left: 10%;
-                    margin-top:3%;
-                    width: 180%;
-                  }
-                  
-                  #picFour{
-                    margin-left: 90%;
-                    margin-top:3%;
-                    width: 180%;
-                  }
-                  }
-
-                  @media (max-width:450px){
-
-                    #download{
-                      margin-right:5%;
-                      font-size:12px;
-                      float: right;
-                     
-                    }
-                    
-                    #download button {
-                    margin-left:8%;
-                    padding: 5px;
-                    font-size: 12px;
-                    }
-                    
-                    h1 {
-                      font-size: 30px; 
-                     margin-right: 18%;
-                      margin-top: 10%;
-                      
-                    }
-                    
-                    .contactus {
-                      margin-top: 30px;
-                      margin-right: 30px;
-                      font-size: 15px;
-                      float: right;
-                    }
-                    
-                    .linkContactUs a {
-                      color: rgb(27, 27, 27);
-                      padding: 10px;
-                    }
-                    
-                    .menu {
-                      margin-left: 30px;
-                      width: 100px;
-                      height: 100px;
-                      margin-top: 20px;
-                      display: inline-block;
-                    }
-                    
-                    footer{
-                      position: absolute;
-                      width: 90%; 
-                      padding: 5%;
-                      margin-top: 5%;
-                    }
-                    
-                    #textFooter{
-                      font-size: 15px;
-                      display: inline-block;
-                      column-count:1;
-                    }
-  
-                    #logo1{
-                      display: none;
-                    }
-                
-                    #facebook{
-                      width:15%;
-                      margin-left: 45%;
-                    }
-                    
-                    
-                    #teamPics{
-                      column-count:1;
-                      width:40%;
-                    
-                    }
-                  
-                    #picThree{
-                      margin-left: 5%;
-                      margin-top:3%;
-                    }
-                  
-                    #picOne{
-                      margin-left: 5%;
-                      margin-top:3%;
-                    }
-                  
-                    #picTwo{
-                      margin-left: 5%;
-                      margin-top:3%;
-                      width: 180%;
-                    }
-                    
-                    #picFour{
-                      margin-left: 5%;
-                      margin-top:3%;
-                      width: 180%;
-                    }
-                    }
-
-                    @media (max-width:330px){
-
-                      #download{
-                        display: none;
-                       
-                      }
-                      
-                      h1 {
-                        font-size: 30px; 
-                       margin-right: 18%;
-                        margin-top: 10%;
-                        
-                      }
-                      
-                      .contactus {
-                        margin-top: 30px;
-                        margin-right: 25px;
-                        font-size: 15px;
-                        float: right;
-                      }
-                      
-                      .linkContactUs a {
-                        color: rgb(27, 27, 27);
-                        padding: 5px;
-                      }
-                      
-                      .menu {
-                        margin-left: 30px;
-                        width: 100px;
-                        height: 100px;
-                        margin-top: 20px;
-                        display: inline-block;
-                      }
-                      
-                      footer{
-                        position: absolute;
-                        width: 90%; 
-                        padding: 5%;
-                        margin-top: 5%;
-                      }
-                      
-                      #textFooter{
-                        font-size: 15px;
-                        display: inline-block;
-                        column-count:1;
-                      }
-    
-                      #logo1{
-                        display: none;
-                      }
-                  
-                      #facebook{
-                        width:15%;
-                        margin-left: 45%;
-                      }
-                      
-                      
-                      #teamPics{
-                        column-count:1;
-                        width:40%;
-                      
-                      }
-                    
-                      #picThree{
-                        margin-left: 5%;
-                        margin-top:3%;
-                      }
-                    
-                      #picOne{
-                        margin-left: 5%;
-                        margin-top:3%;
-                      }
-                    
-                      #picTwo{
-                        margin-left: 5%;
-                        margin-top:3%;
-                        width: 180%;
-                      }
-                      
-                      #picFour{
-                        margin-left: 5%;
-                        margin-top:3%;
-                        width: 180%;
-                      }
-                      }
+@media (max-width:330px) {
+    #download {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+        margin-right: 18%;
+        margin-top: 10%;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 25px;
+        font-size: 15px;
+        float: right;
+    }
+    .linkContactUs a {
+        color: rgb(27, 27, 27);
+        padding: 5px;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        font-size: 15px;
+        display: inline-block;
+        column-count: 1;
+    }
+    #logo1 {
+        display: none;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #teamPics {
+        column-count: 1;
+        width: 40%;
+    }
+    #picThree {
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #picOne {
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #picTwo {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 180%;
+    }
+    #picFour {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 180%;
+    }
+}

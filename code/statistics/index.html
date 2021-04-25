@@ -2,106 +2,109 @@
 
 <head>
 
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-  <title>Пожароопасност</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="stylesheet" href="style.css">
+    <title>Пожароопасност</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="shortcut icon" href="../../logo/logoIcon.png">
+    <link rel="stylesheet" href="style.css">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../logo/logoIcon.png">
+
+    <!-- Font style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
 </head>
 
-<body>  
+<body>
 
-  <div class="linkContactUs">
-    <h3><a class="contactus" href="../contactUs/index.html">Свържете се с нас</a></h3>
-  </div>
+    <div class="linkContactUs">
+        <h3><a class="contactus" href="../contactUs/index.html">Свържете се с нас</a></h3>
+    </div>
 
-  <!-- menu button -->
-  
-  <a class="menu" href=../index.html><span class="symbols">&times;</span></a>
+    <!-- menu button -->
 
-  <h1>Пожароопасност</h1>
+    <a class="menu" href=../index.html><span class="symbols">&times;</span></a>
+
+    <h1>Пожароопасност</h1>
+
+    <!-- Showing piecharts in the html -->
 
     <div class="piecharts">
-    <div id="piechart1"></div>
-    <div id="piechart2"></div>
-    <div id="piechart3"></div>
-  </div>
+        <div id="piechart1"></div>
+        <div id="piechart2"></div>
+        <div id="piechart3"></div>
+    </div>
 
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- Link js -->
 
-  <script src="statistics.js"></script>
-  
-  <!--TABLE-->
-  
-  <table>
-    <tr>
-      <th>Степен на риск</th>
-      <th>Описание</th>
-    </tr>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-    <tr>
-      <td id="firstRow">Малък</td>
-      <td>Съществуващи пожари се самозагасяват и е малко вероятно да възникват нови.<br>
-        Жизнени пожари са възможни само като тлеене в дълбоки сухи слоеве.<br></td>
-    </tr>
+    <script src="statistics.js"></script>
 
-    <tr>
-      <td id="SecondRow">Умерен</td>
-      <td>Възможни са леки и бавно развиващи се пожари.<br>
-        Съществуващи пожари се гасят лесно от наземни екипи с помпи и ръчни инструменти.<br></td>
-    </tr>
+    <!--TABLE-->
 
-    <tr>
-      <td id="ThirdRow">Голям</td>
-      <td>Възможни са умерени до силни пожари с въвличане на дървесни корони само локално.<br>
-        Пожарите са трудни за овладяване от наземни екипи. <br>
-        Често се налага използване на тежка екипировка за овладяване на пожарите <br>
-        (булдозери, камиони-цистерни, самолети).<br></td>
+    <table>
+        <tr>
+            <th>Степен на риск</th>
+            <th>Описание</th>
+        </tr>
 
-    </tr>
+        <tr>
+            <td id="firstRow">Малък</td>
+            <td>Съществуващи пожари се самозагасяват и е малко вероятно да възникват нови.<br> Жизнени пожари са възможни само като тлеене в дълбоки сухи слоеве.<br></td>
+        </tr>
 
-    <tr>
-      <td id="FourthRow">Екстремален</td>
-      <td>Възможни са бързо разпространяващи се много силни пожари с въвличане на дървесните корони. <br>
-        Пожарите са трудни за овладяване. Действията по погасяване се ограничени само по фланговете на пожара.<br>
-        Възможни са само индиректни действия, насочени срещу предните фронтове на пожарите.<br></td>
-    </tr>
-  </table>
+        <tr>
+            <td id="SecondRow">Умерен</td>
+            <td>Възможни са леки и бавно развиващи се пожари.<br> Съществуващи пожари се гасят лесно от наземни екипи с помпи и ръчни инструменти.<br></td>
+        </tr>
 
-  <footer>  
-    <!-- link to "about us" page -->
-   <a href="../aboutUs/index.html" target="_blank"><img id="logo1" src="../../logo/logo.svg"></a>
-    <div id="textFooter">
-      <br>
-      <p>Адрес:</p>
-      <ul>
-        <li id="bottom1"> гр. Бургас ул."Александър Велики" 37В </li> <br> 
-      </ul> <br> 
-      <p>Телефони:</p>
-      <ul>
-        <li>Директор /секретарка/ (+359) 2 960 10 204</li>
-        <li id="bottom2"> Човешки ресурси (+359) 2 960 10 327</p>
-        </li>
-      </ul> 
-    
-      <p id="bottom3">Социални мрежи:</p>
-        <a href="https://www.facebook.com/01-%D0%A0%D0%A1%D0%9F%D0%91%D0%97%D0%9D-%D0%91%D1%83%D1%80%D0%B3%D0%B0%D1%81-1140919412604079"
-        target="_blank">
-        <img id="facebook" src="../pictures/facebook.png"> </a>
-     
-      </div><br> 
-    
-      <p id="creditSymbol">© Venera, 2021</p>
-    
+        <tr>
+            <td id="ThirdRow">Голям</td>
+            <td>Възможни са умерени до силни пожари с въвличане на дървесни корони само локално.<br> Пожарите са трудни за овладяване от наземни екипи. <br> Често се налага използване на тежка екипировка за овладяване на пожарите <br> (булдозери, камиони-цистерни,
+                самолети).
+                <br></td>
+
+        </tr>
+
+        <tr>
+            <td id="FourthRow">Екстремален</td>
+            <td>Възможни са бързо разпространяващи се много силни пожари с въвличане на дървесните корони. <br> Пожарите са трудни за овладяване. Действията по погасяване се ограничени само по фланговете на пожара.<br> Възможни са само индиректни действия,
+                насочени срещу предните фронтове на пожарите.<br></td>
+        </tr>
+    </table>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <!-- link to "about us" page -->
+        <a href="../aboutUs/index.html" target="_blank"><img id="logo1" src="../../logo/logo.svg"></a>
+        <div id="textFooter">
+            <br>
+            <p>Адрес:</p>
+            <ul>
+                <li id="bottom1"> гр. Бургас ул."Александър Велики" 37В </li> <br>
+            </ul> <br>
+            <p>Телефони:</p>
+            <ul>
+                <li>Директор /секретарка/ (+359) 2 960 10 204</li>
+                <li id="bottom2"> Човешки ресурси (+359) 2 960 10 327</p>
+                </li>
+            </ul>
+
+            <p id="bottom3">Социални мрежи:</p>
+            <a href="https://www.facebook.com/01-%D0%A0%D0%A1%D0%9F%D0%91%D0%97%D0%9D-%D0%91%D1%83%D1%80%D0%B3%D0%B0%D1%81-1140919412604079" target="_blank">
+                <img id="facebook" src="../pictures/facebook.png"> </a>
+
+        </div><br>
+
+        <p id="creditSymbol">© Venera, 2021</p>
+
     </footer>
-    
+
 </body>
 
 </html>

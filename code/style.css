@@ -5,6 +5,9 @@ body {
     width: 100%;
 }
 
+
+/* Button to menu */
+
 .symbols {
     font-size: 60px;
     font-family: 'Bitter', serif;
@@ -126,9 +129,15 @@ a {
     padding: 2%;
 }
 
+
+/* start symbol in forms */
+
 #star {
     color: red;
 }
+
+
+/* submit button in forms */
 
 #submit {
     font-family: 'Bitter', serif;
@@ -147,7 +156,7 @@ a {
 }
 
 
-/* The Close Button */
+/* The 1st Close Button */
 
 .close1 {
     font-size: 50px;
@@ -160,7 +169,7 @@ a {
 }
 
 
-/* The Close Button */
+/* The 2nd Close Button */
 
 .close2 {
     font-size: 50px;
@@ -207,6 +216,9 @@ a {
 .form2 h4 {
     text-align: center;
 }
+
+
+/* logo picture */
 
 #logo p {
     font-family: 'Bitter', serif;
@@ -302,7 +314,6 @@ a {
         width: 100%;
         background-size: 100% 110%;
     }
-
     .form1 label,
     textarea,
     input {
@@ -323,7 +334,7 @@ a {
 @media (max-width:1400px) {
     body {
         background-attachment: fixed;
-        width:100%;
+        width: 100%;
     }
     .form1 {
         font-size: 15pt;
@@ -585,7 +596,7 @@ a {
     }
     #forms {
         float: right;
-        margin-top:28%;
+        margin-top: 28%;
         margin-right: 2%;
     }
     #logo {
