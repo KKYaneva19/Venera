@@ -41,11 +41,10 @@ You can see our presentation here:
  
 
 1. To improve the logo. <br>
-2. Make it more accessible. <br>
-3. Add more forms and teams. <br>
-4. To add better and improved fire trucks. <br>
-5. We plan to expand the routes of vehicles in order to cover more areas. <br>
-6. We plan to expand and help other countries (in case of shortage of firefighters in small or hard-to-reach regions). <br>
+2. To add a motion logo. <br>
+3. To add more forms. <br>
+4. To use DOM for the forms. <br>
+5. To change the design of the site. <br>
 
  
 
