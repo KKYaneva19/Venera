@@ -14,7 +14,7 @@ body {
 .menu {
   margin-left: 30px;
   width: 100px;
-  height: 100px;
+  height: 100px; 
   margin-top: 20px;
   display: inline-block; 
 }
@@ -227,7 +227,10 @@ footer img{
 
 
 
-  @media (max-width:1250px){
+  @media (max-width:1265px){
+    h1{
+      margin-right:38%;
+    }
   
     footer{
       position: absolute;
@@ -358,12 +361,18 @@ footer img{
   float:right;    
   font-size:15px;
 }
+footer{
+  position: absolute;
+  width: 160%; 
+  padding: 5%;
+  margin-top: 5%;
+}
 }
 
 @media (max-width:420px) {
   footer{
     position: absolute;
-    width: 140%; 
+    width: 160%; 
     padding: 5%;
     margin-top: 5%;
   }

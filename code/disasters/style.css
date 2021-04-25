@@ -463,7 +463,6 @@ text-align:center;
 
   .uppercase {
     text-transform: uppercase;
-    font-size: 130%;
   }
 }
 
@@ -489,7 +488,6 @@ text-align:center;
   }
   .uppercase {
     text-transform: uppercase;
-    font-size: 100%;
   }
 }
 
@@ -551,7 +549,6 @@ text-align:center;
   }
   .uppercase {
     text-transform: uppercase;
-    font-size: 170%;
   }
 }
 
@@ -565,7 +562,6 @@ text-align:center;
   }
   .uppercase {
     text-transform: uppercase;
-    font-size: 170%;
   }
   @media (max-width:580px){
     #textFooter{
