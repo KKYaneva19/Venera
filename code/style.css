@@ -2,7 +2,7 @@ body {
     background-image: url('pictures/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
+    background-size: 120%;
 }
 
 
@@ -229,7 +229,19 @@ a {
 
 /* RESPONSIVE */
 
+@media (max-width:3000px) {
+    body {
+        background: linear-gradient(90deg, rgba(218, 210, 153, 1) 37%, rgba(176, 218, 185, 1) 93%);
+    }
+}
+
 @media (max-width:2000px) {
+    body {
+        background-image: url('pictures/background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 120%;
+    }
     .title {
         margin-top: 17%;
         font-size: 37px;
@@ -312,7 +324,7 @@ a {
     body {
         overflow-x: hidden;
         width: 100%;
-        background-size: 100% 110%;
+        background-size: 120% 110%;
     }
     .form1 label,
     textarea,

@@ -147,26 +147,23 @@ li {
         height: 100px;
         margin-top: 20px;
     }
-    #textFooter {
-        column-count: 3;
-    }
-    footer img {
-        width: 10%;
-        float: left;
-    }
-    #facebook {
-        width: 15%;
-        margin-left: 45%;
-    }
-    #textFooter {
-        column-count: 3;
-    }
-    footer img {
-        width: 10%;
-        float: left;
-    }
-    #creditSymbol {
+    footer {
+        background: linear-gradient(4deg, rgba(117, 127, 144, 1) 0%, rgba(165, 173, 183, 1) 35%, rgba(208, 214, 218, 1) 89%);
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
         text-align: center;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
+    }
+    #textFooter {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
     }
     #facebook {
         width: 15%;
@@ -182,85 +179,99 @@ li {
 }
 
 @media (max-width:1140px) {
-    #textFooter {
-        column-count: 2;
-        font-size: 80%;
-    }
-}
-
-@media (max-width:1140px) {
-    #textFooter {
-        column-count: 2;
-        font-size: 70%;
-    }
-}
-
-@media (max-width:1140px) {
-    #textFooter {
-        column-count: 2;
-        font-size: 15px;
-    }
-    footer img {
-        width: 10%;
-        float: left;
-    }
-    #facebook {
-        width: 15%;
-        margin-left: 45%;
-    }
-    footer img {
-        width: 10%;
-        float: left;
-    }
-    #creditSymbol {
-        text-align: center;
-    }
-    #facebook {
-        width: 15%;
-        margin-left: 45%;
-        margin-bottom: 20%;
-    }
-    iframe {
-        margin-left: 30%;
-        width: 500px;
-        height: 350px;
-    }
-    #botom3 {
-        margin-top: 10%;
-    }
-}
-
-@media (max-width:860px) {
-    #title1 {
-        margin-left: 50%;
-    }
-    .text {
+    footer {
+        position: absolute;
+        width: 100%;
+        padding: 5%;
         margin-top: 5%;
-        margin-right: 30%;
-        font-size: 20px;
-    }
-    iframe {
-        margin-right: 40%;
-        width: 350px;
-        height: 200px;
-        margin-bottom: 7%;
     }
     #textFooter {
         column-count: 2;
-        font-size: 15px;
+    }
+    #bottom1 {
+        margin-bottom: 0%;
+    }
+    #bottom3 {
+        margin-bottom: 0%;
+    }
+    #bottom2 {
+        margin-bottom: 0%;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #logo1 {
+        display: inline-block;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
     }
 }
 
-@media (max-width:860px) {
+@media(max-width:1300px) {
+    iframe {
+        width: 500px;
+    }
+}
+
+@media (max-width:900px) {
+    iframe {
+        width: 400px;
+        margin-right: 20%;
+    }
+    footer {
+        position: absolute;
+        width: 110%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #textFooter {
+        column-count: 2;
+    }
+    #bottom1 {
+        margin-bottom: 0%;
+    }
+    #bottom3 {
+        margin-bottom: 0%;
+    }
     #bottom2 {
-        margin-bottom: 10%;
+        margin-bottom: 0%;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #logo1 {
+        display: inline-block;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+}
+
+@media (max-width:830px) {
+    iframe {
+        width: 400px;
+        margin-right: 20%;
+    }
+    footer {
+        position: absolute;
+        width: 120%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #logo1 {
+        display: none;
     }
 }
 
 @media (max-width:720px) {
     #textFooter {
         column-count: 1;
-        font-size: 15px;
+        font-size: 20px;
     }
     #logo1 {
         display: none;
@@ -278,6 +289,36 @@ li {
     }
     #botom3 {
         margin-bottom: 0%;
+    }
+}
+
+@media (max-width:650px) {
+    footer {
+        position: absolute;
+        width: 130%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width:580px) {
+    footer {
+        width: 130%;
+    }
+    iframe {
+        margin-right: 20%;
+    }
+}
+
+@media (max-width:500px) {
+    iframe {
+        display: none;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        padding: 5%;
+        margin-top: 5%;
     }
 }
 

@@ -159,42 +159,157 @@ a {
 /* Responsive */
 
 @media (max-width:2000px) {
+    body {
+        background: linear-gradient(120deg, rgba(221, 214, 243, 1) 25%, rgba(250, 172, 168, 1) 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     h1 {
+        text-align: center;
         font-size: 50px;
+        font-family: 'Karantina', cursive;
+    }
+    #vesi a {
+        color: midnightblue;
+        font-family: 'Lato', sans-serif;
+    }
+    #vesi a:visited {
+        color: lightseagreen;
+    }
+    #vesi a:hover {
+        color: whitesmoke;
+        background-color: lightblue;
+        border: 1px solid lightblue;
+        border-radius: 5%;
+        padding: 5px;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
     }
     #firstText {
+        text-align: center;
         font-size: 20px;
+        font-family: 'Lato', sans-serif;
+    }
+    #petya {
+        float: left;
+        margin-left: 18%;
+        padding: 2%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
+    }
+    #petya a {
+        color: midnightblue;
+        font-family: 'Lato', sans-serif;
+    }
+    #petya a:visited {
+        color: lightseagreen;
+    }
+    #petya a:hover {
+        color: whitesmoke;
+        background-color: lightblue;
+        border: 1px solid lightblue;
+        border-radius: 5%;
+        padding: 5px;
+    }
+    #poli {
+        float: right;
+        margin-right: 2%;
+        padding: 2%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
+    }
+    #poli a {
+        color: midnightblue;
+        font-family: 'Lato', sans-serif;
+    }
+    #poli a:visited {
+        color: lightseagreen;
+    }
+    #poli a:hover {
+        color: whitesmoke;
+        background-color: lightblue;
+        border: 1px solid lightblue;
+        border-radius: 5%;
+        padding: 5px;
+    }
+    #vesi {
+        float: left;
+        margin-left: 15%;
+        padding: 5%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
+    }
+    #vesi a {
+        color: midnightblue;
+    }
+    #vesi a:visited {
+        color: lightseagreen;
+    }
+    #vesi a:hover {
+        color: whitesmoke;
+        background-color: lightblue;
+        border: 1px solid lightblue;
+        border-radius: 5%;
+        padding: 5px;
+    }
+    #kami {
+        float: right;
+        margin-top: 3%;
+        margin-right: 5%;
+        padding: 2%;
+        font-family: 'Lato', sans-serif;
+        padding: 2%;
+        font-family: 'Bitter', serif;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'PT Serif', serif;
+    }
+    #kami a {
+        color: midnightblue;
+        font-family: 'Lato', sans-serif;
+    }
+    #kami a:visited {
+        color: lightseagreen;
+    }
+    #kami a:hover {
+        color: whitesmoke;
+        background-color: lightblue;
+        border: 1px solid lightblue;
+        border-radius: 5%;
+        padding: 5px;
     }
     img {
         width: 30%;
     }
     /*the menu button */
     #menu {
-        margin-left: 3%;
-        margin-top: 2%;
+        margin-left: 1%;
+        margin-top: 8px;
+        display: inline-block;
+        text-align: center;
+        color: black;
+        display: inline-block;
+        border-radius: 1.92px;
+        font-weight: 30px;
         padding: 5.6px 19.2px;
-        font-size: 20px;
+        font-size: 15px;
     }
-    #kami {
-        margin-left: 5%;
-        display: inline-block;
-        margin-bottom: 10%;
+    #menu:hover {
+        color: darkgrey;
+        background-color: white;
     }
-    #vesi {
-        margin-top: 5%;
-        margin-left: 13%;
-        display: inline-block;
-    }
-    #poli {
-        display: inline-block;
-        margin-bottom: 10%;
-    }
-    #petya {
-        display: inline-block;
+    a {
+        text-decoration: none;
     }
 }
 
-@media (max-width:1600px) {
+@media (max-width:1670px) {
     #all {
         column-count: 2;
     }
@@ -229,12 +344,19 @@ a {
         margin-left: 40%;
         margin-top: 10%;
     }
+    #vesi {
+        margin-top: 5%;
+    }
+    #vesi img {
+        width: 35%;
+    }
 }
 
 @media (max-width:1105px) {
     #poli {
         margin-left: 40%;
         margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
