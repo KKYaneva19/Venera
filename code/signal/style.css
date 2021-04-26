@@ -148,7 +148,7 @@ h4 {
 
 /* RESPONSIVE */
 
-@media (max-width:2000px) {
+@media (max-width:3000px) {
     h1 {
         font-size: 40px;
     }

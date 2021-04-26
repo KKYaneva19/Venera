@@ -232,6 +232,83 @@ a {
 @media (max-width:3000px) {
     body {
         background: linear-gradient(90deg, rgba(218, 210, 153, 1) 37%, rgba(176, 218, 185, 1) 93%);
+        
+    }
+    .title {
+        margin-top: 17%;
+        font-size: 37px;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+    }
+    #buttonForm1 {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 0px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+    }
+    .form1 {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 23%;
+        height: 450px;
+    }
+    .form1 label {
+        margin-left: 35%;
+    }
+    .form1 label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #submit {
+        margin-left: 35%;
+        font-size: 18px;
+        margin-top: 2%;
+        padding: 5.6px 19.2px;
+    }
+    #buttonForm2 {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 5px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+    }
+    .form2 {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 23%;
+        height: 450px;
+    }
+    .form2 label {
+        margin-left: 35%;
+    }
+    .form2 label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 15%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 13%;
+        margin-left: 2%;
+    }
+    #logo img {
+        width: 30%;
+    }
+    #logo p {
+        font-size: 20px;
     }
 }
 

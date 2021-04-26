@@ -100,7 +100,7 @@ a {
 
 /* RESPONSIVE */
 
-@media (max-width:2000px) {
+@media (max-width:3000px) {
     .piecharts {
         display: flex;
         flex: 33.33%;

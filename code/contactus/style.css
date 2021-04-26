@@ -107,7 +107,7 @@ li {
 
 /* Responsive */
 
-@media (max-width:2000px) {
+@media (max-width:3000px) {
     /*for the contact us form and page */
     .contactus {
         margin-top: 30px;

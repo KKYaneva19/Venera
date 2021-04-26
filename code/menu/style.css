@@ -54,7 +54,7 @@ h1 {
 
 /*RESPONSIVE*/
 
-@media (max-width:2000px) {
+@media (max-width:3000px) {
     .menuItems {
         margin-top: 10%;
         margin-left: 6%;
