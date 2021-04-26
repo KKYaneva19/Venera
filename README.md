@@ -1,3 +1,5 @@
+
+
 <img src= "logo/logoReadme.svg" width="455">
 
  
@@ -32,7 +34,6 @@ You can see our presentation here:
 <img src = "https://brandslogos.com/wp-content/uploads/thumbs/microsoft-powerpoint-2013-logo-vector.svg" width ="20">PowerPoint <br> 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" width = "20"> Visual Studio Code <br>
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1051px-Adobe_Illustrator_CC_icon.svg.png" width = "20"> Adobe Illustrator <br>
-<img src = "https://images.fmctraining.com/images/ae-appicon-noshadow-1024.png" width = "20"> Adobe After Effects <br>
 
  
 
