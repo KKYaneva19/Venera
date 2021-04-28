@@ -1,0 +1,917 @@
+body {
+    background: linear-gradient(90deg, rgba(184, 240, 237, 1) 8%, rgba(127, 173, 167, 1) 48%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Header */
+
+h1 {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.contact-us {
+    float: right;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.link-contact-us a {
+    color: rgb(27, 27, 27);
+}
+
+
+/* Back button to menu */
+
+.symbols {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+
+.menu {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    background: linear-gradient(4deg, rgba(117, 127, 144, 1) 0%, rgba(165, 173, 183, 1) 35%, rgba(208, 214, 218, 1) 89%);
+    position: absolute;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#credit-symbol {
+    text-align: center;
+}
+
+
+/* Table style */
+
+table,
+td,
+th {
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.titles {
+    background: linear-gradient(90deg, rgba(184, 240, 237, 1) 0%, rgba(90, 149, 142, 1) 29%);
+}
+
+.data {
+    background-color: rgba(255, 255, 255, 0.335);
+    font-size: 15px;
+}
+
+
+/* Responsive style */
+
+@media (max-width:3000px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 70%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1600px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 13%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 13%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 70%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    #all {
+        column-count: 2;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #table-user-one {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:1430px) {
+    .pics-users {
+        width: 40%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 12%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 12%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 70%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #table-user-one {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:1410px) {
+    .pics-users {
+        width: 35%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 7%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 7%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 70%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #table-user-one {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:1250px) {
+    .pics-users {
+        width: 35%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 7%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 7%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 60%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 18px;
+    }
+    .data {
+        font-size: 13px;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #table-user-one {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:1220px) {
+    .pics-users {
+        width: 35%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 5%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 5%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 60%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 18px;
+    }
+    .data {
+        font-size: 13px;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #table-user-one {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:1170px) {
+    .pics-users {
+        width: 30%;
+        margin-left: 10%;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 7%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 7%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 55%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 18px;
+    }
+    .data {
+        font-size: 13px;
+    }
+    .pics-users {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #table-user-one {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width:1150px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 75%;
+        margin-left: 1px;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    #all {
+        column-count: 2;
+    }
+    .pics-users {
+        width: 70%;
+        margin-left: 5%;
+    }
+    #table-user-one {
+        margin-left: 1px;
+        width: 100%;
+    }
+}
+
+@media (max-width:860px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 2;
+        font-size: 25;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #bottom-one {
+        margin-bottom: 30%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 75%;
+        margin-left: 1px;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    #all {
+        column-count: 2;
+    }
+    .pics-users {
+        width: 70%;
+        margin-left: 5%;
+    }
+    #table-user-one {
+        margin-left: 1px;
+        width: 100%;
+    }
+}
+
+@media (max-width:840px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 2;
+        font-size: 15;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #bottom-one {
+        margin-bottom: 20%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 75%;
+        margin-left: 1px;
+    }
+    /* First person style */
+    #first-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Second person style */
+    #second-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    /* Third person style */
+    #third-person {
+        display: inline-block;
+        margin-left: 20%;
+    }
+    /* Fourth person style */
+    #fourth-person {
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 80%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    #all {
+        column-count: 2;
+    }
+    .pics-users {
+        width: 70%;
+        margin-left: 5%;
+    }
+    #table-user-one {
+        margin-left: 1px;
+        width: 80%;
+    }
+}
+
+@media (max-width:615px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 1;
+        font-size: 15;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #bottom-one {
+        margin-bottom: 20%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 75%;
+        margin-left: 1px;
+    }
+    table {
+        column-count: 1;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    #all {
+        column-count: 1;
+    }
+    .pics-users {
+        column-count: 1;
+        width: 70%;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+    #table-user-one {
+        column-count: 1;
+        margin-left: 10px;
+        width: 80%;
+    }
+}
+
+@media (max-width:390px) {
+    h1 {
+        font-size: 50px;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+    }
+    #text-footer {
+        column-count: 1;
+        font-size: 15;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #bottom-one {
+        margin-bottom: 20%;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .pics-users {
+        width: 75%;
+        margin-left: 1px;
+    }
+    table {
+        column-count: 1;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    td {
+        padding: 15px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+    }
+    #all {
+        column-count: 1;
+    }
+    .pics-users {
+        column-count: 1;
+        width: 70%;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+    #table-user-one {
+        column-count: 1;
+        margin-left: 10px;
+        width: 80%;
+    }
+    #logo-one {
+        display: none;
+    }
+}

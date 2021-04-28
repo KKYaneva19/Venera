@@ -1,0 +1,614 @@
+body {
+    background: linear-gradient(90deg, rgba(254, 229, 229, 1) 0%, rgba(203, 165, 161, 1) 100%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Header */
+
+h1 {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+h3 {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+h4 {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Back button to menu */
+
+.symbols {
+    font-weight: bold;
+    color: black;
+}
+
+.menu {
+    color: black;
+}
+
+
+/* Links */
+
+a {
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* For the contact us form and page */
+
+.contact-us {
+    float: right;
+    border: 3px solid white;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.link-contact-us a {
+    color: rgb(27, 27, 27);
+}
+
+.link-contact-us a:hover {
+    color: white;
+    transition: all 0.4s;
+    background-color: rgba(231, 214, 214, 0.486);
+}
+
+
+/* Text for floods page */
+
+#text-floods {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-floods li {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+}
+
+
+/* Pictures for floods page */
+
+footer {
+    background: linear-gradient(4deg, rgba(117, 127, 144, 1) 0%, rgba(165, 173, 183, 1) 35%, rgba(208, 214, 218, 1) 89%);
+    position: absolute;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Uppercase text in all the pages */
+
+.uppercase {
+    text-transform: uppercase;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Text for Eartquakes page */
+
+#text-eartquakes {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-eartquakes li {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-eartquakes p {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-eartquakes b {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Text for fires page */
+
+#text-fires {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-fires li {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-fires p {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Pictures for earthquakes page */
+
+#earthquakes-pic-one {
+    float: left;
+}
+
+#earthquakes-pic-two {
+    float: right;
+}
+
+
+/* Pictures for fires page */
+
+#fires-pic-one {
+    float: left;
+}
+
+#fires-pic-two {
+    float: right;
+}
+
+
+/* Text for Crashes page */
+
+#text-crashes {
+    margin-left: 10%;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#text-crashes p {
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Pictures for crashes page */
+
+#crashes-pic-one {
+    float: left;
+}
+
+#crashes-pic-two {
+    float: right;
+}
+
+
+/* Pictures for Eartquakes page */
+
+#credit-one {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Pictures for Crashes page */
+
+#credit-two {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Pictures for Fires page */
+
+#credit-three {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Pictures for Floods page */
+
+#credit-four {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Responsive style */
+
+@media (max-width:3000px) {
+    h1 {
+        text-align: center;
+        font-weight: bold;
+    }
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+    h3 {
+        text-align: center;
+        font-weight: bold;
+    }
+    h4 {
+        text-align: center;
+        font-weight: bold;
+    }
+    .symbols {
+        font-size: 60px;
+    }
+    /* The menu button */
+    .menu {
+        margin: 30px;
+        display: inline-block;
+    }
+    /* For the contact us form and page */
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .link-contact-us a {
+        padding: 10px;
+    }
+    #text-floods {
+        margin-left: 10%;
+    }
+    #text-floods li {
+        font-size: 17px;
+    }
+    /* Pictures for floods page */
+    #floods-pic-one {
+        float: left;
+        width: 25%;
+        margin-left: 20%;
+    }
+    #floods-pic-two {
+        float: right;
+        width: 25%;
+        margin-right: 20%;
+    }
+    .symbols {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .menu {
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #text-footer {
+        column-count: 3;
+    }
+    footer img {
+        width: 10%;
+        float: left;
+    }
+    #credit-symbol {
+        text-align: center;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    /* Text for Eartquakes page */
+    #text-eartquakes {
+        margin-left: 10%;
+    }
+    #text-eartquakes li {
+        font-size: 20px;
+    }
+    #text-eartquakes p {
+        font-size: 20px;
+    }
+    #text-eartquakes b {
+        font-size: 20px;
+    }
+    /* Text for fires page */
+    #text-fires {
+        margin-left: 10%;
+    }
+    #text-fires li {
+        font-size: 20px;
+    }
+    #text-fires p {
+        font-size: 20px;
+    }
+    /* Pictures for earthquakes page */
+    #earthquakes-pic-one {
+        margin-left: 20%;
+        width: 30%;
+        margin-bottom: 5%;
+    }
+    #earthquakes-pic-two {
+        margin-right: 15%;
+        width: 30%;
+        margin-bottom: 5%;
+    }
+    /* Pictures for fires page */
+    #fires-pic-one {
+        width: 20%;
+        margin-left: 20%;
+    }
+    #fires-pic-two {
+        width: 20%;
+        margin-right: 20%;
+    }
+    /* Text for Crashes page */
+    #text-crashes {
+        margin-left: 10%;
+    }
+    #text-crashes p {
+        font-size: 20px;
+    }
+    /* Pictures for crashes page */
+    #crashes-pic-one {
+        margin-left: 20%;
+        width: 20%;
+        margin-bottom: 2%;
+    }
+    #crashes-pic-two {
+        width: 20%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+    }
+    /* Pictures for Eartquakes page */
+    #credit-one {
+        margin-top: 22%;
+        margin-left: 10%;
+        font-size: 17px;
+    }
+    /* Pictures for Crashes page */
+    #credit-two {
+        margin-top: 18%;
+        margin-left: 10%;
+        font-size: 17px;
+    }
+    /* Pictures for Fires page */
+    #credit-three {
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 17px;
+    }
+    /* Pictures for Floods page */
+    #credit-four {
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 17px;
+    }
+}
+
+@media (max-width:855px) {
+    #text-footer {
+        column-count: 3;
+        font-size: 80%;
+    }
+    #bottom2 {
+        margin-bottom: 10%;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width:720px) {
+    #text-footer {
+        column-count: 3;
+        font-size: 70%;
+    }
+    #bottom2 {
+        margin-bottom: 10%;
+    }
+    #text-fires {
+        margin-left: 10%;
+    }
+    #text-fires li {
+        font-size: 20px;
+    }
+    #text-fires p {
+        font-size: 20px;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width:300px) {
+    #text-footer {
+        column-count: 1;
+        font-size: 80%;
+    }
+    #bottom2 {
+        margin-bottom: 10%;
+    }
+    footer {
+        width: 90%;
+        padding: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #logo-one {
+        display: none;
+    }
+    #credit-symbol {
+        text-align: center;
+    }
+    #facebook {
+        width: 15%;
+        margin-left: 45%;
+    }
+    #text-fires {
+        margin-left: 10%;
+    }
+    #text-fires li {
+        font-size: 10px;
+    }
+    #text-fires p {
+        font-size: 10px;
+    }
+    .uppercase {
+        text-transform: uppercase;
+        font-size: 20%;
+    }
+}
+
+@media (max-width:1260px) {
+    #text-fires li {
+        font-size: 25px;
+    }
+    #text-fires p {
+        font-size: 25px;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width:1600px) {
+    #text-fires li {
+        font-size: 25px;
+    }
+    #text-fires p {
+        font-size: 25px;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    @media (max-width:580px) {
+        #text-footer {
+            column-count: 1;
+            font-size: 80%;
+        }
+        #bottom2 {
+            margin-bottom: 10%;
+        }
+        footer {
+            width: 90%;
+            padding: 5%;
+            margin-top: 5%;
+            text-align: center;
+        }
+        #logo-one {
+            display: none;
+        }
+        #credit-symbol {
+            text-align: center;
+        }
+        #facebook {
+            width: 15%;
+            margin-left: 45%;
+        }
+        #text-fires {
+            margin-left: 10%;
+        }
+        #text-fires li {
+            font-size: 10px;
+        }
+        #text-fires p {
+            font-size: 10px;
+        }
+        .uppercase {
+            text-transform: uppercase;
+            font-size: 80%;
+        }
+    }
+}
+
+@media (max-width:630px) {
+    .uppercase {
+        text-transform: uppercase;
+        font-size: 70%;
+    }
+}
+
+@media (max-width:660px) {
+    .uppercase {
+        text-transform: uppercase;
+        font-size: 90%;
+    }
+}
+
+@media (max-width:660px) {
+    .uppercase {
+        text-transform: uppercase;
+        font-size: 100%;
+    }
+}
+
+@media (max-width:750px) {
+    #fires-pic-one {
+        float: left;
+        width: 30%;
+        margin-left: 15%;
+    }
+    #fires-pic-two {
+        float: right;
+        width: 30%;
+        margin-right: 15%;
+    }
+    #credit-three {
+        margin-top: 30%;
+        margin-left: 10%;
+        font-size: 17px;
+    }
+}
+
+@media (max-width:750px) {
+    #fires-pic-one {
+        float: left;
+        width: 30%;
+        margin-left: 15%;
+    }
+    #fires-pic-two {
+        float: right;
+        width: 30%;
+        margin-right: 15%;
+    }
+}

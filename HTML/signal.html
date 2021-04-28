@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Подай Сигнал</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/styleForSignal.css">
+
+    <link rel="shortcut icon" href="../../logo/logoIcon.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&family=Mukta&family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Link to the "Contact Us" page -->
+
+    <div class="link-contact-us">
+        <h3><a class="contact-us" href="contactUs.html">Свържете се с нас</a></h3>
+    </div>
+
+    <!-- Menu button -->
+
+    <a class="menu" href="menu.html"><span class="symbols">&times;</span></a>
+
+    <!-- Title -->
+
+    <h1>Подай Сигнал</h1> <br><br>
+
+    <section class="section-one">
+
+        <!-- Email for contact -->
+
+        <h4>Имейл за връзка:
+            <h4>
+                <ul>
+                    <li>
+                        <a href="mailto:PIPetkova@codingburgas.bg"><img class="email" src="../images/email.png"></a>
+                    </li>
+                </ul>
+
+                <h4>Свържете се на телефони:</h4>
+                <p>
+                    <ul>
+                        <li>Директор /секретарка/: (+359) 810-266-1670<br><br></li>
+                        <li>Деловодство: (+359) 725-999-9116<br><br></li>
+                        <li> Човешки ресурси: (+359) 831-975-0933<br><br></p>
+                </li>
+                </ul>
+                </p>
+    </section>
+
+
+    <section class="section-two">
+        <p id="notice">Попълнете формата с латински букви!</p>
+
+        <!-- First form -->
+
+        <form action="mailto:PIPetkova19@codingburgas.bg" method="POST">
+
+            <div class="form">
+                <label for="appt">Час на произшествието:<span id="star">*</span> </label><br><br>
+                <input type="time" id="time" name="time" required><br><br><br>
+
+                <label for="week">Ден на произшествието:<span id="star">*</span> </label><br><br>
+                <input type="week" id="week" name="day" required><br><br><br>
+
+                <label for="textbox">Адрес: <span id="star">*</span> </label><br><br>
+                <textarea rows="7" cols="30" name="address" required></textarea><br><br><br>
+
+                <label for="cars">Вид на инцидента:</label><br><br>
+
+                <select name="accident" id="accident">
+                    <option value="blank">(Посочете вида)</option>
+                    <option value="Fire">Пожар</option>
+                    <option value="An animal in danger">Животно в опасност</option>
+                    <option value="Catastrophe">Пътно произшествие</option>
+                    <option value="Earthquake">Земетресение</option>
+                    <option value="Flood">Наводнение</option>
+                </select><br><br><br>
+
+                <!-- Location -->
+
+                <input type="checkbox" onclick="getLocation()">Местоположение</button>
+
+                <p id="location"></p>
+
+                <script src="../JS/JSForSignal.js"></script>
+                <textarea rows="7" cols="30" name="gps" placeholder="Копирайте и поставете местоположението си" required>
+        </textarea><br><br><br><br><br><br><br>
+
+
+                <button id="submit" type="submit" onclick="submit()" value="Submit">Submit</button>
+        </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <!-- Link to "about us" page -->
+        <a href="aboutUs.html" target="_blank"><img id="logo-one" src="../logo/logo.svg"></a>
+        <div id="text-footer">
+            <br>
+            <p>Адрес:</p>
+            <ul>
+                <li id="bottom-one"> гр. Бургас ул."Александър Велики" 37В </li> <br>
+            </ul> <br>
+            <p>Телефони:</p>
+            <ul>
+                <li>Директор /секретарка/ (+359) 2 960 10 204</li>
+                <li id="bottom-two"> Човешки ресурси (+359) 2 960 10 327</p>
+                </li>
+            </ul>
+
+            <p id="bottom-three">Социални мрежи:</p>
+            <a href="https://www.facebook.com/01-%D0%A0%D0%A1%D0%9F%D0%91%D0%97%D0%9D-%D0%91%D1%83%D1%80%D0%B3%D0%B0%D1%81-1140919412604079" target="_blank">
+                <img id="facebook" src="../images/facebook.png"> </a>
+
+        </div><br>
+
+        <p id="credit-symbol">© Venera, 2021</p>
+
+    </footer>
+
+</body>
+
+</html>

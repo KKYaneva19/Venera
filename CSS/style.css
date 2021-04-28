@@ -1,0 +1,945 @@
+body {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120%;
+}
+
+
+/* Button to menu */
+
+.symbols {
+    font-size: 60px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* The menu button */
+
+.menu {
+    color: black;
+    margin-top: 10px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* For the contact us form and page */
+
+.contact-us {
+    border: 3px solid white;
+    border-radius: 25px;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.link-contact-us a {
+    color: rgb(27, 27, 27);
+    padding: 10px;
+}
+
+.link-contact-us a:hover {
+    color: white;
+    transition: all 0.4s;
+    background-color: rgba(231, 214, 214, 0.486);
+    padding: 10px;
+}
+
+
+/* Button for the first form */
+
+#button-form-one {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 1.92px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#button-form-one:hover {
+    color: rgb(129, 127, 127);
+    background-color: white;
+}
+
+.modal-one {
+    display: none;
+    position: fixed;
+    left: 0;
+    /* Makes it a center */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.692);
+    /* Black w/ opacity */
+}
+
+.modal-two {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.form-one {
+    background: rgba(75, 72, 72, 0.897);
+    border-radius: 2%;
+    /* Makes it a center */
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.form-one h4 {
+    text-align: center;
+}
+
+#email {
+    padding: 2%;
+}
+
+
+/* Start symbol in forms */
+
+#star {
+    color: red;
+}
+
+
+/* Submit button in forms */
+
+#submit {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 1.92px;
+}
+
+#submit:hover {
+    color: darkgrey;
+    background-color: white;
+}
+
+
+/* The 1st Close Button */
+
+.close-one {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5%;
+    cursor: pointer;
+    float: right;
+    margin-right: 3%;
+}
+
+
+/* The 2nd Close Button */
+
+.close-two {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5%;
+    cursor: pointer;
+    float: right;
+    margin-right: 3%;
+}
+
+
+/* Button for the second form */
+
+#button-form-two {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 1.92px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#button-form-two:hover {
+    color: rgb(129, 127, 127);
+    background-color: white;
+}
+
+.form-two {
+    background: rgba(75, 72, 72, 0.897);
+    border-radius: 2%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-two h4 {
+    text-align: center;
+}
+
+
+/* Logo picture */
+
+#logo p {
+    font-family: 'Bitter', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Responsive style */
+
+@media (max-width:3000px) {
+    body {
+        background: linear-gradient(90deg, rgba(218, 210, 153, 1) 37%, rgba(176, 218, 185, 1) 93%);
+    }
+    .title {
+        margin-top: 17%;
+        font-size: 37px;
+    }
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+    }
+    #button-form-one {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 0px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 23%;
+        height: 450px;
+    }
+    .form-one label {
+        margin-left: 35%;
+    }
+    .form-one label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #submit {
+        margin-left: 35%;
+        font-size: 18px;
+        margin-top: 2%;
+        padding: 5.6px 19.2px;
+    }
+    #button-form-two {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 5px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 23%;
+        height: 450px;
+    }
+    .form-two label {
+        margin-left: 35%;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 15%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 13%;
+        margin-left: 2%;
+    }
+    #logo img {
+        width: 30%;
+    }
+    #logo p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:2000px) {
+    body {
+        background-image: url('../images/background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 120%;
+    }
+    .title {
+        margin-top: 17%;
+        font-size: 37px;
+    }
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+    }
+    #button-form-one {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 0px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 23%;
+        height: 450px;
+    }
+    .form-one label {
+        margin-left: 35%;
+    }
+    .form-one label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #submit {
+        margin-left: 35%;
+        font-size: 18px;
+        margin-top: 2%;
+        padding: 5.6px 19.2px;
+    }
+    #button-form-two {
+        margin-top: 8%;
+        font-weight: 30px;
+        margin: 5px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 18px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 23%;
+        height: 450px;
+    }
+    .form-two label {
+        margin-left: 35%;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 15%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 13%;
+        margin-left: 2%;
+    }
+    #logo img {
+        width: 30%;
+    }
+    #logo p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1600px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        background-size: 120% 110%;
+    }
+    .form-one label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 12%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 9%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1400px) {
+    body {
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 28%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 28%;
+        height: 450px;
+    }
+    #forms {
+        float: right;
+        margin-top: 18%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1262px) {
+    body {
+        background: linear-gradient(90deg, rgba(218, 210, 153, 1) 37%, rgba(176, 218, 185, 1) 93%);
+    }
+    .title {
+        margin-top: 13%;
+        font-size: 37px;
+    }
+    .form-one {
+        font-size: 15pt;
+        border-radius: 2%;
+        margin-top: 15%;
+        padding: 5px;
+        width: 33%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 33%;
+        height: 450px;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 12%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 8%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1170px) {
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 33%;
+        height: 450px;
+    }
+    .form-one label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 33%;
+        height: 450px;
+    }
+    #forms {
+        float: right;
+        margin-top: 13%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1000px) {
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 36%;
+        height: 450px;
+    }
+    .form-one h4 {
+        font-size: 25px;
+    }
+    .form-one label {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 36%;
+        height: 450px;
+    }
+    .form-two label {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 18%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:888px) {
+    #button-form-one {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 4px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 15px;
+    }
+    .form-one {
+        font-size: 15pt;
+        border-radius: 2%;
+        margin-top: 15%;
+        padding: 5px;
+        width: 36%;
+        height: 450px;
+    }
+    .form-one h4 {
+        font-size: 25px;
+    }
+    .form-one label {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .form-one label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #button-form-two {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 4px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 15px;
+    }
+    .form-two label {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 20%;
+    }
+    #forms {
+        float: right;
+        margin-top: 20%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 18%;
+        margin-left: 2%;
+    }
+    #logo img {
+        width: 20%;
+    }
+    #logo p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:785px) {
+    .title {
+        margin-top: 23%;
+        font-size: 25px;
+    }
+    #button-form-one {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 4px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 12px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 36%;
+        height: 450px;
+    }
+    .form-one h4 {
+        font-size: 20px;
+    }
+    .form-one label {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .form-one label,
+    textarea,
+    input {
+        margin-left: 10%;
+    }
+    #button-form-two {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 4px 4.8px 4.8px 0px;
+        padding: 5.6px 19.2px;
+        font-size: 12px;
+    }
+    .form-two h4 {
+        font-size: 20px;
+    }
+    .form-two label {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .form-two label,
+    textarea,
+    input {
+        margin-left: 15%;
+    }
+    #forms {
+        float: right;
+        margin-top: 28%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 25%;
+        margin-left: 2%;
+    }
+    #logo img {
+        width: 25%;
+    }
+    #logo p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:720px) {
+    .title {
+        margin-top: 28%;
+        font-size: 25px;
+    }
+    #button-form-one {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 2px 4.8px 4.8px 0px;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 45%;
+        height: 450px;
+    }
+    .form-one h4 {
+        font-size: 18px;
+    }
+    .form-one label {
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    #submit {
+        margin-left: 35%;
+        font-size: 15px;
+        margin-top: 2%;
+        padding: 5.6px 19.2px;
+    }
+    #button-form-two {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 4px 4.8px 4.8px 0px;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 15%;
+        padding: 5px;
+        width: 45%;
+        height: 450px;
+    }
+    .form-two h4 {
+        font-size: 18px;
+    }
+    .form-two label {
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    #forms {
+        float: right;
+        margin-top: 28%;
+        margin-right: 2%;
+    }
+    #logo {
+        float: left;
+        margin-top: 25%;
+        margin-left: 2%;
+    }
+    #logo img {
+        width: 20%;
+    }
+    #logo p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:670px) {
+    .title {
+        margin-top: 35%;
+        font-size: 23px;
+    }
+    #button-form-one {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 2px 4.8px 4.8px 0px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 25%;
+        padding: 5px;
+        width: 45%;
+        height: 450px;
+    }
+    #button-form-two {
+        margin-top: 8%;
+        font-weight: 25px;
+        margin: 4px 4.8px 4.8px 0px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 25%;
+        padding: 5px;
+        width: 45%;
+        height: 450px;
+    }
+    #forms {
+        float: left;
+        margin-top: 23%;
+        margin-left: 2%;
+    }
+    #logo {
+        display: none;
+    }
+}
+
+@media (max-width:640px) {
+    .title {
+        margin-top: 35%;
+        font-size: 20px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 25%;
+        padding: 5px;
+        width: 55%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 25%;
+        padding: 5px;
+        width: 55%;
+        height: 450px;
+    }
+    #forms {
+        float: left;
+        margin-top: 32%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:570px) {
+    .title {
+        margin-top: 45%;
+        font-size: 20px;
+    }
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 35%;
+        padding: 5px;
+        width: 55%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 35%;
+        padding: 5px;
+        width: 55%;
+        height: 450px;
+    }
+    #forms {
+        float: left;
+        margin-top: 32%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:490px) {
+    .title {
+        margin-top: 50%;
+        font-size: 20px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 35%;
+        padding: 5px;
+        width: 65%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 35%;
+        padding: 5px;
+        width: 65%;
+        height: 450px;
+    }
+    #forms {
+        float: left;
+        margin-top: 38%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:400px) {
+    .title {
+        margin-top: 60%;
+        font-size: 20px;
+    }
+    .contact-us {
+        margin-top: 30px;
+        margin-right: 30px;
+        float: right;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .form-one {
+        font-size: 15pt;
+        margin-top: 45%;
+        padding: 5px;
+        width: 75%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 45%;
+        padding: 5px;
+        width: 75%;
+        height: 450px;
+    }
+    #forms {
+        float: left;
+        margin-top: 40%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:350px) {
+    .form-one {
+        font-size: 15pt;
+        margin-top: 45%;
+        padding: 5px;
+        width: 85%;
+        height: 450px;
+    }
+    .form-two {
+        font-size: 15pt;
+        margin-top: 45%;
+        padding: 5px;
+        width: 85%;
+        height: 450px;
+    }
+}
